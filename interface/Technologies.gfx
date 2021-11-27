@@ -1737,7 +1737,12 @@ spriteTypes = {
 		name = "GFX_excavation1_medium"
 		texturefile = "gfx/interface/technologies/excavation1.dds"
 	}
-	
+
+	SpriteType = {
+		name = "GFX_basic_industry_medium"
+		texturefile = "gfx/interface/technologies/industry/basic_industry.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_basic_machine_tools_medium"
 		texturefile = "gfx/interface/technologies/basic_machine_tools.dds"
