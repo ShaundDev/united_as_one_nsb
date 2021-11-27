@@ -439,7 +439,12 @@ technologies = {
 			leads_to_tech = concentrated_industry2 
 			research_cost_coeff = 1
 		}
-		
+
+		path = {
+			leads_to_tech = industry_plan1
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		
 		XOR = {
@@ -510,13 +515,18 @@ technologies = {
 			leads_to_tech = concentrated_industry3 
 			research_cost_coeff = 1
 		}
-		
+
+		path = {
+			leads_to_tech = industry_plan2
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1937
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 4 }
+			position = { x = -1 y = 5 }
 		}
 		
 		ai_will_do = {
@@ -549,13 +559,18 @@ technologies = {
 			leads_to_tech = concentrated_industry4 
 			research_cost_coeff = 1
 		}
-		
+
+		path = {
+			leads_to_tech = industry_plan3
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1939
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 6 }
+			position = { x = -1 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -587,13 +602,18 @@ technologies = {
 			leads_to_tech = concentrated_industry5
 			research_cost_coeff = 1
 		}
-		
+
+		path = {
+			leads_to_tech = industry_plan4
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1941
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 8 }
+			position = { x = -1 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -626,7 +646,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 10 }
+			position = { x = -1 y = 11 }
 		}
 		
 		ai_will_do = {
@@ -667,7 +687,12 @@ technologies = {
 			leads_to_tech = dispersed_industry2 
 			research_cost_coeff = 1
 		}
-		
+
+		path = {
+			leads_to_tech = industry_plan1
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		
 		XOR = {
@@ -741,13 +766,18 @@ technologies = {
 			leads_to_tech = dispersed_industry3 
 			research_cost_coeff = 1
 		}
-		
+
+		path = {
+			leads_to_tech = industry_plan2
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1937
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 4 }
+			position = { x = 1 y = 5 }
 		}
 		
 		ai_will_do = {
@@ -782,13 +812,18 @@ technologies = {
 			leads_to_tech = dispersed_industry4 
 			research_cost_coeff = 1
 		}
-		
+
+		path = {
+			leads_to_tech = industry_plan3
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1939
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 6 }
+			position = { x = 1 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -823,13 +858,18 @@ technologies = {
 			leads_to_tech = dispersed_industry5 
 			research_cost_coeff = 1
 		}
-		
+
+		path = {
+			leads_to_tech = industry_plan4
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1941
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 8 }
+			position = { x = 1 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -866,7 +906,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 10 }
+			position = { x = 1 y = 11 }
 		}
 		
 		ai_will_do = {
@@ -877,6 +917,108 @@ technologies = {
 				factor = 10
 				date > "1943.1.1"
 			}
+		}
+		
+		categories = {
+			industry
+			dispersed_industry_category
+		}
+		
+		ai_research_weights = {
+			defensive = -1.0
+		}
+	}
+
+	industry_plan1 = {	
+		
+		production_factory_efficiency_gain_factor = 0.05
+		line_change_production_efficiency_factor = 0.05
+		
+		research_cost = 1
+		
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 3 }
+		}
+		
+		categories = {
+			industry
+			dispersed_industry_category
+		}
+		
+		ai_research_weights = {
+			defensive = -1.0
+		}
+	}
+	
+	industry_plan2 = {
+		
+		conversion_cost_civ_to_mil_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.075
+		line_change_production_efficiency_factor = 0.075
+		
+		research_cost = 1
+		
+		dependencies = {
+			industry_plan1 = 1
+		}	
+	
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			industry
+			dispersed_industry_category
+		}
+		
+		ai_research_weights = {
+			defensive = -1.0
+		}
+	}
+	
+	industry_plan3 = {
+		
+		conversion_cost_civ_to_mil_factor = -0.15
+		production_factory_efficiency_gain_factor = 0.1
+		line_change_production_efficiency_factor = 0.1
+		
+		research_cost = 1
+		
+		dependencies = {
+			industry_plan1 = 1
+		}	
+		
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			industry
+			dispersed_industry_category
+		}
+		
+		ai_research_weights = {
+			defensive = -1.0
+		}
+	}
+	
+	industry_plan4 = {
+		
+		production_factory_efficiency_gain_factor = 0.15
+		line_change_production_efficiency_factor = 0.15
+		
+		research_cost = 1
+		
+		dependencies = {
+			industry_plan1 = 1
+		}	
+		
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 10 }
 		}
 		
 		categories = {
