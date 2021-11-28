@@ -4,12 +4,13 @@ state={
 	name="STATE_541"
 	manpower = 462000
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = SAF
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 3
 		}
 		victory_points = {
 			4879 1
