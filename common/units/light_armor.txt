@@ -28,10 +28,10 @@ sub_units = {
 			light_tank_chassis = 60
 		}
 		manpower = 500
-		max_organisation = 14
-		max_strength = 3
+		max_organisation = 10
 		default_morale = 0.3
 		training_time = 180
+		max_strength = 2
 		weight = 1
 		supply_consumption = 0.22
 

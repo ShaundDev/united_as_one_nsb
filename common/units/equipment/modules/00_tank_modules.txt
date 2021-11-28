@@ -67,115 +67,6 @@ equipment_modules = {
 		}
 	}
 
-	### Engineering Methods
-	tank_engineering_1 = {
-		abbreviation = "cse1"
-		category = tank_engineer_type
-		sfx = sfx_ui_sd_module_engineering
-
-		maximum_speed = 0.4
-		reliability = -0.12
-		armor_value = 0.3
-		add_stats = {
-			fuel_consumption = 0.2
-			build_cost_ic = 0.1
-		}
-	}
-
-	tank_engineering_2 = {
-		abbreviation = "cse2"
-		category = tank_engineer_type
-		sfx = sfx_ui_sd_module_engineering
-
-		add_stats = {
-			build_cost_ic = 3
-			fuel_consumption = 2
-			maximum_speed = 1
-		}
-		multiply_stats = {
-			maximum_speed = 0.15
-		}
-	}
-
-	tank_engineering_3 = {
-		abbreviation = "cse3"
-		category = tank_engineer_type
-		sfx = sfx_ui_sd_module_engineering
-
-		add_stats = {
-			build_cost_ic = 3
-			fuel_consumption = 2
-			maximum_speed = 1
-		}
-		multiply_stats = {
-			maximum_speed = 0.15
-		}
-	}
-
-	tank_engineering_4 = {
-		abbreviation = "cse4"
-		category = tank_engineer_type
-		sfx = sfx_ui_sd_module_engineering
-
-		add_stats = {
-			build_cost_ic = 3
-			fuel_consumption = 2
-			maximum_speed = 1
-		}
-		multiply_stats = {
-			maximum_speed = 0.15
-		}
-	}
-
-	### Commander
-	tank_radio_1 = {
-		abbreviation = "rad1"
-		category = tank_radio_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		xp_cost = 1
-		multiply_stats = {
-			defense = 0.25
-			breakthrough = 0.25
-		}
-	}
-
-	tank_radio_2 = {
-		abbreviation = "rad2"
-		category = tank_radio_module
-		parent = tank_radio_1
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 2
-		}
-
-		multiply_stats = {
-			defense = 0.30
-			breakthrough = 0.30
-		}
-	}
-
-	tank_radio_3 = {
-		abbreviation = "rad3"
-		category = tank_radio_module
-		parent = tank_radio_2
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 3
-		}
-		xp_cost = 1
-		multiply_stats = {
-			defense = 0.35
-			breakthrough = 0.35
-		}
-	}	
-
-
 	###Armor Types
 
 	tank_riveted_armor = {
@@ -193,25 +84,6 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = -0.2
 			armor_value = -0.2
-
-		}
-	}
-
-	tank_riveted_armor_2 = {
-		abbreviation = "riv"
-		category = tank_armor_type
-		sfx = sfx_ui_sd_module_sonar
-
-		add_stats = {
-			#soft_attack = 1 # that's when rivets shoot back because they got dislodged by the shock. That was in fact the first reactive armor.
-			
-			defense = 3
-			breakthrough = 3
-		}
-		xp_cost = 8
-		multiply_stats = {
-			build_cost_ic = -0.2
-			armor_value = -0.25
 
 		}
 	}
@@ -1181,6 +1053,53 @@ equipment_modules = {
 
 	###Special Modules
 
+
+	tank_radio_1 = {
+		abbreviation = "rad1"
+		category = tank_radio_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 1
+		}
+		xp_cost = 1
+		multiply_stats = {
+			defense = 0.25
+			breakthrough = 0.25
+		}
+	}
+
+	tank_radio_2 = {
+		abbreviation = "rad2"
+		category = tank_radio_module
+		parent = tank_radio_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 2
+		}
+
+		multiply_stats = {
+			defense = 0.45
+			breakthrough = 0.45
+		}
+	}
+
+	tank_radio_3 = {
+		abbreviation = "rad3"
+		category = tank_radio_module
+		parent = tank_radio_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 3
+		}
+		xp_cost = 1
+		multiply_stats = {
+			defense = 0.65
+			breakthrough = 0.65
+		}
+	}
 
 	amphibious_drive = {
 		abbreviation = "amph"
