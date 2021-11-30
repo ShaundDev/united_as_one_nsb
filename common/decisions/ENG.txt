@@ -1,0 +1,1929 @@
+ENG_organize_the_blackshirts = {
+
+	ENG_urge_restraint = {
+
+		icon = eng_propaganda_campaigns
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			NOT = { has_country_flag = ENG_restrained_march_flag }
+		}
+
+		cost = 25
+
+		fire_only_once = no
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			add_popularity = { ideology = fascism popularity = -0.01 }
+			119 = { set_state_flag = ENG_has_blackshirt_support }
+			custom_effect_tooltip = ENG_urge_restraint_tt
+			set_country_flag = ENG_restrained_march_flag
+			custom_effect_tooltip = ENG_speech_against_germany_tt
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ENG_blackshirt_march_in_northern_ireland = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 119
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 119 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 26
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			119 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.041
+						add_popularity = { ideology = fascism popularity = 0.027 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.054
+						add_popularity = { ideology = fascism popularity = 0.027 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.081
+						add_popularity = { ideology = fascism popularity = 0.027 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_northern_ireland
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.581
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_the_highlands = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 120
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 120 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 6
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			120 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.009
+						add_popularity = { ideology = fascism popularity = 0.006 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.012
+						add_popularity = { ideology = fascism popularity = 0.006 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.018
+						add_popularity = { ideology = fascism popularity = 0.006 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_highlands
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.518
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_aberdeenshire = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 136
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 136 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 17
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			136 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.026
+						add_popularity = { ideology = fascism popularity = 0.017 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.034
+						add_popularity = { ideology = fascism popularity = 0.017 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.051
+						add_popularity = { ideology = fascism popularity = 0.017 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_aberdeenshire
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.551
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_lanark = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 133
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 133 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 48
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			133 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.077
+						add_popularity = { ideology = fascism popularity = 0.051 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.102
+						add_popularity = { ideology = fascism popularity = 0.051 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.153
+						add_popularity = { ideology = fascism popularity = 0.051 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_lanark
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.653
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_lothian = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 121
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 121 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 31
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			121 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.048
+						add_popularity = { ideology = fascism popularity = 0.032 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.064
+						add_popularity = { ideology = fascism popularity = 0.032 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.096
+						add_popularity = { ideology = fascism popularity = 0.032 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_lothian
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.596
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_northern_england = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 131
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 131 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 46
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			131 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.072
+						add_popularity = { ideology = fascism popularity = 0.048 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.096
+						add_popularity = { ideology = fascism popularity = 0.048 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.144
+						add_popularity = { ideology = fascism popularity = 0.048 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_northern_england
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.644
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_yorkshire = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 130
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 130 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 91
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			130 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.157
+						add_popularity = { ideology = fascism popularity = 0.101 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.202
+						add_popularity = { ideology = fascism popularity = 0.101 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.303
+						add_popularity = { ideology = fascism popularity = 0.101 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_yorkshire
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.803
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_lancashire = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 132
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 132 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 113
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			132 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.195
+						add_popularity = { ideology = fascism popularity = 0.13 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.26
+						add_popularity = { ideology = fascism popularity = 0.13 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.39
+						add_popularity = { ideology = fascism popularity = 0.13 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_lancashire
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.89
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_wales = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 122
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 122 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 49
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			122 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.078
+						add_popularity = { ideology = fascism popularity = 0.052 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.104
+						add_popularity = { ideology = fascism popularity = 0.052 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.156
+						add_popularity = { ideology = fascism popularity = 0.052 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_wales
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.656
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_west_midlands = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 128
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 128 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 76
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			128 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.125
+						add_popularity = { ideology = fascism popularity = 0.083 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.166
+						add_popularity = { ideology = fascism popularity = 0.083 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.249
+						add_popularity = { ideology = fascism popularity = 0.083 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_west_midlands
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.749
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_east_midlands = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 129
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 129 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 47
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			129 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.075
+						add_popularity = { ideology = fascism popularity = 0.05 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.1
+						add_popularity = { ideology = fascism popularity = 0.05 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.15
+						add_popularity = { ideology = fascism popularity = 0.05 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_east_midlands
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.65
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_east_anglia = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 125
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 125 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 30
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			125 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.047
+						add_popularity = { ideology = fascism popularity = 0.031 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.062
+						add_popularity = { ideology = fascism popularity = 0.031 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.093
+						add_popularity = { ideology = fascism popularity = 0.031 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_east_anglia
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.593
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_gloucestershire = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 338
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 338 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 39
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			338 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.062
+						add_popularity = { ideology = fascism popularity = 0.041 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.082
+						add_popularity = { ideology = fascism popularity = 0.041 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.123
+						add_popularity = { ideology = fascism popularity = 0.041 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_gloucestershire
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.623
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_london = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 126
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 126 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 173
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			126 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.333
+						add_popularity = { ideology = fascism popularity = 0.222 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.444
+						add_popularity = { ideology = fascism popularity = 0.222 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.666
+						add_popularity = { ideology = fascism popularity = 0.222 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_london
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.944
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_cornwall = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 123
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 123 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 27
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			123 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.042
+						add_popularity = { ideology = fascism popularity = 0.028 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.056
+						add_popularity = { ideology = fascism popularity = 0.028 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.084
+						add_popularity = { ideology = fascism popularity = 0.028 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_cornwall
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.584
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_blackshirt_march_in_sussex = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			NOT = { has_country_flag = ENG_march_timer_flag }
+			has_full_control_of_state = 127
+		}
+
+		highlight_states = {
+ highlight_state_targets = { state = 127 } 
+}
+
+		on_map_mode = map_only
+
+		cost = 67
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			127 = { save_event_target_as = ENG_blackshirt_march_state }
+			random_list = {
+				25 = {
+					country_event = { id = mtg_britain.57 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.108
+						add_popularity = { ideology = fascism popularity = 0.072 }
+					}
+				}
+				50 = {
+					country_event = { id = mtg_britain.58 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.144
+						add_popularity = { ideology = fascism popularity = 0.072 }
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 0.2
+						has_country_flag = ENG_restrained_march_flag
+					}
+					country_event = { id = mtg_britain.59 days = 1 }
+					effect_tooltip = {
+						add_stability = -0.216
+						add_popularity = { ideology = fascism popularity = 0.072 }
+					}
+				}
+			}
+			custom_effect_tooltip = ENG_blackshirt_march_tt
+			set_country_flag = ENG_march_temp_sussex
+			set_country_flag = ENG_march_timer_flag
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_stability < 0.716
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_march_on_downing_street = {
+
+		icon = eng_blackshirt_march
+
+		available = {
+			has_full_control_of_state = 126
+			fascism > 0.5
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { has_government = fascism }
+		}
+
+		complete_effect = {
+			country_event = { id = mtg_britain.35 days = 1 }
+			set_country_flag = { flag = ENG_switched_to_fascism_communism_dominions_timer_flag value = 1 days = 180 }
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	ENG_reconciliatory_speech = {
+
+		icon = eng_blackshirt_march
+
+		allowed = {
+			tag = ENG
+		}
+
+		available = {
+			GER = {
+				NOT = { has_government = fascism }
+			}
+			has_stability < 0.8
+		}
+
+		cost = 50
+
+		days_remove = 60
+
+		fire_only_once = no
+
+		cancel_if_not_visible = yes
+
+		modifier = {
+			stability_weekly = 0.02
+		}
+
+		visible = {
+			NOT = { has_government = fascism }
+			GER = {
+				NOT = { has_government = fascism }
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_speech_against_germany_tt
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 10
+				has_stability < 0.8
+			}
+			modifier = {
+				factor = 5
+				has_stability < 0.7
+			}
+			modifier = {
+				factor = 10
+				has_stability < 0.6
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_speech_against_germany = {
+
+		icon = eng_blackshirt_speech
+
+		allowed = {
+			tag = ENG
+		}
+
+		available = {
+			FROM = {
+				has_government = fascism
+			}
+			has_stability < 0.8
+		}
+
+		targets = { GER }
+		targets_dynamic = yes
+
+		target_root_trigger = {
+			has_completed_focus = ENG_organize_the_blackshirts
+		}
+
+		target_trigger = {
+			FROM = {
+				original_tag = GER
+			}
+		}
+
+		days_remove = 60
+
+		cost = 50
+
+		fire_only_once = no
+
+		visible = {
+			NOT = { has_government = fascism }
+			FROM = {
+				has_government = fascism
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		modifier = {
+			stability_weekly = 0.02
+		}
+
+		complete_effect = {
+			country_event = { id = mtg_britain.60 hours = 6 }
+			custom_effect_tooltip = ENG_speech_against_germany_tt
+			add_ai_strategy = {
+				type = antagonize
+				id = FROM
+				value = 50
+			}
+			add_ai_strategy = {
+				type = alliance
+				id = FROM
+				value = -50
+			}
+			add_ai_strategy = {
+				type = befriend
+				id = FROM
+				value = -50
+			}
+			add_ai_strategy = {
+				type = protect
+				id = FROM
+				value = -50
+			}
+			FROM = {
+				add_ai_strategy = {
+					type = antagonize
+					id = ROOT
+					value = 50
+				}
+				add_ai_strategy = {
+					type = alliance
+					id = ROOT
+					value = -50
+				}
+				add_ai_strategy = {
+					type = befriend
+					id = ROOT
+					value = -50
+				}
+				add_ai_strategy = {
+					type = protect
+					id = ROOT
+					value = -50
+				}
+			}
+		}
+
+		remove_effect = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 10
+				has_stability < 0.8
+			}
+			modifier = {
+				factor = 5
+				has_stability < 0.7
+			}
+			modifier = {
+				factor = 10
+				has_stability < 0.6
+			}
+			modifier = {
+				factor = 0
+				fascism > 0.5
+			}
+		}
+	}
+
+	ENG_the_mosley_plan = {
+
+		icon = generic_construction
+
+		available = {
+			has_country_flag = won_british_civil_war
+		}
+
+		visible = {
+			has_country_flag = won_british_civil_war
+		}
+
+		fire_only_once = yes
+	
+		cost = 25
+
+		days_remove = 365
+
+		modifier = {
+			political_power_gain = -0.33
+			industry_repair_factor = 0.3
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.1
+			production_speed_industrial_complex_factor = 0.1
+			production_speed_arms_factory_factor = 0.1
+			war_support_weekly = 0.005
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+}
+
+political_actions = {
+
+	#ENG_host_CZE_exile_government = {
+	#
+	#	icon = generic
+	#
+	#	allowed = {
+	#		has_dlc = "Man the Guns"
+	#		original_tag = ENG
+	#		
+	#	}
+	#	available = {
+	#		has_government = democratic
+	#	}
+	#	cost = 50
+	#	fire_only_once = yes
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#
+	#	visible = {
+	#		CZE = {
+	#			exists = no
+	#		}
+	#	
+	#		CZE = {
+	#			is_government_in_exile = no
+	#		}
+	#	
+	#		9 = { CONTROLLER = { has_war_with = ROOT } }
+	#	}
+	#	complete_effect = {
+	#		CZE = {
+	#			become_exiled_in = {
+	#				target = ROOT
+	#				legitimacy = 50
+	#			}
+	#		}
+	#	}
+	#}
+	hold_blood_toil_tears_sweat_speech = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = ENG
+		}
+
+		available = {
+			has_government = democratic
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			has_war_with = GER
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		visible = {
+			tag = ENG
+			has_government = democratic
+			has_war_with = GER
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+		}
+
+		complete_effect = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			if = {
+				limit = {
+					USA = {
+						exists = yes
+						has_war = no
+						has_government = ROOT
+					}
+				}
+				USA = { set_country_flag = blood_toil_tears_sweat_speech }
+			}
+			set_country_flag = blood_toil_tears_sweat_speech
+			play_blood_toil_tears_sweat_effect = yes
+		}
+
+		ai_will_do = {
+			factor = 200 #Gotta allow the Americans to help
+		}
+	}
+
+	hold_fight_on_the_beaches_speech = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = ENG
+		}
+
+		available = {
+			has_government = democratic
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			has_war_with = GER
+			is_in_faction_with = FRA
+			FRA = {
+				surrender_progress > 0.2
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		visible = {
+			tag = ENG
+			has_government = democratic
+			has_war_with = GER
+			has_country_flag = blood_toil_tears_sweat_speech
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+		}
+
+		complete_effect = {
+			add_war_support = 0.05
+			if = {
+				limit = {
+					USA = {
+						exists = yes
+						has_war = no
+						has_government = ROOT
+					}
+				}
+				USA = { set_country_flag = fight_on_the_beaches_speech }
+			}
+			set_country_flag = fight_on_the_beaches_speech
+			play_we_shall_fight_on_the_beaches_effect = yes
+		}
+
+		ai_will_do = {
+			factor = 200 #Gotta allow the Americans to help
+		}
+	}
+
+	hold_this_was_their_finest_hour_speech = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = ENG
+		}
+
+		available = {
+			has_government = democratic
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			has_war_with = GER
+			is_in_faction_with = FRA
+			FRA = { has_capitulated = yes }
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		visible = {
+			tag = ENG
+			has_government = democratic
+			has_war_with = GER
+			has_country_flag = fight_on_the_beaches_speech
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+		}
+
+		complete_effect = {
+			add_war_support = 0.05
+			if = {
+				limit = {
+					USA = {
+						exists = yes
+						has_war = no
+						has_government = ROOT
+					}
+				}
+				USA = { set_country_flag = this_was_their_finest_hour_speech }
+			}
+			set_country_flag = this_was_their_finest_hour_speech
+			play_their_finest_hour_effect = yes
+		}
+
+		ai_will_do = {
+			factor = 200 #Gotta allow the Americans to help
+		}
+	}
+
+	macdonald_proposal = {
+	
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			tag = ENG
+			has_government = democratic
+			has_war_with = GER
+			IRE = { exists = yes }
+			NOT = { is_in_faction_with = IRE }
+			FRA = { has_capitulated = yes }
+			is_in_faction_with = FRA
+		}
+
+		cost = 50
+		
+		visible = {
+			tag = ENG
+			has_government = democratic
+			has_war_with = GER
+			IRE = { exists = yes }
+		}
+		
+		complete_effect = {
+			IRE = { country_event = { id = wtt_britain.24 } }
+			add_popularity = { ideology = democratic popularity = 0.03 }
+			add_stability = -0.05
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ENG_invoke_the_alliance_of_1373 = {
+
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			has_war = yes
+			has_government = democratic
+			POR = {
+				OR = {
+					has_government = ROOT
+					has_government = neutrality
+				}
+			}
+			POR = { is_in_faction = no }
+			is_faction_leader = yes
+		}
+
+		cost = 100
+		
+		visible = {
+			has_war = yes
+			NOT = { has_war_with = POR }
+		}
+		
+		complete_effect = {
+			POR = { country_event = generic.5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					any_enemy_country = {
+						original_tag = SPR
+					}
+				}
+			}
+		}
+	}
+
+	ENG_request_azores_lease = {
+	
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			has_war = yes
+			has_government = democratic
+			POR = {
+				has_full_control_of_state = 698
+				OR = {
+					has_government = ROOT
+					has_government = neutrality
+				}
+			}
+			POR = { is_in_faction = no }
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 10
+		}
+		
+		visible = {
+			has_war = yes
+			POR = {
+				has_full_control_of_state = 698
+				NOT = { has_war_with = ROOT }
+			}
+		}
+		
+		complete_effect = {
+			POR = { country_event = wtt_britain_lease_azores.1 }
+		}
+	}
+
+	ENG_abdication_crisis = { # timer for the player to see when the event chain ends
+
+		priority = 10
+
+		icon = eng_abdication_crisis
+		
+		available = {
+			has_country_flag = ENG_abdication_crisis_changed_mind
+		}
+
+		days_mission_timeout = 200
+
+		fire_only_once = yes
+
+		activation = {
+			tag = ENG
+			OR = {
+				has_country_flag = ENG_abdication_crisis_normal_marriage
+				has_country_flag = ENG_abdication_crisis_morganatic_marriage
+			}
+		}
+
+		visible = {
+			tag = ENG
+			NOT = {
+				has_country_flag = ENG_edward_viii_abdicated
+				has_country_flag = edward_viii_married_wallis_simpson
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		is_good = yes
+
+		complete_effect = {
+			
+		}
+
+		timeout_effect = {
+			country_event = { id = mtg_britain.5 }
+		}
+	}
+}
+
+operations = {
+
+	operation_fork = {
+
+		icon = generic_operation
+	
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			tag = ENG
+			has_government = democratic
+			has_war_with = GER
+			ICE = { exists = yes }
+			NOR = { has_capitulated = yes }
+			is_in_faction_with = NOR
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			tag = ENG
+			has_war_with = GER
+			ICE = { exists = yes }
+			NOT = { ICE = { is_in_faction_with = ROOT } }
+		}
+		
+		complete_effect = {
+			declare_war_on = { target = ICE type = puppet_wargoal_focus }
+			add_popularity = { ideology = democratic popularity = -0.05 }
+		}
+	}
+	
+	invade_ireland = {
+
+		icon = generic_operation
+	
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			tag = ENG
+			has_government = democratic
+			has_war_with = GER
+			IRE = { exists = yes }
+			NOT = { is_in_faction_with = IRE }
+			NOR = { has_capitulated = yes }
+			is_in_faction_with = NOR
+			FRA = { has_capitulated = yes }
+			is_in_faction_with = FRA
+		}
+
+		cost = 50
+		
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				any_enemy_country = {
+					has_attache_from = IRE
+				}
+			}
+			modifier = {
+				add = 1
+				has_opinion = { target = IRE value < -50 }
+			}
+			modifier = {
+				add = 1
+				IRE = { has_added_tension_amount > 0.05 }
+			}
+		}
+		
+		visible = {
+			tag = ENG
+			has_war_with = GER
+			IRE = { exists = yes }
+		}
+		
+		complete_effect = {
+			add_state_claim = 113
+			add_state_claim = 134
+			add_state_claim = 135
+			declare_war_on = { target = IRE type = annex_everything }
+			add_popularity = { ideology = democratic popularity = -0.03 }
+		}
+	}
+
+	mers_el_kebir_raid = {
+
+		icon = generic_naval
+	
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			has_government = democratic
+			has_war_with = GER
+			any_country_with_original_tag = {
+				original_tag_to_check = FRA
+				has_government = fascism
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			tag = ENG
+			has_government = democratic
+			has_war_with = GER
+			OR = {
+				AND = {
+					is_in_faction_with = FRA
+					FRA = { surrender_progress > 0.2 }
+				}
+				any_country_with_original_tag = {
+					original_tag_to_check = FRA
+					has_government = fascism
+				}
+			}
+		}
+		
+		complete_effect = {
+			random_other_country = {
+				limit = {
+					original_tag = FRA
+					has_government = fascism
+				}
+				country_event = { id = wtt_britain.25 hours = 5 }
+			}
+		}
+	}
+}
