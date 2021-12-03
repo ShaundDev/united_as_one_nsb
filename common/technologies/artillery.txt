@@ -2,6 +2,11 @@ technologies = {
 
 	gw_artillery = {
 
+		path = {
+			leads_to_tech = interwar_pack
+			research_cost_coeff = 1
+		}
+
 		enable_equipments = {
 			artillery_equipment_1
 		}
@@ -111,6 +116,111 @@ technologies = {
 				factor = 5
 				date > "1939.1.1"
 			}
+		}
+	}
+
+	interwar_pack = {
+		
+		enable_equipments = {
+			pack_artillery_equipment_1
+		}
+			
+		path = {
+			leads_to_tech = pack2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+	
+	pack2 = {
+		pack_artillery = {
+			soft_attack = 0.07
+		}
+		pack_artillery_brigade = {
+			soft_attack = 0.07
+		}
+		
+		path = {
+			leads_to_tech = pack3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	pack3 = {
+		
+		enable_equipments = {
+			pack_artillery_equipment_2
+		}
+
+		path = {
+			leads_to_tech = pack4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1940
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	pack4 = {
+		pack_artillery = {
+			soft_attack = 0.07
+		}
+		
+		research_cost = 1.5
+		start_year = 1941
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 0.7
 		}
 	}
 

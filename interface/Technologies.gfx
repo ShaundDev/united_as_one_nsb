@@ -46,7 +46,17 @@ spriteTypes = {
 		name = "GFX_archetype_support_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_support_equipment.dds"
 	}	
-	
+
+	SpriteType = {
+		name = "GFX_radio_equipment_medium"
+		texturefile = "gfx/interface/technologies/radio_equipment_1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_special_equipment_medium"
+		texturefile = "gfx/interface/technologies/special_equipment_1.dds"
+	}	
+
 	SpriteType = {
 		name = "GFX_archetype_modern_tank_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_modern_tank_equipment.dds"
@@ -91,7 +101,27 @@ spriteTypes = {
 		name = "GFX_archetype_artillery_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_artillery_equipment.dds"
 	}	
-	
+
+	SpriteType = {
+		name = "GFX_pack4_medium"
+		texturefile = "gfx/interface/technologies/artillery/artillery1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pack3_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_Mountain_2_GEN.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pack2_medium"
+		texturefile = "gfx/interface/technologies/artillery/artillery5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_interwar_pack_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_Mountain_1_GEN.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_archetype_anti_tank_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_anti_tank_equipment.dds"
@@ -456,6 +486,26 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tech_recon_medium"
 		texturefile = "gfx/interface/technologies/recon.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_tech_headquarters4_medium"
+		texturefile = "gfx/interface/technologies/support/headquarters4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_headquarters3_medium"
+		texturefile = "gfx/interface/technologies/support/headquarters3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_headquarters2_medium"
+		texturefile = "gfx/interface/technologies/support/headquarters2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_headquarters_medium"
+		texturefile = "gfx/interface/technologies/support/headquarters.dds"
 	}	
 
 	SpriteType = {

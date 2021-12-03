@@ -1,0 +1,33 @@
+equipments = {
+
+	radio_equipment = {
+		is_archetype = yes
+		#is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+			
+		reliability = 0.9
+
+		initiative = 0.01
+		lend_lease_cost = 1
+		build_cost_ic = 3.5
+		resources = {
+			chromium = 1
+		}
+	}
+
+	radio_equipment_1 = {
+		archetype = radio_equipment
+		active = yes
+		priority = 8
+		
+		reliability = 0.9
+		max_organisation = 0.15
+		default_morale = 0.05
+		initiative = 0.01
+		build_cost_ic = 3.5
+	}
+
+}
