@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Trigonikó Pezikoú" 					# Triangular Infantry Division
+	name = "Trigonikó Pezikoú" 				# Triangular Infantry Division
 	division_names_group = GRE_INF_01
 	# Prior to 1940 mobilization = 3rd, 4th, 5th, 9th, 10, 13th;
 	# 	6th, 7th, 11th, and 12th had 2 regiments; 14th had 1 regiment
@@ -15,9 +15,15 @@
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 1 y = 0 }
+		artillery = { x = 1 y = 1 }
+	}
 }
 division_template = {
-	name = "Tetrágono Pezikoú" 					# Square Infantry Division
+	name = "Tetrágono Pezikoú" 				# Square Infantry Division
 	division_names_group = GRE_MNT_01
 	# Prior to 1940 mobilization = 1st, 2nd, 8th
 	regiments = {
@@ -30,9 +36,15 @@ division_template = {
 		mountaineers = { x = 2 y = 0 }
 		mountaineers = { x = 2 y = 1 }
 	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 1 y = 0 }
+		artillery = { x = 1 y = 1 }
+	}
 }
 division_template = {
-	name = "Merarchía Ippikoú" 						# Cavalry Division
+	name = "Merarchía Ippikoú" 			# Cavalry Division
 	division_names_group = GRE_CAV_01
 
 	regiments = {
@@ -44,8 +56,49 @@ division_template = {
 		cavalry = { x = 1 y = 2 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }      # Motorized recon inf bn
+		DIV_HQ = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }      # Motorized recon inf bn
 	}
+}
+division_template = {
+	name = "Light Infantry"  
+	division_names_group = GRE_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }
+	}
+	 support = {
+		DIV_HQ = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		
+	}
+	priority = 1
+}
+division_template = {
+	name = "Garrison"	
+division_names_group = GRE_INF_01
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		
+	}
+	priority = 1
 }
 
 units = {
