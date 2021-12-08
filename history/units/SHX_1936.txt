@@ -2,12 +2,25 @@
 	name = "Juntuán"				# Represents local militia groups (generally poorly-equipped )
 	division_names_group = SHX_INF_01
 
-	regiments = {
-		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+	regiments = { # Note: Chinese divisions were brigade-sized compared other nations' armies
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }	
 	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}	
+	
+	priority = 1
+
 }
 
 
@@ -18,17 +31,22 @@ units = {
 		name = "Suiyuan Jingbei"
 		location = 4174
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.2
+#		start_equipment_factor = 0.2
 
 	}
 	division = {
 		name = "Chahar Jingbei"
 		location = 7048
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.2
+#		start_equipment_factor = 0.2
 
 	}
-	
+	division = {
+		name = "Chahar Jingbei 2"
+		location = 7048
+		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
+		
+	}
 }
 
 ### STARTING PRODUCTION ###

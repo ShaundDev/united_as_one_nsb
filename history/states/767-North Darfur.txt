@@ -8,8 +8,9 @@ state=
 	impassable = yes
 	
 	history= {
-		add_core_of = SUD
 		owner = ENG
+		add_core_of = ENG
+		add_core_of = BAC
 		buildings = {
 			infrastructure = 0
 		}

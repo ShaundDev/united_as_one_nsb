@@ -12,6 +12,11 @@ state={
 
 		}
 
+#		1936.1.2 = {
+			add_core_of = TIB
+			owner = TIB
+#		}
+
 	}
 
 	provinces={
@@ -21,5 +26,5 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 
-	local_supplies=2.0 
+	local_supplies=2.0
 }

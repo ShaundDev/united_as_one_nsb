@@ -2,12 +2,24 @@
 	name = "Juntuán"		# Represents two-division infantry corps (generally poorly-equipped militias), and local militia groups
 	division_names_group = XSM_INF_01
 
-	regiments = {					
-		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+	regiments = { # Note: Chinese divisions were brigade-sized compared other nations' armies
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }	
 	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}	
+	
+	priority = 1
 
 }
 division_template = {
@@ -17,10 +29,16 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
+		
 		cavalry = { x = 2 y = 0 }
 		cavalry = { x = 2 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }	
 	}
 }
 
@@ -35,7 +53,7 @@ units = {
 		location = 12846
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.7
 
 	}
 	division = { # "81 Juntuán"
@@ -46,7 +64,7 @@ units = {
 		location = 1647
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = { # "82 Juntuán"
@@ -57,7 +75,7 @@ units = {
 		location = 1933
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = { # "1 Ma Qibing Jun"
@@ -68,7 +86,7 @@ units = {
 		location = 7911
 		division_template = "Qibing Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.9
 
 	}
 	division = { # "2 Ma Qibing Jun"
@@ -79,7 +97,7 @@ units = {
 		location = 531
 		division_template = "Qibing Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.9
 
 	}
 	division = { # "3 Ma Qibing Jun"
@@ -90,14 +108,14 @@ units = {
 		location = 12846
 		division_template = "Qibing Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.9
 
 	}
 	division = {
 		name = "Golmud Jingbei"
 		location = 12846
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 }

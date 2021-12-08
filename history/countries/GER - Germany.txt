@@ -24,13 +24,23 @@ set_fuel_ratio = 0.8
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_recon = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
 	motorised_infantry = 1
+
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_headquarters = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_mountaineers = 1
+
 	gw_artillery = 1
 	interwar_antiair = 1
+	interwar_antitank = 1
+	interwar_pack = 1
+
 	early_fighter = 1
 	fighter1 = 1
 	early_bomber = 1
@@ -38,10 +48,16 @@ set_technology = {
 	strategic_bomber1 = 1
 	CAS1 = 1
 	naval_bomber1 = 1
-	basic_train = 1
+	
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
+
+	electronic_mechanical_engineering = 1
+	radio = 1
+
+	basic_machine_tools = 1
+	basic_industry = 1
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1

@@ -2,7 +2,7 @@
 	name = "Kebur Zabagna"				# Imperial Bodyguard
 	division_names_group = ETH_INF_01
 
-	regiments = {
+	regiments = { # Imperial Bodyguard of roughly 9 batallions - so on the high end, 7200 men - this division is 8100
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
@@ -13,6 +13,10 @@
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
+	support = {
+		recon = { x = 0 y = 0 }
+		
+	}
 	priority = 2
 }
 
@@ -22,10 +26,16 @@ division_template = {
 
 	# Note: Represents both regular infantry and militia units
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		
 	}
 }
 division_template = {
@@ -39,7 +49,15 @@ division_template = {
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
 	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+
+
 }
 
 

@@ -1526,20 +1526,6 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-				if = {
-					limit = {
-						has_dlc = "Waking the Tiger"
-					}
-					has_completed_focus = GER_reestablish_free_elections 
-				}
 			}
 			traits = {
 				democratic_reformer 
@@ -1730,58 +1716,6 @@ characters={
 			}
 		}
 	}
-
-	GER_hans_oster={
-		name=GER_hans_oster
-		portraits={
-			army={
-				small="GFX_idea_GER_hans_oster"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GER_hans_oster
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-			available = {
-				has_completed_focus = GER_oppose_hitler 
-			}
-			traits = {
-				anti_fascist_agent 
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
-	}
-
-	GER_alfred_hugenberg={
-		name=GER_alfred_hugenberg
-		portraits={
-			army={
-				small="GFX_idea_GER_alfred_hugenberg"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GER_alfred_hugenberg
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-			available = {
-				has_completed_focus = GER_revive_the_kaiserreich 
-			}
-			traits = {
-				monarchist_media_mogul 
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
-	}
 	
 	GER_carl_friedrich_goerdeler={
 		name=GER_carl_friedrich_goerdeler
@@ -1798,7 +1732,7 @@ characters={
 				has_dlc = "Waking the Tiger"
 			}
 			available = {
-				has_completed_focus = GER_revive_the_kaiserreich 
+
 			}
 			traits = {
 				economist 
@@ -1824,36 +1758,10 @@ characters={
 				has_dlc = "Waking the Tiger"
 			}
 			available = {
-				has_completed_focus = GER_reestablish_free_elections 
+
 			}
 			traits = {
 				connected_citizen 
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
-	}
-	
-	GER_theodor_heuss={
-		name=GER_theodor_heuss
-		portraits={
-			army={
-				small="GFX_idea_GER_theodor_heuss"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GER_theodor_heuss
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-			available = {
-				has_completed_focus = GER_reestablish_free_elections 
-			}
-			traits = {
-				liberal_journalist 
 			}
 			ai_will_do = {
 				factor = 0.000
