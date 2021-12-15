@@ -3,9 +3,19 @@
 oob = "MAN_1936"
 
 set_technology = {
+	################# infantry ###############
 	infantry_weapons = 1
-	gw_artillery = 1
-	
+	motorised_infantry = 1
+	################## support ##################
+	tech_support = 1
+	tech_recon = 1
+	tech_headquarters = 1
+	################## artillery ###############
+	artillery1 = 1 
+	gw_pack_artillery = 1
+	########  Industry ########	
+	basic_industry = 1
+
 }
 
 if = {
@@ -43,7 +53,7 @@ if = {
 	}
 }
 
-set_convoys = 5
+set_convoys = 18
 
 1939.1.1 = {
 

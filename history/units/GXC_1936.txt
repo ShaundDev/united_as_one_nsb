@@ -3,10 +3,20 @@
 	division_names_group = GXC_INF_01
 
 	regiments = {
-		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }	
+	}
+	support = {
+        recon = { x = 0 y = 0 }
 	}
 }
 
@@ -22,7 +32,7 @@ units = {
 		location = 10404
 		start_experience_factor = 0.1
 		division_template = "Juntuán"
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division = { # "63 Juntuán"
@@ -84,21 +94,21 @@ units = {
 		name = "Guangzhou Jingbei"
 		location = 1047
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "Hainan Jingbei"
 		location = 994
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "Guilin Jingbei"
 		location = 10404
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 }

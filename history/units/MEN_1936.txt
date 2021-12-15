@@ -3,10 +3,20 @@
 	division_names_group = MEN_INF_01
 									# Militia-level training and equipment
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }	
+	}
+	support = {
+        recon = { x = 0 y = 0 }
 	}
 }
 
@@ -17,8 +27,18 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }		
+	}
+	support = {
+        recon = { x = 0 y = 0 }
 	}
 }
 
@@ -31,7 +51,7 @@ units = {
 		location = 828
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = { # "1 Qibing Jun"
 		division_name = {
@@ -41,7 +61,7 @@ units = {
 		location = 1590
 		division_template = "Qibing Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = { # "2 Qibing Jun"
 		division_name = {
@@ -51,7 +71,7 @@ units = {
 		location = 828
 		division_template = "Qibing Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 }
 

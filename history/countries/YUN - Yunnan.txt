@@ -2,9 +2,13 @@
 oob = "YUN_1936"
 
 set_technology = {
+	################# infantry ###############
 	infantry_weapons = 1
+	################## support ##################
 	tech_support = 1
 	tech_recon = 1
+	########  Industry ########	
+	basic_industry = 1
 }
 
 if = {
