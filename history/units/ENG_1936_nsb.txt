@@ -141,7 +141,7 @@ units = {
 		location = 11297
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	division= {	# "5th Infantry Division"
@@ -151,7 +151,7 @@ units = {
 		}
 		location = 351
 		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.8
 	}
 	division= {	# "50th 'Northumbrian' Motorized Division"
 		division_name = {
@@ -161,7 +161,7 @@ units = {
 		location = 9397
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	division= {	# "49th 'West Riding' Infantry Division"
@@ -172,7 +172,7 @@ units = {
 		location = 11218
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	#Eastern Command
@@ -193,7 +193,7 @@ units = {
 		location = 11221
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	division= {	# "54th 'East Anglia' Infantry Division"
@@ -204,7 +204,7 @@ units = {
 		location = 3287
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	#Western Command	
@@ -213,7 +213,7 @@ units = {
 		location = 407
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	division= {	# "42nd 'East Lancashire' Infantry Division"
@@ -224,7 +224,7 @@ units = {
 		location = 6318
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	division= {	# "53rd 'Welsh' Infantry Division"
@@ -235,7 +235,7 @@ units = {
 		location = 311
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	division= {	# "55th 'West Lancashire' Infantry Division"
@@ -246,7 +246,7 @@ units = {
 		location = 6384
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	#Southern Command
@@ -274,7 +274,7 @@ units = {
 		location = 3369
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	division= {	# "48th 'South Midland' Infantry Division"
@@ -285,7 +285,7 @@ units = {
 		location = 6351
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	
@@ -297,7 +297,7 @@ units = {
 		division_template = "Colonial Garrison"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	#Palestine & Transjordan
@@ -307,7 +307,7 @@ units = {
 		division_template = "Colonial Garrison"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	#Aden
@@ -317,7 +317,7 @@ units = {
 		division_template = "Colonial Garrison"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	#Egypt
@@ -326,7 +326,7 @@ units = {
 		location = 7011
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division= {	
@@ -334,7 +334,7 @@ units = {
 		location = 1155
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}
 	division= {	
@@ -342,7 +342,7 @@ units = {
 		location = 4076
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	#Gibraltar
@@ -351,7 +351,7 @@ units = {
 		location = 4135
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}
 	
@@ -361,7 +361,7 @@ units = {
 		location = 12003
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}
 	
@@ -371,7 +371,7 @@ units = {
 		location = 1939
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	division= {	  
@@ -379,7 +379,7 @@ units = {
 		location = 12911
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	division= {	
@@ -387,7 +387,7 @@ units = {
 		location = 1939
 		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 
@@ -397,7 +397,7 @@ units = {
 		location = 2050
 		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}
 	division= {	  
@@ -405,7 +405,7 @@ units = {
 		location = 10862 
 		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}
 	
@@ -416,7 +416,7 @@ units = {
 		location = 10062
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.9
 
 	}
 	###Malaya
@@ -425,7 +425,7 @@ units = {
 		location = 12299
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 
 	}
 	division= {	
@@ -433,7 +433,7 @@ units = {
 		location = 12215
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.9
 
 	}
 	###Ceylon
@@ -443,8 +443,50 @@ units = {
 		division_template = "Colonial Garrison"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.9
 
+	}
+	##### Malayan High Command #####
+	division = {
+		name = "1st Malaya Infantry Brigade"
+		location = 12299
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
+	
+	division = {
+		name = "2nd Malaya Infantry Brigade"
+		location = 7371
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
+	
+	division = {
+		name = "3rd Malaya Infantry Brigade"
+		location = 7371
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
+	
+	division = {
+		name = "1st Malaya Garrison"
+		location = 7371
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
+	
+	division = {
+		name = "2nd Malaya Garrison"
+		location = 7371
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
+	
+	division = {
+		name = "3rd Malaya Garrison"
+		location = 7371
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
 	}
 }
 

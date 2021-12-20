@@ -11,10 +11,9 @@ state={
 	}
 
 	history={
-		owner = OMA
+		owner = ENG
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
 			industrial_complex = 1 
 			10760 = {
 				naval_base = 3
@@ -23,7 +22,8 @@ state={
 		victory_points = {
 			10760 3 
 		}
-		add_core_of = OMA
+		add_core_of = ENG		
+		add_core_of = BAC
 	}
 
 	provinces={

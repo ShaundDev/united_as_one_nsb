@@ -434,6 +434,48 @@ units = {
 		start_equipment_factor = 0.15
 
 	}
+	##### Malayan High Command #####
+	division = {
+		name = "1st Malaya Infantry Brigade"
+		location = 12299
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
+	
+	division = {
+		name = "2nd Malaya Infantry Brigade"
+		location = 7371
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
+	
+	division = {
+		name = "3rd Malaya Infantry Brigade"
+		location = 7371
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
+	
+	division = {
+		name = "1st Malaya Garrison"
+		location = 7371
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
+	
+	division = {
+		name = "2nd Malaya Garrison"
+		location = 7371
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
+	
+	division = {
+		name = "3rd Malaya Garrison"
+		location = 7371
+		division_template = "Colonial Garrison"		
+		start_experience_factor = 0.0
+	}
 }
 
 

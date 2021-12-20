@@ -1,20 +1,36 @@
 ﻿division_template = {
-	name = "Infantry Division"	# Divisions were reserves assigned to various military districts
+	name = "CMF Division"	# Divisions were reserves assigned to various military districts
 
 	division_names_group = AST_INF_01
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
-		infantry = { x = 3 y = 1 }
+		light_infantry  = { x = 0 y = 0 }
+		light_infantry  = { x = 0 y = 1 }
+		light_infantry  = { x = 0 y = 2 }
+		light_infantry  = { x = 0 y = 3 }
+		
+		light_infantry  = { x = 1 y = 0 }
+		light_infantry  = { x = 1 y = 1 }
+		light_infantry  = { x = 1 y = 2 }
+		light_infantry  = { x = 1 y = 3 }
+		
+		light_infantry  = { x = 2 y = 0 }
+		light_infantry  = { x = 2 y = 1 }
+		light_infantry  = { x = 2 y = 2 }
+
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		anti_tank_brigade =  { x = 3 y = 3 }
+	}
+	support = {
+		div_hq = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		military_police = { x = 0 y = 3 }		
+		maintenance_company = { x = 1 y = 0 }
+		logistics_company = { x = 1 y = 1 }
+		field_hospital = { x = 1 y = 2 }
 	}
 }
 division_template = {
@@ -26,9 +42,19 @@ division_template = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
+
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 		cavalry = { x = 1 y = 2 }
+
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		
+	}
+	support = {
+	    DIV_HQ = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
 	}
 }
 
@@ -56,7 +82,7 @@ units = {
 			name_order = 5
 		}
 		location = 1652 # Perth
-		division_template = "Infantry Division"
+		division_template = "CMF Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -81,7 +107,7 @@ units = {
 			name_order = 1
 		}
 		location = 12406 # Sydney
-		division_template = "Infantry Division"
+		division_template = "CMF Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -93,7 +119,7 @@ units = {
 			name_order = 2
 		}
 		location = 7859 # Canberra
-		division_template = "Infantry Division"
+		division_template = "CMF Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -107,7 +133,7 @@ units = {
 			name_order = 3
 		}
 		location = 7798 # Melbourne
-		division_template = "Infantry Division"
+		division_template = "CMF Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -119,7 +145,7 @@ units = {
 			name_order = 4
 		}
 		location = 7798 # Melbourne
-		division_template = "Infantry Division"
+		division_template = "CMF Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 

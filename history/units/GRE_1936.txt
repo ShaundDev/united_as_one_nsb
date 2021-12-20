@@ -8,9 +8,11 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
@@ -30,9 +32,11 @@ division_template = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
 		mountaineers = { x = 0 y = 2 }
+
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
+		
 		mountaineers = { x = 2 y = 0 }
 		mountaineers = { x = 2 y = 1 }
 	}
@@ -112,7 +116,7 @@ units = {
 		location = 12058
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		#start_equipment_factor = 0.5
 
 	}
 	division = { # "VIII Merarchía Pezikoú"
@@ -123,7 +127,7 @@ units = {
 		location = 3914
 		division_template = "Tetrágono Pezikoú" 
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		#start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -131,7 +135,7 @@ units = {
 		location = 11818
 		division_template = "Merarchía Ippikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		#start_equipment_factor = 0.5
 
 	}
 
@@ -144,7 +148,7 @@ units = {
 		location = 4109
 		division_template = "Tetrágono Pezikoú" 
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		#start_equipment_factor = 0.7
 
 	}
 	division = { # "III Merarchía Pezikoú"
@@ -155,7 +159,7 @@ units = {
 		location = 4193
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		#start_equipment_factor = 0.5
 
 	}
 	division = { # "IV Merarchía Pezikoú"
@@ -166,7 +170,7 @@ units = {
 		location = 7096
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		#start_equipment_factor = 0.5
 
 	}
 
@@ -179,7 +183,7 @@ units = {
 		location = 863
 		division_template = "Tetrágono Pezikoú" 
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		#start_equipment_factor = 0.7
 
 	}
 	division = { # "IX Merarchía Pezikoú"
@@ -190,7 +194,7 @@ units = {
 		location = 966
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		#start_equipment_factor = 0.5
 
 	}
 
@@ -203,7 +207,7 @@ units = {
 		location = 3526
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		#start_equipment_factor = 0.3
 
 	}
 	division = { # "X Merarchía Pezikoú"
@@ -214,7 +218,7 @@ units = {
 		location = 10163
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		#start_equipment_factor = 0.5
 
 	}
 	division = { # "XI Merarchía Pezikoú"
@@ -225,7 +229,7 @@ units = {
 		location = 11818
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		#start_equipment_factor = 0.3
 
 	}
 
@@ -238,7 +242,7 @@ units = {
 		location = 9791
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		#start_equipment_factor = 0.3
 
 	}
 
@@ -251,7 +255,7 @@ units = {
 		location = 11774
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		#start_equipment_factor = 0.3
 
 	}
 }
