@@ -298,7 +298,7 @@ economy_decisions = {
 	seize_some_trains_woo = { #repeating train seize
 
 		visible = { 
-			num_of_factories < 60
+			#num_of_factories < 60
 		}
 		
 		available = {
