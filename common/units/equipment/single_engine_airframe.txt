@@ -40,7 +40,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 8
 		
-		build_cost_ic = 22
+		build_cost_ic = 33
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -93,7 +93,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 8
 		
-		build_cost_ic = 22
+		build_cost_ic = 33
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -144,7 +144,7 @@ equipments = {
 		naval_strike_attack = 3
 		naval_strike_targetting = 10
 		
-		build_cost_ic = 22
+		build_cost_ic = 33
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -196,7 +196,7 @@ equipments = {
 		naval_strike_attack = 4
 		naval_strike_targetting = 10
 		
-		build_cost_ic = 22
+		build_cost_ic = 33
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -244,7 +244,7 @@ equipments = {
 		naval_strike_attack = 15
 		naval_strike_targetting = 7.5
 		
-		build_cost_ic = 26
+		build_cost_ic = 58
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -294,7 +294,7 @@ equipments = {
 		naval_strike_attack = 15
 		naval_strike_targetting = 7.5
 		
-		build_cost_ic = 26
+		build_cost_ic = 38
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -342,7 +342,7 @@ equipments = {
 		naval_strike_attack = 5
 		naval_strike_targetting = 10
 		
-		build_cost_ic = 30
+		build_cost_ic = 40
 		resources = {
 			aluminium = 2
 			tungsten = 3
@@ -387,7 +387,7 @@ equipments = {
 		air_defence = 10
 		
 				
-		build_cost_ic = 24
+		build_cost_ic = 48
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -413,7 +413,7 @@ equipments = {
 		air_defence = 12		
 
 				
-		build_cost_ic = 26
+		build_cost_ic = 50
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -439,7 +439,7 @@ equipments = {
 		air_defence = 14	
 		
 				
-		build_cost_ic = 28
+		build_cost_ic = 52
 		resources = {
 			#oil = 2
 			aluminium = 4
@@ -480,7 +480,7 @@ equipments = {
 		air_attack = 40
 		air_defence = 18
 
-		build_cost_ic = 32
+		build_cost_ic = 52
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -615,7 +615,7 @@ equipments = {
 		air_defence = 16
 		air_ground_attack = 15
 		
-		build_cost_ic = 24
+		build_cost_ic = 52
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -641,7 +641,7 @@ equipments = {
 		air_defence = 20
 		air_ground_attack = 20
 		
-		build_cost_ic = 26
+		build_cost_ic = 54
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -755,7 +755,7 @@ equipments = {
 		naval_strike_attack = 20
 		naval_strike_targetting = 10
 		
-		build_cost_ic = 28
+		build_cost_ic = 62
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -779,7 +779,7 @@ equipments = {
 		naval_strike_attack = 25
 		naval_strike_targetting = 12.5
 	
-		build_cost_ic = 30
+		build_cost_ic = 64
 		resources = {
 			#oil = 2
 			aluminium = 3

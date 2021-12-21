@@ -21,7 +21,7 @@ NDefines.NProduction.BASE_FACTORY_START_EFFICIENCY_FACTOR = 10; -- Base start ef
 NDefines.NProduction.BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 30;	-- Base max efficiency for factories expressed in %.
 
 -- Technology Ahead of time research
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 3;
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 2;
 
 -- Logistic Attack Reduction
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.002; -- If a unit isn't motorized, still disrupt its supply by damage * this
