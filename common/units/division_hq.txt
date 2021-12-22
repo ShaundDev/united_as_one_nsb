@@ -22,8 +22,8 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 10
-		max_organisation = 100
-		default_morale = 0.6
+		max_organisation = 50
+		default_morale = 0.3
 		manpower = 350
 
 		#Misc Abilities
@@ -41,12 +41,14 @@ sub_units = {
 		essential = {
 			support_equipment
 			motorized_equipment
+			radio_equipment
 		}
 
 		need = {
-			infantry_equipment = 10
-			motorized_equipment = 10
-			support_equipment = 10
+			radio_equipment = 20
+			infantry_equipment = 15
+			motorized_equipment = 20
+			support_equipment = 20
 		}
 		
 		forest = {

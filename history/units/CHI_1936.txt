@@ -339,7 +339,7 @@ units = {
 		location = 9974
 		division_template = "Juntuán"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.9
-		start_experience_factor = 0.7
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "2 Fujian Jingbei"
