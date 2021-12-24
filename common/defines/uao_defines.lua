@@ -1,29 +1,32 @@
---- Mod Start/End Date
-NDefines.NGame.START_DATE = "1936.1.1.12"
-NDefines.NGame.END_DATE = "1947.1.1.1"
+--- NGame
+NDefines.NGame.START_DATE = "1936.1.1.12";
+NDefines.NGame.END_DATE = "1947.1.1.1";
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.75, 0.4, 0.2, 0.05, 0.0 };
 
---- Division Designer Change
+--- NMilitary
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_WIDTH = 5; -- Max width of regiments in division designer.
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 4; -- Max height of regiments in division designer.
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2; -- Max width of support in division designer.
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 4; -- Max height of support in division designer.
 
--- Production License Base Change
+-- NDiplomacy
 NDefines.NDiplomacy.LICENSE_ACCEPTANCE_OPINION_FACTOR = 0.3;
-NDefines.NDiplomacy.LICENSE_ACCEPTANCE_TECH_DIFFERENCE_BASE = 19;
+NDefines.NDiplomacy.LICENSE_ACCEPTANCE_TECH_DIFFERENCE_BASE = 0;
+NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 50;
+NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 25;
 
--- Construction Slots
+-- NBuildings
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50;				-- Max slots shared by factories
 NDefines.NBuildings.MAX_BUILDING_LEVELS = 50;			-- Max levels a building can have.
 
--- Production Efficiency Change
+-- NProduction
 NDefines.NProduction.BASE_FACTORY_START_EFFICIENCY_FACTOR = 10; -- Base start efficiency for factories expressed in %.
 NDefines.NProduction.BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 30;	-- Base max efficiency for factories expressed in %.
 
--- Technology Ahead of time research
+-- NTechnology
 NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 3;
 
--- Logistic Attack Reduction
+-- NAir
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.002; -- If a unit isn't motorized, still disrupt its supply by damage * this
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.025;
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_INFRA_DAMAGE_SPILL_FACTOR = 0.0008; -- Portion of truck damage to additionally deal to infrastructure
@@ -38,7 +41,11 @@ NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DIRECT_DISRUPTION_DAMAGE_FACTOR = 0.002;
 
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0.3; -- max trucks we can destroy in one instance of a logistics strike
 
--- Free Templates
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 2 	--Base cost to unlock a regiment slot,
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 2	--Base cost to change a regiment column.
-NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 4 	--Base cost to unlock a support slot
+-- NMilitary
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 2;	--Base cost to unlock a regiment slot,
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 2;	--Base cost to change a regiment column.
+NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 4; 	--Base cost to unlock a support slot
+
+-- AI
+NDefines.NAI.DIPLOMACY_REJECTED_WAIT_MONTHS_BASE = 24;                --up from 4 | should cut down on AI spam
+NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_PENALTY = 0;	

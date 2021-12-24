@@ -2926,51 +2926,10 @@ focus_tree = {
 					}
 				}
 
-				AUS = {
-					country_event = germany.28
-				}				
+				GER = {
+					country_event = { hours = 2 id = germany.4 }
+				}			
 				custom_effect_tooltip = anschluss_mefo_bills_tt
-			}
-			if = {
-				limit = {
-					any_other_country = {
-						original_tag = AUS
-						has_civil_war = yes
-						OR = {
-							owns_state = 4
-							owns_state = 152
-							owns_state = 153
-						}
-					}
-				}
-				custom_effect_tooltip = germany.126.warning
-				random_other_country = {
-					limit = {
-						original_tag = AUS
-						OR = {
-							has_government = fascism
-							AND = {
-								has_government = neutrality
-								NOT = {
-									any_other_country = {
-										original_tag = AUS
-										has_government = fascism
-									}
-								}
-							}
-							NOT = {
-								any_other_country = {
-									original_tag = AUS
-									OR = {
-										has_government = fascism
-										has_government = neutrality
-									}
-								}
-							}							
-						}
-					}
-					country_event = { id = germany.126 days = 1 }
-				}
 			}
 
 			if = {
@@ -3027,7 +2986,7 @@ focus_tree = {
 		prerequisite = { focus = GER_anschluss }
 		available = { is_subject = no }
 		x = 1
-		y = 1
+		y = 2
 		relative_position_id = GER_anschluss
 		cost = 10
 		bypass = {
@@ -3088,7 +3047,7 @@ focus_tree = {
 		}
 		cancel_if_invalid = no
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = GER_demand_memel
 		cost = 10
 		ai_will_do = {
