@@ -9,7 +9,11 @@
 
 		light_infantry = { x = 1 y = 0 }
 		light_infantry = { x = 1 y = 1 }
-		light_infantry = { x = 1 y = 2 }	
+		light_infantry = { x = 1 y = 2 }
+
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
@@ -54,12 +58,15 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
 		
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 		infantry = { x = 2 y = 3 }
+
 		pack_artillery_brigade = { x = 3 y = 0 }
+		pack_artillery_brigade = { x = 3 y = 1 }
 	}
 	support = {
 		div_hq = { x = 0 y = 0 }
@@ -99,6 +106,56 @@ division_template = {
 ### OOB ###
 units = {
 	###### Kuomintang Army (CO: Chang Kai-shek) ######
+	### German Reorganised Divisions (60 Division Plan) ###
+	division = { # "3rd Divsion"
+		name = "3rd Divsion"
+		location = 11761
+		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.1
+	}
+	division = { # "6th Divsion"
+		name = "6th Divsion"
+		location = 1069
+		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.1
+	}
+	division = { # "9th Divsion"
+		name = "9th Divsion"
+		location = 1069
+		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.1
+	}
+	division = { # "14th Divsion"
+		name = "14th Divsion"
+		location = 4619
+		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.1
+	}
+	division = { # "36th Divsion"
+		name = "36th Divsion"
+		location = 11913
+		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.1
+	}
+	division = { # "87th Divsion"
+		name = "87th Divsion"
+		location = 11913
+		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.1
+	}
+	division = { # "88th Divsion"
+		name = "88th Divsion"
+		location = 11913
+		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.1
+	}
 	##### Beiping-Tianjin Area (CO: ) #####
 	### 29 Juntuan (highly-reinforced corps) ###
 	division = {
@@ -124,29 +181,7 @@ units = {
 		location = 4140
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.2
-	}
-	division = { # "87th Divsion"
-		name = "87th Divsion"
-		location = 7058
-		division_template = "Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = { # "3rd Divsion"
-		name = "3rd Divsion"
-		location = 7058
-		division_template = "Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	
-	division = { # "88th Divsion"
-		name = "88th Divsion"
-		location = 7058
-		division_template = "Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
+	}	
 	##### First War Area (CO: Cheng Qian) #####
 	division = { # "4 Qibing Jun"
 		division_name = {
@@ -697,8 +732,6 @@ air_wings = {
 	}
 }
 
-
-
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -717,5 +750,38 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.55
 		efficiency = 100
-	}	
+	}
+	#### equipment stockpile ####
+	### Weapons purchased from Germany
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+			amount = 20000
+			producer = GER
+	}
+	add_equipment_to_stockpile = {
+			type = pack_artillery_equipment_1
+				amount = 1500
+				producer = GER
+	}
+	add_equipment_to_stockpile = {
+			type = anti_tank_equipment_1
+				amount = 250
+				producer = GER
+	}
+	add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+				amount = 500
+				producer = USA
+	}
+	add_equipment_to_stockpile = {
+			type = radio_equipment_1
+				amount = 500
+				producer = USA
+	}
+	add_equipment_to_stockpile = {
+			type = support_equipment_1
+				amount = 1200
+				producer = USA
+	}
+
 }

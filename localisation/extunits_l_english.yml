@@ -27,6 +27,7 @@
  pack4_desc:0 "Improved alloys and materials allow the use of more advanced ammunition types in our small artillery pieces."
 
  ### Pack Artillery Generic
+ pack_artillery_equipment:0 "Pack Artillery"
  pack_artillery_equipment_1:0 "Pack Artillery I"
  pack_artillery_equipment_1_short:0 "Pack Artillery"
  pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible."
@@ -35,6 +36,13 @@
  pack_artillery_equipment_2_short:0 "Improved Pack Artillery"
  pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible."
 
+ special_equipment:0 "Special Forces Eq."
+ special_equipment_1:0 "Special Forces Equipment"
+ special_equipment_1_short:0 "Special Forces Equipment"
+
+ radio_equipment:0 "Radio Eq."
+ radio_equipment_1:0 "Radio Equipment"
+ radio_equipment_1_short:0 "Radio Equipment"
  ### Light & Garrison Infantry
  light_infantry:0 "Light Infantry"
  light_infantry_desc:0 ""
