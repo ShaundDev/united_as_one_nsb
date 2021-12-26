@@ -280,7 +280,6 @@ focus_tree = {
 		id = HUN_strengthen_fascists
 		icon = GFX_goal_support_fascism
 		prerequisite = { focus = HUN_economic_intervention }
-		mutually_exclusive = { focus = HUN_council_of_peoples_commissars }
 		x = 0
 		y = 1
 		relative_position_id = HUN_economic_intervention
@@ -447,7 +446,6 @@ focus_tree = {
 		id = HUN_trade_deal_with_germany
 		icon = GFX_goal_generic_trade
 		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
-		mutually_exclusive = { focus = HUN_renew_the_rome_protocols }
 		x = 0
 		y = 1
 		relative_position_id = HUN_renounce_the_treaty_of_trianon

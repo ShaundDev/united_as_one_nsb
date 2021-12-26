@@ -3527,16 +3527,16 @@ country_event = {
 		}
 	}
 
-	option = {
-		name = lar_non_intervention.1.b #refuse
-		ai_chance = {
-			factor = 20
-		}
-		FRA = {
-			country_event = lar_non_intervention.3
-		}
-		set_country_flag = FRA_non_intervention_refused
-	}
+#	option = {
+#		name = lar_non_intervention.1.b #refuse
+#		ai_chance = {
+#			factor = 20
+#		}
+#		FRA = {
+#			country_event = lar_non_intervention.3
+#		}
+#		set_country_flag = FRA_non_intervention_refused
+#	}
 }
 
 # rasponse event for France - country agrees

@@ -14,8 +14,10 @@ division_template = {
 		infantry = { x = 1 y = 3 }
 	}
 	support = {
-		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
-		engineer = { x = 0 y = 1 }   # Eng Bn
+		div_hq = { x = 0 y = 0 } 
+		recon = { x = 0 y = 1 } 
+		artillery = { x = 1 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+		engineer = { x = 1 y = 1 }   # Eng Bn
 	}
 }
 division_template = {
@@ -46,11 +48,15 @@ division_template = {
 	regiments = {
 		mountaineers = { x = 0 y = 0 }	
 		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
 	}
 	support = {
-		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+		div_hq = { x = 0 y = 0 } 
+		recon = { x = 0 y = 1 } 
+		artillery = { x = 0 y = 2 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
 	}
 }
 division_template = {
@@ -58,13 +64,21 @@ division_template = {
 	division_names_group = SPR_GAR_01
 
 	regiments = {
-		infantry = { x = 0 y = 0 }	
-		infantry = { x = 0 y = 1 }	
-		infantry = { x = 1 y = 0 }	
-		infantry = { x = 1 y = 1 }	
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }		
+		light_infantry = { x = 2 y = 3 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   # Eng Bn
+		DIV_HQ = { x = 0 y = 0 } 
+		recon = { x = 0 y = 1 } 
+		engineer = { x = 0 y = 2 }   # Eng Bn
 	}
 }
 

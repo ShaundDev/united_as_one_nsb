@@ -3,10 +3,16 @@
 	is_locked = yes
 	division_names_group = SPR_INF_01
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 0 y = 3 }
+		light_infantry = { x = 1 y = 0 }
 	}
+	support = {		
+		recon = { x = 0 y = 0 }		
+	}
+
 }
 
 units = {

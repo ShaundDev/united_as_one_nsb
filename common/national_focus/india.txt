@@ -246,7 +246,7 @@ focus_tree = {
 	focus = {
 		id = RAJ_two_nation_theory
 		icon = GFX_focus_RAJ_two_nation_theory
-		prerequisite = { focus = RAJ_cripps_mission focus = RAJ_swaraj }
+		prerequisite = { focus = RAJ_cripps_mission }
 		x = 0
 		y = 2
 		relative_position_id = RAJ_indian_national_congress

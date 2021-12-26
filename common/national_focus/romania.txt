@@ -64,7 +64,6 @@
 	focus = {
 		id = ROM_preserve_greater_romania
 		icon = GFX_focus_rom_preserve_romania
-		mutually_exclusive = { focus = ROM_balkans_dominance }
 		x = 0
 		y = 0
 
@@ -994,7 +993,6 @@
 		id = ROM_flexible_foreign_policy
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = ROM_revise_the_constitution }
-		mutually_exclusive = { focus = ROM_his_majestys_loyal_government }
 		x = 1
 		y = 2
 		relative_position_id = ROM_institute_royal_dictatorship

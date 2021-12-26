@@ -2289,8 +2289,6 @@ focus_tree = {
 
 	focus = {
 		id = BUL_war_industry
-
-		prerequisite = { focus = BUL_strengthen_the_royal_dictatorship }
 		prerequisite = { focus = BUL_found_the_brannik }
 
 		icon = GFX_goal_generic_small_arms #GFX_goal_generic_army_artillery2
@@ -3187,8 +3185,6 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 5
-		mutually_exclusive = { focus = BUL_the_fate_of_the_balkans focus = BUL_join_the_allies }
-
 		bypass = {
 			OR = {
 				is_subject = yes
@@ -3392,7 +3388,7 @@ focus_tree = {
 	focus = {
 		id = BUL_bulgarian_administration_of_the_balkans
 
-		prerequisite = { focus = BUL_peaceful_development focus = BUL_nationalist_propaganda }
+		prerequisite = { focus = BUL_peaceful_development }
 
 		icon = GFX_focus_BUL_bulgarian_administration_of_the_balkans
 		relative_position_id = BUL_join_the_tripartite_pact
