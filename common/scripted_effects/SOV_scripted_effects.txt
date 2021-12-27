@@ -7973,13 +7973,6 @@ SOV_start_civil_war = {
 				uncomplete_children = yes
 			}
 		}
-		if = {
-			limit = { has_completed_focus = SOV_beaten_but_not_defeated }
-			uncomplete_national_focus = { # Remove all traces of exiles'
-				focus = SOV_beaten_but_not_defeated
-				uncomplete_children = yes
-			}
-		}
 
 		complete_national_focus = SOV_the_path_of_marxism_leninism
 		complete_national_focus = SOV_the_centre

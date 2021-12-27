@@ -2367,13 +2367,6 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetAntiCapitalismFocusLoc
-	text = {
-		localization_key = BUL_the_anti_capitalist_fight_desc
-	}
-}
-
-defined_text = {
 	name = GetUnitedWeShallPrevailFocusLoc
 	text = {
 		localization_key = BUL_united_we_shall_prevail_desc

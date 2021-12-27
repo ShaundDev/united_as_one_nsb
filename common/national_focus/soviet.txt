@@ -6486,44 +6486,11 @@ focus_tree = {
 		prerequisite = { focus = SOV_the_path_of_marxism_leninism }
 		x = -5
 		y = 1
-		offset = {
-			x = 8
-			y = 1
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = SOV_beaten_but_not_defeated
-				NOT = { has_completed_focus = SOV_the_hands_do }
-			}
-		}
 		relative_position_id = SOV_the_path_of_marxism_leninism
 		cost = 5
 
 		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					AND = {
-						has_completed_focus = SOV_the_left_opposition
-						has_completed_focus = SOV_left_opposition_coup
-					}
-					AND = {
-						has_completed_focus = SOV_the_right_opposition
-						has_completed_focus = SOV_coup_detat
-					}
-					AND = {
-						has_completed_focus = SOV_beaten_but_not_defeated
-						has_completed_focus = SOV_the_hands_do
-					}
-				}
-			}
+
 		}
 
 		available = {
@@ -7949,15 +7916,7 @@ focus_tree = {
 		cost = 5
 
 		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = { has_completed_focus = SOV_beaten_but_not_defeated }
-			}
+
 		}
 
 		available = {
