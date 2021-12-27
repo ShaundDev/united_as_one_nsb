@@ -30,7 +30,6 @@ bookmarks = {
 				FRA_protected_by_the_maginot_line
 			}
 			focuses = {
-				FRA_invite_communist_ministers
 				FRA_utilize_the_leagues
 				FRA_je_suis_la_deluge
 			}
@@ -211,7 +210,6 @@ bookmarks = {
 				RAJ_princely_states
 			}
 			focuses = {
-				RAJ_all_india_forward_bloc
 				RAJ_indian_gurkhas
 				RAJ_the_smiling_buddha
 			}

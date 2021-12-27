@@ -104,15 +104,9 @@ characters = {
 			}
 			visible = {
 				has_completed_focus = SOV_beaten_but_not_defeated
-				NOT = {
-					has_completed_focus = SOV_the_third_rome
-				}
 			}
 			available = {
 				has_completed_focus = SOV_the_hands_do
-				NOT = {
-					has_completed_focus = SOV_the_third_rome
-				}
 			}
 			traits = {
 				the_masses_opium
