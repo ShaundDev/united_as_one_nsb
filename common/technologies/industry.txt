@@ -10,10 +10,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		path = {
-			leads_to_tech = industrial_skills1
-			research_cost_coeff = 1
-		}
+#		path = {
+#			leads_to_tech = industrial_skills1
+#			research_cost_coeff = 1
+#		}
 
 #		path = {
 #			leads_to_tech = dispersed_industry
@@ -82,11 +82,11 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 1941
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -207,114 +207,6 @@ technologies = {
 			industry
 		}
 	}
-
-	industrial_skills1 = {
-	    
-		production_factory_efficiency_gain_factor = 0.05
-		line_change_production_efficiency_factor = 0.05
-
-		path = {
-			leads_to_tech = industrial_skills2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1936
-		
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 2 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-								
-		}
-		
-		categories = {
-			industry
-		}
-	}
-	industrial_skills2 = {
-	    
-		conversion_cost_civ_to_mil_factor = -0.1
-		production_factory_efficiency_gain_factor = 0.075
-		line_change_production_efficiency_factor = 0.075
-
-		path = {
-			leads_to_tech = industrial_skills3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1937
-		
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 5
-								
-		}
-		
-		categories = {
-			industry
-		}
-	}
-	industrial_skills3 = {
-	    
-		conversion_cost_civ_to_mil_factor = -0.15
-		production_factory_efficiency_gain_factor = 0.1
-		line_change_production_efficiency_factor = 0.1
-
-		path = {
-			leads_to_tech = industrial_skills4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1939
-		
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 5					
-			
-		}
-		
-		categories = {
-			industry
-		}
-	}
-	industrial_skills4 = {
-	    
-		production_factory_efficiency_gain_factor = 0.15
-		line_change_production_efficiency_factor = 0.15
-		
-		research_cost = 1.5
-		start_year = 1941
-		
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 5
-								
-		}
-		
-		categories = {
-			industry
-		}
-	}
-
-
 
 	#Conversion branch - Enabled in DoD
 	improved_equipment_conversion = {
@@ -522,7 +414,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 5 }
+			position = { x = -1 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -566,7 +458,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 7 }
+			position = { x = -1 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -609,7 +501,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 9 }
+			position = { x = -1 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -642,7 +534,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 11 }
+			position = { x = -1 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -773,7 +665,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 5 }
+			position = { x = 1 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -819,7 +711,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 7 }
+			position = { x = 1 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -865,7 +757,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 9 }
+			position = { x = 1 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -902,7 +794,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 11 }
+			position = { x = 1 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -934,7 +826,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 3 }
+			position = { x = 0 y = 2 }
 		}
 		
 		categories = {
@@ -961,7 +853,7 @@ technologies = {
 	
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 4 }
 		}
 		
 		categories = {
@@ -988,7 +880,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = 6 }
 		}
 		
 		categories = {
@@ -1014,7 +906,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 8 }
 		}
 		
 		categories = {

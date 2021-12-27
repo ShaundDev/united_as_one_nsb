@@ -10,7 +10,7 @@ set_technology = {
 	field_equipment = 1
 	special_equipment = 1
 	tech_mountaineers = 1
-	tech_dig_1 = 1
+	#tech_dig_1 = 1
 	################## support ##################
 	tech_recon = 1
 	tech_engineers = 1

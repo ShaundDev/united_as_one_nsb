@@ -149,45 +149,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = RAJ_quit_india_movement
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = RAJ_cripps_mission }
-		x = 0
-		y = 2
-		relative_position_id = RAJ_cripps_mission
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			is_subject = yes
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_ideas = RAJ_quit_india_movement
-			set_country_flag = RAJ_quit_india_movement
-			custom_effect_tooltip = "tfv_raj_quit_india_unrest_tt"
-			hidden_effect = {
-				country_event = { id = tfv_raj.210 days = 15 random_days = 20 }
-				news_event = { id = news.282 hours = 6 }
-			}
-		}
-	}
-
 	############################
 	### SOMEWHAT DEMOCRATIC ####
 	############################
@@ -290,6 +251,45 @@ focus_tree = {
 					add_idea = RAJ_marginalized_muslim_community_happy
 					remove_idea = RAJ_marginalized_muslim_community
 				}
+			}
+		}
+	}
+
+	focus = {
+		id = RAJ_quit_india_movement
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = RAJ_cripps_mission }
+		x = 0
+		y = 2
+		relative_position_id = RAJ_cripps_mission
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			is_subject = yes
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_ideas = RAJ_quit_india_movement
+			set_country_flag = RAJ_quit_india_movement
+			custom_effect_tooltip = "tfv_raj_quit_india_unrest_tt"
+			hidden_effect = {
+				country_event = { id = tfv_raj.210 days = 15 random_days = 20 }
+				news_event = { id = news.282 hours = 6 }
 			}
 		}
 	}
