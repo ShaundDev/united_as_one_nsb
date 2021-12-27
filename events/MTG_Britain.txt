@@ -6708,65 +6708,6 @@ country_event = {
 	}
 }
 
-# Event for imperial loyalists winning civil war and requesting 'guidance'
-country_event = {
-	id = mtg_britain.113
-	title = mtg_britain.113.t
-	desc = mtg_britain.113.d
-	picture = GFX_report_event_generic_sign_treaty3
-
-	is_triggered_only = yes
-	
-	# Ok I guess
-	option = {
-		name = mtg_britain.113.a
-		set_autonomy = {
-		    target = FROM
-		    autonomy_state = autonomy_integrated_puppet
-		}
-		hidden_effect = {
-			if = {
-				limit = {
-					FROM = { original_tag = CAN }
-				}
-				FROM = {
-					load_focus_tree = { tree = canadian_focus keep_completed = yes }
-					CAN_enforce_loyalty = yes
-				}
-			}
-			if = {
-				limit = {
-					FROM = { original_tag = SAF }
-				}
-				FROM = {
-					load_focus_tree = { tree = south_african_focus keep_completed = yes }
-					SAF_enforce_loyalty = yes
-				}
-			}
-			if = {
-				limit = {
-					FROM = { original_tag = AST }
-				}
-				FROM = {
-					load_focus_tree = { tree = australian_focus keep_completed = yes }
-					AST_enforce_loyalty = yes
-				}
-			}
-			if = {
-				limit = {
-					FROM = { original_tag = NZL }
-				}
-				FROM = {
-					load_focus_tree = { tree = new_zealander_focus keep_completed = yes }
-					NZL_enforce_loyalty = yes
-				}
-			}
-		}
-	}
-}
-
-####
-
 country_event = {
 	id = mtg_britain.999
 	title = mtg_britain.999.t

@@ -692,49 +692,6 @@ characters={
 
 	### POLITICAL ADVISORS ###
 
-	RAJ_bhimrao_ramji_ambedkar={
-		name=RAJ_bhimrao_ramji_ambedkar
-		portraits={
-			army={
-				smalL="GFX_idea_RAJ_bhimrao_ramji_ambedkar" #small="GFX_idea_generic_political_advisor_india_1"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = RAJ_bhimrao_ramji_ambedkar
-			allowed = {
-				original_tag = RAJ
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = RAJ_indian_national_congress 
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-			}
-			traits = {
-				democratic_reformer 
-			}
-			do_effect = {
-				NOT = {
-					has_government = democratic 
-				}
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}		
-	}
-	
 	RAJ_john_edward_golightly={
 		name=RAJ_john_edward_golightly
 		portraits={

@@ -1517,41 +1517,6 @@ characters = {
 		}
 	}
 
-	BUL_stoycho_mushanov = {
-		advisor = {
-			slot = political_advisor
-			idea_token = BUL_stoycho_mushanov
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
-			available = {
-			}
-			traits = {
-				democratic_reformer 
-			}
-			ai_will_do = {
-				base = 1.000
-				modifier = {
-					factor = 2.000
-					OR = {
-						BUL_is_democratic_socialist_ai = yes 
-						BUL_is_democratic_liberal_ai = yes 
-					}
-					NOT = {
-						has_government = democratic 
-					}
-				}
-			}
-		}
-		name = BUL_stoycho_mushanov
-		portraits = {
-			army = {
-				small = "GFX_idea_bul_stoycho_mushanov"
-			}
-		}
-	}
-
 	BUL_nikola_petkov = {
 		instance = {
 			allowed = {
@@ -1700,7 +1665,7 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				has_completed_focus = BUL_democratic_principles 
+
 			}
 			traits = {
 				industry_reformer 
@@ -1717,92 +1682,6 @@ characters = {
 		}
 	}
 	
-	BUL_dimitrana_ivanova = {
-		name = BUL_dimitrana_ivanova
-		portraits = {
-			army = {
-				small = "GFX_idea_bul_dimitrana_ivanova"
-			}
-		}
-		gender = female
-		advisor = {
-			slot = political_advisor
-			idea_token = BUL_dimitrana_ivanova
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
-			available = {
-				OR = {
-					has_completed_focus = BUL_limited_womens_suffrage 
-					has_completed_focus = BUL_full_voting_rights_for_women 
-				}
-			}
-			traits = {
-				womens_rights_activist 
-			}
-			ai_will_do = {
-				base = 1.000
-				modifier = {
-					factor = 2.000
-					OR = {
-						BUL_is_democratic_socialist_ai = yes 
-						BUL_is_democratic_liberal_ai = yes 
-					}
-				}
-				modifier = {
-					factor = 2
-					OR = {
-						BUL_is_monarchist_ferdinand_ai = yes
-						BUL_is_historical_ai = yes
-					}
-					NOT = { has_completed_focus = BUL_illusions_of_a_non_partisan_system }
-					democratic < 0.2
-				}
-				modifier = {
-					factor = 0.000
-					BUL_is_monarchist_ferdinand_ai = yes 
-					has_completed_focus = BUL_illusions_of_a_non_partisan_system 
-				}
-			}
-		}
-	}
-
-	BUL_vasil_kolarov = {
-		advisor = {
-			slot = political_advisor
-			idea_token = BUL_vasil_kolarov
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
-			available = {
-				NOT = {
-					has_completed_focus = BUL_power_to_the_tsar 
-				}
-			}
-			traits = {
-				communist_revolutionary 
-			}
-			ai_will_do = {
-				base = 1.000
-				modifier = {
-					factor = 3.000
-					OR = {
-						BUL_is_communist_stalinist_ai = yes 
-						BUL_is_communist_balkan_ai = yes 
-					}
-				}
-			}
-		}
-		name = BUL_vasil_kolarov
-		portraits = {
-			army = {
-				small = "GFX_idea_bul_vasil_kolarov"
-			}
-		}
-	}
-
 	BUL_valko_chervenkov = {
 		advisor = {
 			slot = political_advisor
@@ -1825,40 +1704,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_bul_valko_chervenkov"
-			}
-		}
-	}
-
-	BUL_todor_pavlov = {
-		advisor = {
-			slot = political_advisor
-			idea_token = BUL_todor_pavlov
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
-			available = {
-				has_country_flag = BUL_appointed_bs_members_flag 
-				NOT = {
-					has_government = fascism 
-				}
-			}
-			traits = {
-				marxist_philosopher 
-			}
-			ai_will_do = {
-				base = 3.000
-				modifier = {
-					factor = 0
-					BUL_is_historical_ai = yes
-					#NOT = { has_completed_focus = BUL_illusions_of_a_non_partisan_system } #Better not to hire him Boris, he'll definitely make it easier for the Fatherland Front later on, even though you won't be there to see it
-				}
-			}
-		}
-		name = BUL_todor_pavlov
-		portraits = {
-			army = {
-				small = "GFX_idea_bul_todor_pavlov"
 			}
 		}
 	}
