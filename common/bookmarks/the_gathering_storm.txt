@@ -255,34 +255,6 @@ bookmarks = {
 
 			}
 		}
-
-		"MEX"={
-			minor = yes
-			history = "MEXICO_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				MEX_church_power_1
-				MEX_politicised_army
-				MEX_ejido_worker_militias
-				MEX_capital_reserves
-			}
-			focuses = {
-
-			}
-		}
-
-		"SPR"={
-			minor = yes
-			history = "SPAIN_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-				SPA_carlism_4
-				SPA_recovering_from_civil_war
-			}
-			focuses = {
-
-			}
-		}
 		
 		"BUL"={
 			minor = yes
