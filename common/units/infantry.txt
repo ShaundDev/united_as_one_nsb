@@ -29,7 +29,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 18
-		max_organisation = 50
+		max_organisation = 60
 		default_morale = 0.3
 		manpower = 1000
 
@@ -513,14 +513,13 @@ sub_units = {
 			category_front_line
 			category_all_infantry
 			category_army
-			category_motorised
 		}
 		
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 18
-		max_organisation = 50
+		max_strength = 20
+		max_organisation = 60
 		default_morale = 0.30
 		manpower = 1200
 
@@ -584,7 +583,6 @@ sub_units = {
 			category_front_line
 			category_all_infantry
 			category_army
-			category_motorised
 		}
 
 		combat_width = 2

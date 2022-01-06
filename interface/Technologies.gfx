@@ -98,7 +98,7 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_archetype_artillery_equipment_medium"
+		name = "GFX_archetype_interwar_artillery_medium"
 		texturefile = "gfx/interface/archetypes/archetype_artillery_equipment.dds"
 	}	
 
@@ -245,8 +245,8 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_gw_artillery_medium"
-		texturefile = "gfx/interface/technologies/Art_1_comintern.dds"
+		name = "GFX_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_comintern.dds"
 	}	
 	
 	SpriteType = {
@@ -320,35 +320,62 @@ spriteTypes = {
 		name = "GFX_rocket_artillery2_medium"
 		texturefile = "gfx/interface/technologies/rocket_artillery2.dds"
 	}	
+
+	SpriteType = {
+		name = "GFX_artillery6_medium"
+		texturefile = "gfx/interface/technologies/artillery/artillery6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_artillery6_medium"
+		texturefile = "gfx/interface/technologies/artillery/artillery6.dds"
+	}	
 	
+	## Generic Artillery Icon
 	SpriteType = {
 		name = "GFX_artillery5_medium"
-		texturefile = "gfx/interface/technologies/artillery5.dds"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_3_comintern.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_heavy_artillery4_medium"
+		texturefile = "gfx/interface/technologies/artillery/artillery4.dds"
 	}	
 	
 	SpriteType = {
+		name = "GFX_heavy_artillery3_medium"
+		texturefile = "gfx/interface/technologies/artillery/artillery3.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_artillery4_medium"
-		texturefile = "gfx/interface/technologies/Art_3_comintern.dds"
+		texturefile = "gfx/interface/technologies/artillery/artillery4.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_artillery3_medium"
-		texturefile = "gfx/interface/technologies/artillery3.dds"
-	}	
-	
+		texturefile = "gfx/interface/technologies/artillery/artillery3.dds"
+	}
+
+	## Generic Artillery Icon
 	SpriteType = {
 		name = "GFX_artillery2_medium"
-		texturefile = "gfx/interface/technologies/artillery2.dds"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_2_comintern.dds"
 	}	
-	
+
+	SpriteType = {
+		name = "GFX_heavy_artillery1_medium"
+		texturefile = "gfx/interface/technologies/artillery/artillery1.dds"
+	}	
+
 	SpriteType = {
 		name = "GFX_artillery1_medium"
-		texturefile = "gfx/interface/technologies/Art_2_comintern.dds"
+		texturefile = "gfx/interface/technologies/artillery/artillery1.dds"
 	}	
-	
+
 	SpriteType = {
 		name = "GFX_interwar_artillery_medium"
-		texturefile = "gfx/interface/technologies/artillery1.dds"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_allies.dds"
 	}	
 	
 	### infantry tech	###
@@ -2278,17 +2305,17 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_GER_artillery4_medium"
-		texturefile = "gfx/interface/technologies/Art_3_axis.dds"
+		name = "GFX_GER_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_3_axis.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_GER_artillery1_medium"
-		texturefile = "gfx/interface/technologies/Art_2_axis.dds"
+		name = "GFX_GER_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_2_axis.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_GER_gw_artillery_medium"
+		name = "GFX_GER_interwar_artillery_medium"
 		texturefile = "gfx/interface/technologies/Art_1_axis.dds"
 	}
 
@@ -2431,18 +2458,33 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_SOV_artillery4_medium"
-		texturefile = "gfx/interface/technologies/Art_3_comintern.dds"
+		name = "GFX_SOV_heavy_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty3_comintern.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_SOV_artillery1_medium"
-		texturefile = "gfx/interface/technologies/Art_2_comintern.dds"
+		name = "GFX_SOV_heavy_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty2_comintern.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_SOV_gw_artillery_medium"
-		texturefile = "gfx/interface/technologies/Art_1_comintern.dds"
+		name = "GFX_SOV_interwar_heavyartillery_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty1_comintern.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_3_comintern.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_2_comintern.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_comintern.dds"
 	}
 
 	SpriteType = {
@@ -2571,18 +2613,33 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_ENG_artillery4_medium"
-		texturefile = "gfx/interface/technologies/Art_3_allies.dds"
+		name = "GFX_ENG_heavy_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty3_allies.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_ENG_artillery1_medium"
-		texturefile = "gfx/interface/technologies/Art_2_allies.dds"
+		name = "GFX_ENG_heavy_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty2_allies.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_ENG_gw_artillery_medium"
-		texturefile = "gfx/interface/technologies/Art_1_allies.dds"
+		name = "GFX_ENG_interwar_heavyartillery_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty1_allies.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_3_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_2_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_allies.dds"
 	}
 
 	SpriteType = {
@@ -2616,8 +2673,8 @@ spriteTypes = {
 	}	
 	
 #	SpriteType = {
-#		name = "GFX_ENG_artillery_equipment_medium"
-#		texturefile = "gfx/interface/technologies/ENG_artillery_equipment.dds"
+#		name = "GFX_ENG_interwar_artillery_medium"
+#		texturefile = "gfx/interface/technologies/artillery/Art_1_allies.dds"
 #	}	
 	
 	### ENG aircraft ###	
@@ -2780,7 +2837,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ENG_superheavy_tank.dds"
 	}
 
-	### FRE equipment	###
+	### FRA equipment	###
 	
 	SpriteType = {
 		name = "GFX_FRA_motorised_infantry_medium"
@@ -2818,17 +2875,17 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_FRA_artillery4_medium"
+		name = "GFX_FRA_artillery5_medium"
 		texturefile = "gfx/interface/technologies/Art_3_allies.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_FRA_artillery1_medium"
+		name = "GFX_FRA_artillery2_medium"
 		texturefile = "gfx/interface/technologies/Art_2_allies.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_FRA_gw_artillery_medium"
+		name = "GFX_FRA_interwar_artillery_medium"
 		texturefile = "gfx/interface/technologies/Art_1_allies.dds"
 	}
 
@@ -3009,17 +3066,32 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_JAP_artillery4_medium"
-		texturefile = "gfx/interface/technologies/Art_3_axis.dds"
+		name = "GFX_JAP_heavy_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty3_axis.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_JAP_artillery1_medium"
-		texturefile = "gfx/interface/technologies/Art_2_axis.dds"
+		name = "GFX_JAP_heavy_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty2_axis.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_JAP_gw_artillery_medium"
+		name = "GFX_JAP_interwar_heavyartillery_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty1_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_3_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_2_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_interwar_artillery_medium"
 		texturefile = "gfx/interface/technologies/Art_1_axis.dds"
 	}
 
@@ -3185,17 +3257,32 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_ITA_artillery4_medium"
-		texturefile = "gfx/interface/technologies/Art_3_axis.dds"
+		name = "GFX_ITA_heavy_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty3_axis.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_ITA_artillery1_medium"
-		texturefile = "gfx/interface/technologies/Art_2_axis.dds"
+		name = "GFX_ITA_heavy_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty2_axis.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_ITA_gw_artillery_medium"
+		name = "GFX_ITA_interwar_heavyartillery_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty1_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_3_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ITA_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_2_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ITA_interwar_artillery_medium"
 		texturefile = "gfx/interface/technologies/Art_1_axis.dds"
 	}
 
@@ -3376,17 +3463,17 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_USA_artillery4_medium"
-		texturefile = "gfx/interface/technologies/Art_3_allies.dds"
+		name = "GFX_USA_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_3_allies.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_USA_artillery1_medium"
-		texturefile = "gfx/interface/technologies/Art_2_allies.dds"
+		name = "GFX_USA_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/Art_1_2_allies.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_USA_gw_artillery_medium"
+		name = "GFX_USA_interwar_artillery_medium"
 		texturefile = "gfx/interface/technologies/Art_1_allies.dds"
 	}
 

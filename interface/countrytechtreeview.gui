@@ -1189,10 +1189,23 @@ guiTypes = {
 				size = { width = 600 height = 80% }				
 				orientation = center_up
 				origo = center_up
-			
+
+				instantTextBoxType = {
+					name = "artillery_subtitle_anti_tank"
+					position = { x = 870 y = 160 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ARTILLERY_TITLE_AT"
+					maxWidth = 290
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				
 				instantTextBoxType = {
 					name = "artillery_subtitle_rocket"
-					position = { x = 405 y = 460 }
+					position = { x = 680 y = 460 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1202,23 +1215,10 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}				
-
-				instantTextBoxType = {
-					name = "artillery_subtitle_anti_tank"
-					position = { x = 655 y = 160 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "ARTILLERY_TITLE_AT"
-					maxWidth = 290
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}					
 				
 				instantTextBoxType = {
 					name = "artillery_subtitle_artillery"
-					position = { x = 105 y = 55 }
+					position = { x = 350 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1230,8 +1230,21 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
+					name = "artillery_subtitle_heavy_artillery"
+					position = { x = 180 y = 180  }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "HEAVY ARTILLERY"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}	
+
+				instantTextBoxType = {
 					name = "artillery_subtitle_anti_air"
-					position = { x = -14 y = 160  }
+					position = { x = -100 y = 200  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1240,7 +1253,21 @@ guiTypes = {
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
-				}			
+				}
+				
+				instantTextBoxType = {
+					name = "artillery_subtitle_pack_artillery"
+					position = { x = -400 y = 180  }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "PACK ARTILLERY"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
 			}					
 
 			containerWindowType = {
@@ -1495,12 +1522,45 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
-				name = "gw_artillery_tree"
-				position = { x = 10% y = 172 }
+				name = "interwar_antitank_tree"
+				position = { x = 20% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+
+			gridboxtype = {
+				name = "interwar_artillery_tree"
+				position = { x = 20% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "interwar_heavyartillery_tree"
+				position = { x = 20% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "interwar_antiair_tree"
+				position = { x = 20% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "interwar_pack_tree"
+				position = { x = 20% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
 		}
 
 		containerWindowType = {

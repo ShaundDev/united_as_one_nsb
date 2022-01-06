@@ -1,130 +1,5 @@
 technologies = {
 
-	gw_artillery = {
-
-		path = {
-			leads_to_tech = interwar_pack
-			research_cost_coeff = 1
-		}
-
-		enable_equipments = {
-			artillery_equipment_1
-		}
-
-		path = {
-			leads_to_tech = interwar_artillery
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = interwar_antitank
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = interwar_antiair
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = interwar_heavyartillery
-			research_cost_coeff = 1
-		}
-
-		enable_equipment_modules = {
-			ship_anti_air_1
-			tank_small_cannon
-			secondary_turret_small_cannon
-		}
-		
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
-	}
-
-	interwar_artillery = {
-
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-
-		enable_equipment_modules = {
-			tank_medium_howitzer
-			tank_small_cannon_2
-			tank_close_support_gun
-			secondary_turret_close_support_gun
-		}
-
-		path = {
-			leads_to_tech = artillery1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		start_year = 1936
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 2 }
-		}
-
-		categories = {
-			artillery
-		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
-	}
-
 	interwar_pack = {
 		
 		enable_equipments = {
@@ -230,7 +105,114 @@ technologies = {
 		}
 	}
 
+
+	interwar_artillery = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		enable_equipment_modules = {
+			artillery_equipment_1
+			ship_anti_air_1
+			tank_small_cannon
+			secondary_turret_small_cannon
+		}
+
+		path = {
+			leads_to_tech = artillery1
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "1939.1.1"
+			}
+		}
+	}
+
 	artillery1 = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+
+		enable_equipment_modules = {
+			tank_medium_howitzer
+			tank_small_cannon_2
+			tank_close_support_gun
+			secondary_turret_close_support_gun
+		}
+
+		path = {
+			leads_to_tech = artillery2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "1939.1.1"
+			}
+		}
+	}
+
+	artillery2 = {
 
 		enable_equipments = {
 			artillery_equipment_2
@@ -243,7 +225,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = artillery2
+			leads_to_tech = artillery3
 			research_cost_coeff = 1
 		}
 
@@ -280,7 +262,7 @@ technologies = {
 		}
 	}
 
-	artillery2 = {
+	artillery3 = {
 
 		artillery = {
 			soft_attack = 0.1
@@ -293,7 +275,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = artillery3
+			leads_to_tech = artillery4
 			research_cost_coeff = 1
 		}
 
@@ -335,7 +317,7 @@ technologies = {
 		}
 	}
 
-	artillery3 = {
+	artillery4 = {
 
 		artillery = {
 			soft_attack = 0.1
@@ -350,7 +332,7 @@ technologies = {
 			tank_medium_cannon_2
 		}
 		path = {
-			leads_to_tech = artillery4
+			leads_to_tech = artillery5
 			research_cost_coeff = 1
 		}
 
@@ -382,7 +364,7 @@ technologies = {
 		}
 	}
 
-	artillery4 = {
+	artillery5 = {
 
 		enable_equipments = {
 			artillery_equipment_3
@@ -392,7 +374,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = artillery5
+			leads_to_tech = artillery6
 			research_cost_coeff = 1
 		}
 
@@ -429,7 +411,7 @@ technologies = {
 		}
 	}
 
-	artillery5 = {
+	artillery6 = {
 
 		artillery = {
 			soft_attack = 0.1
@@ -982,6 +964,9 @@ technologies = {
 		}
 	}
 
+	###################### 
+	### Heavy Artillery
+	###################### 
 	interwar_heavyartillery = {
 
 		###################### 
@@ -1008,7 +993,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = heavy_artillery2 
+			leads_to_tech = heavy_artillery1 
 			research_cost_coeff = 1
 		}
 
@@ -1018,6 +1003,179 @@ technologies = {
 			factor = 10	
 		}
 	}
+
+	heavy_artillery1 = {
+		
+		category_heavy_artillery = {
+			soft_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = heavy_artillery2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.3
+		start_year = 1938
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+	   
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				tag = USA
+				factor = 10
+			}
+			modifier = {
+				tag = GER
+				factor = 10
+			}
+			modifier = {
+				tag = ENG
+				factor = 10
+			}
+		}
+	}
+	
+	heavy_artillery2 = {
+	
+		enable_equipments = {
+			heavy_artillery_equipment_2
+		}
+
+		path = {
+			leads_to_tech = heavy_artillery3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.3
+		start_year = 1940
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				tag = USA
+				factor = 10
+			}
+			modifier = {
+				tag = GER
+				factor = 10
+			}
+			modifier = {
+				tag = ENG
+				factor = 10
+			}	
+		}		
+	}
+	# Artillery Gun upgrade
+	heavy_artillery3 = {
+		
+		category_heavy_artillery = {
+			soft_attack = 0.1
+		}
+	
+		research_cost = 1.4
+		start_year = 1942
+		
+		path = {
+			leads_to_tech = heavy_artillery4
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	# Artillery Gun upgrade
+	heavy_artillery4 = {
+		
+		category_heavy_artillery = {
+			soft_attack = 0.1
+		}
+	
+		research_cost = 1.4
+		start_year = 1944
+
+		path = {
+			leads_to_tech = heavy_artillery5
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	heavy_artillery5 = {
+	
+		enable_equipments = {
+			heavy_artillery_equipment_3
+		}
+	
+		research_cost = 1.3
+		start_year = 1940
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				tag = USA
+				factor = 10
+			}
+			modifier = {
+				tag = GER
+				factor = 10
+			}
+			modifier = {
+				tag = ENG
+				factor = 10
+			}	
+		}		
+	}
+	###################### 
+	### Anti-Tank
+	###################### 
 
 	interwar_antitank = {
 

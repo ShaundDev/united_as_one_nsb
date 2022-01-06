@@ -95,20 +95,6 @@ bookmarks = {
 
 			}
 		}
-		CHI={
-			minor = yes
-			history = "CHI_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_army_corruption_2
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
-			}
-			focuses = {
-
-			}
-		}
-
 		"---"={
 			history = "OTHER_BLITZKRIEG_DESC"
 		}
@@ -251,6 +237,20 @@ bookmarks = {
 				BUL_bulgarian_irredentism
 				BUL_imro_01
 				BUL_national_industry_01
+			}
+			focuses = {
+
+			}
+		}
+
+		"CHI"={
+			minor = yes
+			history = "CHI_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				CHI_army_corruption_2
+				CHI_hyper_inflation_1
+				CHI_nine_power_treaty
 			}
 			focuses = {
 

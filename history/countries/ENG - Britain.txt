@@ -27,7 +27,7 @@ if = {
 	}
 }
 
-load_oob = "ENG_Motorized"
+#load_oob = "ENG_Motorized"
 
 set_research_slots = 4
 

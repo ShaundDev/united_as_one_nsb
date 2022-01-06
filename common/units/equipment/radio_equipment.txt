@@ -12,7 +12,7 @@ equipments = {
 
 		initiative = 0.01
 		lend_lease_cost = 1
-		build_cost_ic = 3.5
+		build_cost_ic = 2.5
 		resources = {
 			chromium = 1
 		}
@@ -27,7 +27,7 @@ equipments = {
 		max_organisation = 0.15
 		default_morale = 0.05
 		initiative = 0.01
-		build_cost_ic = 3.5
+		build_cost_ic = 2.5
 	}
 
 }

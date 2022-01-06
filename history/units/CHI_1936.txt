@@ -112,49 +112,56 @@ units = {
 		location = 11761
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
-		start_equipment_factor = 0.1
+		start_equipment_factor = 1.0
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "6th Divsion"
 		name = "6th Divsion"
 		location = 1069
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
-		start_equipment_factor = 0.1
+		start_equipment_factor = 1.0
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "9th Divsion"
 		name = "9th Divsion"
 		location = 1069
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
-		start_equipment_factor = 0.1
+		start_equipment_factor = 1.0
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "14th Divsion"
 		name = "14th Divsion"
 		location = 4619
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
-		start_equipment_factor = 0.1
+		start_equipment_factor = 1.0
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "36th Divsion"
 		name = "36th Divsion"
 		location = 11913
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
-		start_equipment_factor = 0.1
+		start_equipment_factor = 1.0
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "87th Divsion"
 		name = "87th Divsion"
 		location = 11913
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
-		start_equipment_factor = 0.1
+		start_equipment_factor = 1.0
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "88th Divsion"
 		name = "88th Divsion"
 		location = 11913
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
-		start_equipment_factor = 0.1
+		start_equipment_factor = 1.0
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	##### Beiping-Tianjin Area (CO: ) #####
 	### 29 Juntuan (highly-reinforced corps) ###

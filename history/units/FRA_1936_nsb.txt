@@ -8,16 +8,29 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
+
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 } # Heavy Arty Regiment had 2x 155mm battalions
+		artillery_brigade  = { x = 3 y = 2 }
+		anti_tank_brigade =  { x = 3 y = 3 }
 	}
 	support = {
-		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
-		engineer = { x = 0 y = 1 }
+		DIV_HQ = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		maintenance_company = { x = 1 y = 0 }
+		logistics_company = { x = 1 y = 1 }
+		field_hospital = { x = 1 y = 2 }
 	}
 }
 division_template = {
@@ -26,18 +39,19 @@ division_template = {
 	# Represents: Div. d'Inf. Coloniale, Div. d'Inf. Nord-Africaine
 	# Difference from DI is their equipment
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 0 y = 3 }
+		
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		light_infantry = { x = 1 y = 3 }
 	}
 	support = {
-		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 } 	# Heavy Arty Regiment had 2x 155mm battalions
 	}
 }
 division_template = {
@@ -48,17 +62,24 @@ division_template = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }   
+
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
+		armored_car = { x = 1 y = 3 }
+
 		motorized = { x = 2 y = 0 }
 		motorized = { x = 2 y = 1 }
-		motorized = { x = 2 y = 2 }
+		armored_car = { x = 2 y = 2 }   # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
 	}
 	support = {
-		mot_recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
-		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
-		engineer = { x = 0 y = 1 }
+		div_hq = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }  # Recon Group consisted of 26 ACs + motorcycles
+		engineer = { x = 0 y = 2 }
+		maintenance_company = { x = 1 y = 0 }
+		logistics_company = { x = 1 y = 1 }
+		field_hospital = { x = 1 y = 2 }	
 	}
 }
 division_template = {
@@ -67,18 +88,31 @@ division_template = {
 	# Note: trimmed to 3x Rgts w/ arty bn added, 1939
 
 	regiments = {
-		mountaineers = { x = 0 y = 0 }	# Regular mountain infantry (Infanterie Alpine)
+		mountaineers = { x = 0 y = 0 }	
 		mountaineers = { x = 0 y = 1 }
 		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 0 y = 3 }	
+
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 2 y = 0 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 2 y = 1 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 2 y = 2 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 0 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 1 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 2 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 1 y = 3 }
+
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }
+
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+	}
+	support = {
+		div_hq = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		maintenance_company = { x = 1 y = 0 }
+		logistics_company = { x = 1 y = 1 }
+		field_hospital = { x = 1 y = 2 }	
 	}
 }
 division_template = {
@@ -92,7 +126,7 @@ division_template = {
 		cavalry = { x = 1 y = 1 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+		armored_car_recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
 	}
 }
 division_template = {
@@ -100,16 +134,29 @@ division_template = {
 	division_names_group = FRA_MEC_01
 
 	regiments = {
-		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
-		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
-		motorized = { x = 1 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		motorized = { x = 1 y = 3 }
+		heavy_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+		heavy_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
+
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }		
+
+		motorized = { x = 2 y = 0 }  # Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
 	}
 	support = {
-		mot_recon = { x = 0 y = 0 }      # Recon Group consisted of 42 ACs + motorcycles
-		engineer = { x = 0 y = 1 }
+		DIV_HQ = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }		# Recon Group consisted of 42 ACs + motorcycles
+		engineer = { x = 0 y = 2 }
+		maintenance_company = { x = 1 y = 0 }
+		logistics_company = { x = 1 y = 1 }
+		field_hospital = { x = 1 y = 2 }
 	}
 }
 division_template = {
@@ -118,8 +165,15 @@ division_template = {
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+		
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
 	}
 }
 division_template = {
@@ -127,12 +181,13 @@ division_template = {
 	division_names_group = FRA_COL_01
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+
+		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
 	}
 	priority = 0
 }
@@ -304,7 +359,7 @@ units = {
 		location = 13011
 		division_template = "Division Légère Mécanique" 	# DLM is frontline, best equipment, L Arm = H-35
 		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_1 = { owner = "FRA" version_name = "H-35" } }
+		force_equipment_variants = { medium_tank_chassis_0 = { owner = "FRA" version_name = "SOUMUA S35" } heavy_tank_chassis_0 = { owner = "FRA" version_name = "Char B1" }  }
 	}
 
 	# IVe Corps d'Armée (Région Militaire in 1936) -- Le Mans
