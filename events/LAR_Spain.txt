@@ -291,9 +291,16 @@ country_event = {
 					template_counter = 6
 					division_names_group = SPR_INF_02
 					regiments = {
-						infantry = { x = 0 y = 0 }
-						infantry = { x = 0 y = 1 }
-						infantry = { x = 0 y = 2 }
+						light_infantry = { x = 0 y = 0 }
+						light_infantry = { x = 0 y = 1 }
+						light_infantry = { x = 0 y = 2 }
+
+						light_infantry = { x = 1 y = 0 }
+						light_infantry = { x = 1 y = 1 }
+						light_infantry = { x = 1 y = 2 }
+						
+						light_infantry = { x = 2 y = 0 }
+						light_infantry = { x = 2 y = 1 }
 					}
 				}
 				SPD = {
@@ -303,9 +310,16 @@ country_event = {
 						template_counter = 6
 						division_names_group = SPD_INF_01
 						regiments = {
-							infantry = { x = 0 y = 0 }
-							infantry = { x = 0 y = 1 }
-							infantry = { x = 0 y = 2 }
+							light_infantry = { x = 0 y = 0 }
+							light_infantry = { x = 0 y = 1 }
+							light_infantry = { x = 0 y = 2 }
+	
+							light_infantry = { x = 1 y = 0 }
+							light_infantry = { x = 1 y = 1 }
+							light_infantry = { x = 1 y = 2 }
+
+							light_infantry = { x = 2 y = 0 }
+							light_infantry = { x = 2 y = 1 }
 						}
 					}
 				}

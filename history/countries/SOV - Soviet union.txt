@@ -36,11 +36,7 @@ recruit_character = SOV_genrikh_yagoda
 recruit_character = SOV_nikolay_yezhov
 recruit_character = SOV_lavrenty_beriya
 recruit_character = SOV_vsevolod_merkulov
-recruit_character = SOV_vyacheslav_molotov
 recruit_character = SOV_maksim_litvinov
-recruit_character = SOV_lev_trotsky
-recruit_character = SOV_lev_kamenev
-recruit_character = SOV_patriarch_sergy
 recruit_character = SOV_aleksandr_kerensky
 recruit_character = SOV_konstantin_rodzayevsky
 recruit_character = SOV_aleksandr_vasilevsky
@@ -119,20 +115,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	recruit_character = SOV_anastasy_vonsyatsky
-	# recruit_character = SOV_grigory_semyonov # starts as an advisor to Puyi
-	recruit_character = SOV_nikolay_ustryalov
-	recruit_character = SOV_aleksandr_prokofyev_seversky
-	recruit_character = SOV_vyacheslav_tkachyov
-	recruit_character = SOV_yan_nagursky
-	recruit_character = SOV_vasily_yanchenko
 	recruit_character = SOV_tsar_vladimir_kirillovich
-
-	recruit_character = SOV_pyotr_krasnov
-	recruit_character = SOV_konstantin_nechayev
-	recruit_character = SOV_aleksandr_rodzyanko
-	recruit_character = SOV_vladimir_kosmin
-	recruit_character = SOV_andrey_shkuro
-	recruit_character = SOV_anton_denikin
 }
 
 
@@ -158,20 +141,11 @@ SOV_lavrenty_beriya = { #NKVD Chiefs are always safe from regular purges, they'l
 SOV_vsevolod_merkulov = {
 	set_character_flag = SOV_safe_from_purge_flag
 }
-SOV_vyacheslav_molotov = {
-	set_character_flag = SOV_safe_from_purge_flag
-}
 SOV_konstantin_rodzayevsky = { #Not in the country
 	set_character_flag = SOV_exiled_flag
 }
 SOV_aleksandr_kerensky = { #Not in the country
 	set_character_flag = SOV_exiled_flag
-}
-SOV_lev_trotsky = { #Not in the country
-	set_character_flag = SOV_exiled_flag
-}
-SOV_patriarch_sergy = { #Priests are not political enemies at this point
-	set_character_flag = SOV_safe_from_purge_flag
 }
 if = {
 	limit = {
@@ -180,44 +154,6 @@ if = {
 	SOV_anastasy_vonsyatsky = { #Not in the country
 		set_character_flag = SOV_exiled_flag
 	}
-	SOV_aleksandr_prokofyev_seversky = { #Not in the country
-		set_character_flag = SOV_exiled_flag
-	}
-	SOV_vyacheslav_tkachyov = { #Not in the country
-		set_character_flag = SOV_exiled_flag
-	}
-	SOV_yan_nagursky = { #Not in the country
-		set_character_flag = SOV_exiled_flag
-	}
-	SOV_vasily_yanchenko = { #Not in the country
-		set_character_flag = SOV_exiled_flag
-	}
-	SOV_anton_denikin = { #Not in the country
-		set_character_flag = SOV_exiled_flag
-		set_character_flag = SOV_exiled_army_leader
-	}
-	SOV_pyotr_krasnov = { #Not in the country
-		set_character_flag = SOV_exiled_flag
-		set_character_flag = SOV_exiled_army_leader
-	}
-	SOV_konstantin_nechayev = { #Not in the country
-		set_character_flag = SOV_exiled_flag
-		set_character_flag = SOV_exiled_army_leader
-	}
-	SOV_vladimir_kosmin = { #Not in the country
-		set_character_flag = SOV_exiled_flag
-		set_character_flag = SOV_exiled_army_leader
-	}
-	SOV_aleksandr_rodzyanko = { #Not in the country
-		set_character_flag = SOV_exiled_flag
-		set_character_flag = SOV_exiled_army_leader
-	}
-	SOV_andrey_shkuro = { #Not in the country
-		set_character_flag = SOV_exiled_flag
-		set_character_flag = SOV_exiled_army_leader
-	}
-	
-	
 }
 
 
@@ -230,33 +166,8 @@ if = {
 		set_character_flag = SOV_aligned_the_exiles_flag
 		set_character_flag = SOV_exiled_flag
 	}
-	 
-	SOV_nikolay_ustryalov = {
-		set_character_flag = SOV_aligned_the_exiles_flag
-	}
-	SOV_aleksandr_prokofyev_seversky = {
-		set_character_flag = SOV_aligned_the_exiles_flag
-		set_character_flag = SOV_exiled_military_advisor_flag
-	}
-	SOV_vyacheslav_tkachyov = {
-		set_character_flag = SOV_aligned_the_exiles_flag
-		set_character_flag = SOV_exiled_military_advisor_flag
-	}
-	SOV_yan_nagursky = {
-		set_character_flag = SOV_aligned_the_exiles_flag
-		set_character_flag = SOV_exiled_military_advisor_flag
-	}
-	SOV_vasily_yanchenko = {
-		set_character_flag = SOV_aligned_the_exiles_flag
-		set_character_flag = SOV_exiled_military_advisor_flag
-	}
-}
 
-#Initialize character flags Part III (aka who's in prison)
-SOV_lev_kamenev = {
-	set_character_flag = SOV_imprisoned_flag
 }
-
 
 ### PROPAGANDA ###
 set_variable = { SOV_new_propaganda_campaign = 0 } #Used to pick a poster slot
@@ -823,15 +734,6 @@ add_ideas = {
 	set_country_flag = SOV_trial_of_the_generals_flag
 
 	#PURGE ALL THESE PEOPLES
-	SOV_grigory_zinovyev = { SOV_purge_character_effect = yes }
-	SOV_lev_kamenev = { SOV_purge_character_effect = yes }
-	SOV_ivan_smirnov = { SOV_purge_character_effect = yes }
-	if = {
-		limit = {
-			has_dlc = "No Step Back"
-		}
-		SOV_nikolay_ustryalov = { SOV_purge_character_effect = yes }
-	}
 	SOV_mikhail_tukhachevsky = { SOV_purge_character_effect = yes }
 	SOV_aleksandr_yegorov = { SOV_purge_character_effect = yes }
 	SOV_vasily_blyukher = { SOV_purge_character_effect = yes }

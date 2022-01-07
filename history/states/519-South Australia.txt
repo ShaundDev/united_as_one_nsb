@@ -7,8 +7,8 @@ state={
 		owner = AST
 		buildings = {
 			infrastructure = 1
-            industrial_complex = 5
-			arms_factory = 2			
+			industrial_complex = 1 #New
+			arms_factory = 1 #New
 			12910 = {
 				naval_base = 2
 

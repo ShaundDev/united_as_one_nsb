@@ -10,8 +10,8 @@ state={
 		owner = RAJ
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 6
-			arms_factory = 3
+			industrial_complex = 2 #1
+			arms_factory = 1
 			air_base = 4
 		}
 		victory_points = {

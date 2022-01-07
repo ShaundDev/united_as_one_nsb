@@ -2817,11 +2817,6 @@ news_event = {
 	title = news.105.t
 	desc = {
 		text = news.105.d
-		trigger = { NOT = { SOV_is_opposition = yes } }
-	}
-	desc = {
-		text = news.105.d_alt
-		trigger = { SOV_is_opposition = yes }
 	}
 
 	picture = GFX_news_event_soviet_soldiers_ruins

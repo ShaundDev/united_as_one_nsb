@@ -50,33 +50,6 @@ ideas = {
 			}
 		}
 
-		trotskyite_plot_nsb = {
-			name = trotskyite_plot
-
-			removal_cost = -1
-
-			picture = trotskyite_plot
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				OR = {
-					SOV_is_right_opposition = yes 
-					has_country_leader = {
-						character = SOV_iosif_stalin
-						ruling_only = yes
-					}
-				}
-			}
-			
-			modifier = {
-				stability_factor = -0.2
-				political_power_factor = -0.15
-			}
-		}
-
 		trotskyite_plot_purged = {
 			removal_cost = -1
 			
@@ -2761,26 +2734,6 @@ ideas = {
 			modifier = {
 				max_command_power = 20
 				recruitable_population = 0.02
-			}
-		}
-
-		SOV_support_of_the_peasants_idea = {
-
-			picture = generic_agrarian_reform
-			removal_cost = -1
-
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				SOV_is_right_opposition = yes 
-			}
-			available = {
-
-			}
-
-			modifier = {
-				weekly_manpower = 1000
 			}
 		}
 

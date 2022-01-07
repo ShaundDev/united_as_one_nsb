@@ -1086,55 +1086,6 @@ SOV_display_civil_war_start_state = {
 	}
 }
 
-
-SOV_is_opposition_state = {
-	custom_trigger_tooltip = {
-		tooltip = SOV_is_opposition_state_tt
-		OR = {
-			AND = {
-				has_state_flag = SOV_left_opposition_state
-				SOV = { SOV_is_left_opposition = yes }
-			}
-			AND = {
-				has_state_flag = SOV_right_opposition_state
-				SOV = { SOV_is_right_opposition = yes }
-			}
-			AND = {
-				has_state_flag = SOV_exiles_state
-				SOV = { SOV_is_exiles = yes }
-			}
-		}
-	}
-}
-
-SOV_is_display_state = {
-	is_owned_by = SOV
-	IF = {
-		limit = { ROOT = { SOV_is_left_opposition = yes } }
-		OR = {
-			any_neighbor_state = { has_state_flag = SOV_left_opposition_state } # You can influence if you control a neighbor state
-			has_state_flag = SOV_left_opposition_state # To ensure that the first state is shown before selecting another one 
-			has_state_flag = SOV_stalinist_state # Show states that have had a crackdown as well 
-		}
-	}
-	ELSE_IF = {
-		limit = { ROOT = { SOV_is_right_opposition = yes } }
-		OR = {
-			any_neighbor_state = { has_state_flag = SOV_right_opposition_state }  # You can influence if you control a neighbor state
-			has_state_flag = SOV_right_opposition_state # To ensure that the first state is shown before selecting another one 
-			has_state_flag = SOV_stalinist_state # Show states that have had a crackdown as well 
-		}
-	}
-	ELSE_IF = {
-		limit = { ROOT = { SOV_is_exiles = yes } }
-		OR = {
-			any_neighbor_state = { has_state_flag = SOV_exiles_state }  # You can influence if you control a neighbor state
-			has_state_flag = SOV_exiles_state # To ensure that the first state is shown before selecting another one 
-			has_state_flag = SOV_stalinist_state # Show states that have had a crackdown as well 
-		}
-	}
-}
-
 SOV_is_unaligned_state = {
 	custom_trigger_tooltip = {
 		tooltip = SOV_is_unaligned_state_tt
@@ -1158,11 +1109,6 @@ SOV_is_left_opposition = {
 
 SOV_advisor_is_aligned_left = {
 	SOV_is_left_opposition = yes 
-	has_completed_focus = SOV_gain_support_from_party_members
-	tag = SOV
-}
-SOV_advisor_is_aligned_right = {
-	SOV_is_right_opposition = yes 
 	has_completed_focus = SOV_gain_support_from_party_members
 	tag = SOV
 }

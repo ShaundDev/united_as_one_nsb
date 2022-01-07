@@ -13,9 +13,9 @@ state={
 		owner = NZL
 		buildings = {
 			infrastructure = 3 #was: 5
-			arms_factory = 3
-			industrial_complex = 6
 			air_base = 1
+			arms_factory = 1 #New
+			industrial_complex = 1 #New
 			2197 = {
 				naval_base = 1
 			}

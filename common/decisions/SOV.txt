@@ -72,18 +72,6 @@ debug_decisions = { #TODO_Manu: Comment these out
 		cost = 0
 
 		complete_effect = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				log = "HIDE obsolete focus branches"
-			}
-			else = {
-				log = "SHOW obsolete focus branches"
-			}
 			every_owned_state = {
 				limit = {
 					is_on_continent = asia
@@ -188,10 +176,6 @@ SOV_paranoia_system = {
 			modifier = {
 				add = 100
 				check_variable = { SOV_paranoia > 75 }
-			}
-			modifier = {
-				factor = 2
-				SOV_is_opposition = yes
 			}
 		}
 
@@ -343,11 +327,6 @@ SOV_paranoia_system = {
 
 			SOV_pick_regular_purge_army_type_effect = yes
 			SOV_paranoia_medium_decrease_effect = yes
-			IF = {
-				limit = { SOV_is_opposition = yes }
-				SOV_decrease_all_opposition_army = yes
-			}
-
 			custom_effect_tooltip = SOV_paranoia_inspection_cd_tt
 		}
 	}
@@ -408,11 +387,6 @@ SOV_paranoia_system = {
 
 			SOV_pick_regular_purge_navy_type_effect = yes
 			SOV_paranoia_low_decrease_effect = yes
-			IF = {
-				limit = { SOV_is_opposition = yes }
-				SOV_decrease_all_opposition_navy = yes
-			}
-
 			custom_effect_tooltip = SOV_paranoia_inspection_cd_tt
 		}
 	}
@@ -467,10 +441,6 @@ SOV_paranoia_system = {
 
 			SOV_pick_regular_purge_airforce_type_effect = yes
 			SOV_paranoia_low_decrease_effect = yes
-			IF = {
-				limit = { SOV_is_opposition = yes }
-				SOV_decrease_all_opposition_air = yes
-			}
 			custom_effect_tooltip = SOV_paranoia_inspection_cd_tt
 		}
 	}

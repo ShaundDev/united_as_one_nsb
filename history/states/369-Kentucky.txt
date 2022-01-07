@@ -10,7 +10,7 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 8
+			industrial_complex = 4 #3
 			air_base = 4
 		}
 		add_core_of = USA

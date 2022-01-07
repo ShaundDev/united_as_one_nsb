@@ -13,8 +13,8 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 2
+			industrial_complex = 2 #1
+			arms_factory = 1 #New
 		}
 		victory_points = {
 			11752 4

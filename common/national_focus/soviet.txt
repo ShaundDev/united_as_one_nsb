@@ -287,7 +287,6 @@ focus_tree = {
 
 		available = {
 			SOV_third_five_year_plan_available = yes
-			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 			if = {
 				limit = {
 					has_global_flag = SOV_PreGrind
@@ -359,7 +358,6 @@ focus_tree = {
 
 		available = {
 			SOV_third_five_year_plan_available = yes
-			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 			if = {
 				limit = {
 					has_global_flag = SOV_PreGrind
@@ -443,7 +441,6 @@ focus_tree = {
 					NOT = { num_of_controlled_factories < 150 }
 				}
 			}
-			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 		}
 
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
@@ -475,7 +472,6 @@ focus_tree = {
 
 		available = {
 			SOV_third_five_year_plan_available = yes
-			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 		}
 
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -575,7 +571,6 @@ focus_tree = {
 
 		available = {
 			SOV_third_five_year_plan_available = yes
-			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 			if = {
 				limit = {
 					has_global_flag = SOV_PreGrind
@@ -636,7 +631,6 @@ focus_tree = {
 
 		available = {
 			SOV_third_five_year_plan_available = yes
-			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 			if = {
 				limit = {
 					has_global_flag = SOV_PreGrind
@@ -691,7 +685,6 @@ focus_tree = {
 				}
 			}
 			SOV_third_five_year_plan_available = yes
-			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 		}
 
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -783,7 +776,6 @@ focus_tree = {
 		available = {
 			has_tech = rubber_processing
 			SOV_third_five_year_plan_available = yes
-			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 			has_full_control_of_state = 219 #MOSCOW
 			OR = {
 				has_full_control_of_state = 260 #VORONEZH
@@ -856,7 +848,6 @@ focus_tree = {
 
 		available = {
 			SOV_third_five_year_plan_available = yes
-			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 		}
 
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -7346,85 +7337,9 @@ focus_tree = {
 		prerequisite = { focus = SOV_the_path_of_marxism_leninism }
 		x = -1
 		y = 1
-		offset = {
-			x = -7
-			y = 0
-			trigger = { #Basic offset to compensate for missing Bukharinist branch
-				NOT = { has_dlc = "No Step Back" }
-			}
-		}
-		offset = {
-			x = -19
-			y = 0
-			trigger = { #Trotskyist branch hides
-				NOT = { has_dlc = "No Step Back" }
-				has_completed_focus = SOV_the_centre
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-			}
-		}
-		offset = {
-			x = -7
-			y = 0
-			trigger = { # Stalinist branch hides
-				NOT = { has_dlc = "No Step Back" }
-				has_completed_focus = SOV_the_left_opposition
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-			}
-		}
-		offset = {
-			x = -26
-			y = 0
-			trigger = {
-				has_dlc = "No Step Back"
-				has_completed_focus = SOV_the_centre
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-			}
-		}
-		offset = {
-			x = -7
-			y = 0
-			trigger = {
-				has_dlc = "No Step Back"
-				OR = {
-					AND = {
-						has_completed_focus = SOV_the_left_opposition
-						has_completed_focus = SOV_left_opposition_coup
-					}
-					AND = {
-						has_completed_focus = SOV_the_right_opposition
-						has_completed_focus = SOV_coup_detat
-					}
-				}
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-			}
-		}
 
 		relative_position_id = SOV_the_path_of_marxism_leninism
 		cost = 5
-
-		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = { has_completed_focus = SOV_beaten_but_not_defeated }
-			}
-		}
 
 		available = {
 
@@ -7797,18 +7712,6 @@ focus_tree = {
 		relative_position_id = SOV_addressing_internal_affairs
 		cost = 5
 
-		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = { has_completed_focus = SOV_beaten_but_not_defeated }
-			}
-		}
-
 		available = {
 
 		}
@@ -7981,8 +7884,6 @@ focus_tree = {
 			has_civil_war = no
 			OR = {
 				has_completed_focus = SOV_the_centre
-				has_completed_focus = SOV_the_left_opposition
-				has_completed_focus = SOV_the_right_opposition
 			}
 			if = {
 				limit = {

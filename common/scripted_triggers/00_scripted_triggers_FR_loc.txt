@@ -37,7 +37,6 @@ frloc_ruler_with_title_cons = {
 		has_country_leader = { character = SOV_tsar_iosif_stalin }
 		has_country_leader = { character = SOV_tsar_vsevolod_ivanovich }
 		has_country_leader = { character = SOV_patriarch_meletius } # Juste au cas où
-		has_country_leader = { character = SOV_patriarch_sergy }
 		has_country_leader = { character = SOV_supreme_soviet }
 		has_country_leader = { character = SOV_provisional_government }
 		### SPR
@@ -676,11 +675,7 @@ frloc_ruler_name_male_vow = {
 		has_country_leader = { character = SOV_igor_kurchatov }
 		has_country_leader = { character = SOV_aleksandr_yegorov }
 		has_country_leader = { character = SOV_aleksandr_novikov }
-		has_country_leader = { character = SOV_anton_denikin }
-		has_country_leader = { character = SOV_aleksandr_rodzyanko }
-		has_country_leader = { character = SOV_andrey_shkuro }
 		has_country_leader = { character = SOV_anastasy_vonsyatsky }
-		has_country_leader = { character = SOV_aleksandr_prokofyev_seversky }
 		### SPR
 		has_country_leader = { character = SPR_alejandro_lerroux }
 		has_country_leader = { character = SPA_emilio_herrera }
