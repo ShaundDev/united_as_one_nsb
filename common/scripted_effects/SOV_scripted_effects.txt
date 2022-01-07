@@ -785,22 +785,6 @@ SOV_paranoia_update_portraits_ui = { #Expected to be called in the country scope
 	}
 	if = {
 		limit = {
-			NOT = { has_character = SOV_karl_radek }
-			check_variable = { SOV.SOV_paranoia_photo_radek = 9 compare = not_equals }
-		}
-		set_variable = { SOV.SOV_paranoia_photo_radek = 9 }
-		set_country_flag = SOV_added_purged_portrait_flag
-	}
-	if = {
-		limit = {
-			NOT = { has_character = SOV_nikolay_bukharin }
-			check_variable = { SOV.SOV_paranoia_photo_bukharin = 10 compare = not_equals }
-		}
-		set_variable = { SOV.SOV_paranoia_photo_bukharin = 10 }
-		set_country_flag = SOV_added_purged_portrait_flag
-	}
-	if = {
-		limit = {
 			NOT = { has_character = SOV_lev_trotsky }
 			check_variable = { SOV.SOV_paranoia_photo_trotsky = 11 compare = not_equals }
 		}
@@ -7370,45 +7354,6 @@ SOV_promote_to_country_leader_trotsky = {
 		promote_leader = yes
 	}
 	SOV = { set_country_flag = SOV_trotsky_country_leader_flag }
-}
-
-SOV_promote_to_country_leader_smirnov = {
-	add_country_leader_role = {
-		character = "SOV_ivan_smirnov"
-		country_leader = {
-			ideology = marxism
-			traits = { the_siberian_lenin }
-			expire = "1965.1.1.1"
-		}
-		promote_leader = yes
-	}
-	SOV = { set_country_flag = SOV_smirnov_country_leader_flag }
-}
-
-SOV_promote_to_country_leader_bukharin = {
-	add_country_leader_role = {
-		character = "SOV_nikolay_bukharin"
-		country_leader = {
-			ideology = marxism
-			traits = { defender_of_the_peasantry }
-			expire = "1965.1.1.1"
-		}
-		promote_leader = yes
-	}
-	SOV = { set_country_flag = SOV_bukharin_country_leader_flag }
-}
-
-SOV_promote_to_country_leader_rykov = {
-	add_country_leader_role = {
-		character = "SOV_aleksey_rykov"
-		country_leader = {
-			ideology = marxism
-			traits = { labor_defense_organizer }
-			expire = "1965.1.1.1"
-		}
-		promote_leader = yes
-	}
-	SOV = { set_country_flag = SOV_rykov_country_leader_flag }
 }
 
 SOV_promote_to_country_leader_zinovyev = {

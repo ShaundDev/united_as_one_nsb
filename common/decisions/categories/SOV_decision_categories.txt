@@ -328,73 +328,11 @@ SOV_comecon_dec_cat = {
 	}
 }
 
-SOV_soviet_civil_war_dec_cat = {  
-	priority = 105
-
-	icon = GFX_decision_category_SOV_civil_war 
-	picture = GFX_decision_cat_picture_soviet_civil_war    
+SOV_hmm =
+{
+	icon = eng_move_to_secure_the_dominions
 	
 	allowed = {
 		original_tag = SOV
-	} 
-
-	visible = {
-		OR = {
-			SOV_is_left_opposition = yes 
-			SOV_is_right_opposition = yes
-			SOV_is_exiles = yes 
-		}
-		NOT = { has_global_flag = SOV_soviet_civil_war_over }
-	}
-
-	highlight_states = {
-		highlight_states_trigger = {
-			OR = {
-				state = var:SOV.SOV_civil_war_start_state
-				SOV_is_opposition_state = yes  
-			}
-			NOT = { has_global_flag = SOV_soviet_civil_war }
-		}
-		highlight_color_while_active = 3
-	}
-	# TODO THOMAS decide whether to keep
-	custom_icon = {
-		tag = SOV
-		value = SOV_opposition_civil_war_divisions_value
-		desc = SOV_SOS_civil_war_divisions_tt_long 
-
-		visible = {
-			SOV_soviet_civil_war_not_started = yes 
-		}
-	}
-
-	visible_when_empty = yes
-}
-
-SOV_permanent_revolution_dec_cat = {
-	priority = 90
-
-	icon = GFX_decision_category_SOV_permanent_revolution
-
-	allowed = {
-		original_tag = SOV
-	}
-
-	visible = {
-		has_completed_focus = SOV_the_permanent_revolution
-	}
-}
-
-SOV_panslavic_nationalism = {
-	priority = 75
-
-	icon = generic_formable_nations
-
-	allowed = {
-		original_tag = SOV
-	}
-
-	visible = {
-		has_completed_focus = SOV_panslavic_nationalism
 	}
 }

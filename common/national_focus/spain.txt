@@ -10740,32 +10740,6 @@ focus_tree = {
 					expire = 0
 				}
 			}
-			if = {
-				limit = {
-					any_country = {
-						original_tag = SOV
-						has_government = communism
-						NOT = { has_completed_focus = SOV_the_right_opposition }
-					}
-				}
-				hidden_effect = {
-					every_other_country = {
-						limit = {
-							original_tag = SOV
-							has_government = communism
-							NOT = { has_completed_focus = SOV_the_right_opposition }
-						}
-						ROOT = {
-							create_wargoal = {
-								type = puppet_wargoal_focus
-								target = PREV
-								expire = 0
-							}
-						}
-					}
-				}
-				custom_effect_tooltip = SPR_against_trotskyism_and_stalinism_tt
-			}
 		}
 	}
 

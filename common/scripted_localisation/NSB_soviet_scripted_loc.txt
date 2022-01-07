@@ -1258,19 +1258,6 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetAppropriatePermanentRevolutionDecCatDesc
-	text = {
-		trigger = {
-			tag = SOV
-		}
-		localization_key = SOV_permanent_revolution_dec_cat_desc_soviet
-	}
-	text = {
-		localization_key = SOV_permanent_revolution_dec_cat_desc_targets
-	}
-}
-
-defined_text = {
 	name = GetColorControlledFactoriesTier1
 	text = {
 		trigger = {
