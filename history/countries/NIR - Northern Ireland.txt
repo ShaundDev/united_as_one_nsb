@@ -48,7 +48,8 @@ recruit_character = NIR_democratic_guy
 	
 	oob = "IRE_1939"
 	set_technology = {
-		gw_artillery = 1
+		interwar_artillery = 1
+		interwar_heavyartillery = 1
 		interwar_antiair = 1
 		infantry_weapons2 = 1
 

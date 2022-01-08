@@ -561,7 +561,8 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	tech_military_police = 1
 	tech_maintenance_company = 1
 	################ artillery ################	
-	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_heavyartillery = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
 	interwar_pack = 1

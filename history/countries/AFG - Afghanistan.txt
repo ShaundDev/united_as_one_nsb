@@ -82,7 +82,8 @@ recruit_character = AFG_muhammed_nowroz
 	set_technology = {
 		early_fighter = 1
 		CAS1 = 1
-		gw_artillery = 1
+		interwar_artillery = 1
+		interwar_heavyartillery = 1
 
 		#doctrines
 		air_superiority = 1
