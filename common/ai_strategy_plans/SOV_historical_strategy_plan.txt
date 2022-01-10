@@ -28,7 +28,6 @@ SOV_historical_plan = {
 	ai_national_focuses = {
 		#Things to do ASAP
 		SOV_desperate_measures #35 (DO THIS ASAP)
-		SOV_shift_to_armaments_production # (FYP)
 		SOV_fourth_five_year_plan # (FYP)
 		SOV_recover_the_kuril_islands #35 (As soon as AI has completed Prepare a War with Japan focus ~mid 1945)
 
@@ -69,6 +68,7 @@ SOV_historical_plan = {
 		SOV_develop_the_urals #35
 		SOV_the_ussr_academy_of_sciences
 		SOV_baltic_security #35 -> 1939
+		SOV_policy_of_individual_security # 35 -> May 1939
 		SOV_military_engineering_university #35
 		SOV_claims_in_baltic # -> 1940
 		SOV_approach_germany #35 -> Feb 1940
@@ -77,10 +77,12 @@ SOV_historical_plan = {
 		SOV_secure_leningrad
 		SOV_claims_on_poland
 		SOV_foster_flying_clubs
-		SOV_behead_the_snake #35 -> May 1940 (raid)
-		SOV_national_academies_of_sciences #35
 		SOV_demand_eastern_poland # (IN CASE NO MOLOTOV-RIBENTROP)
 		SOV_claim_on_bessarabia # -> Jul 1940
+		SOV_behead_the_snake #35 -> May 1940 (raid)
+		SOV_national_academies_of_sciences #35
+		
+		SOV_shift_to_armaments_production # (FYP) -> Do this ASAP after dealing with claims 
 
 		#1941
 		SOV_move_industry_to_the_urals

@@ -1,20 +1,24 @@
---- NGame
+--- NGame.
 NDefines.NGame.START_DATE = "1936.1.1.12";
 NDefines.NGame.END_DATE = "1947.1.1.1";
 NDefines.NGame.GAME_SPEED_SECONDS = { 0.75, 0.4, 0.2, 0.05, 0.0 };
 
--- NDiplomacy
+-- NDiplomacy.
 NDefines.NDiplomacy.LICENSE_ACCEPTANCE_OPINION_FACTOR = 0.3;
 NDefines.NDiplomacy.LICENSE_ACCEPTANCE_TECH_DIFFERENCE_BASE = 0;
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 50;
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 25;
 
-NDefines.NDiplomacy.TENSION_TIME_SCALE_MONTHLY_FACTOR = -0.01;
+NDefines.NDiplomacy.TENSION_TIME_SCALE_MONTHLY_FACTOR = -0.005;
+NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.25; -- Amount of tension generated for each sent division
 NDefines.NDiplomacy.TENSION_FACTION_JOIN = 5;
+
+NDefines.NDiplomacy.MP_NUM_WINNERS_FOR_PEACE_PAUSE = 1;	-- Number of human players as winners needed for peace conference to pause and open for everyone in multiplayer, needs to fullfill MP_NUM_LOSERS_FOR_PEACE_PAUSE as well.
+NDefines.NDiplomacy.MP_NUM_LOSERS_FOR_PEACE_PAUSE = 1; -- Number of human players as losers needed for peace conference to pause and open for everyone in multiplayer, needs to fullfill MP_NUM_WINNERS_FOR_PEACE_PAUSE as well.
+
 NDefines.NDiplomacy.GUARANTEE_COST = 10;
 
 -- NCountry.
-
 NDefines.NCountry.LOCAL_MANPOWER_ACCESSIBLE_FACTOR = 0.3;         -- accessible recruitable factor base
 NDefines.NCountry.MAJOR_MIN_FACTORIES = 90;						-- need at least these many factories to become a major
 NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.85;			-- Min ratio of air superiority for paradropping
@@ -28,7 +32,7 @@ NDefines.NCountry.STARTING_COMMAND_POWER = 50;					-- starting command power for
 
 NDefines.NCountry.ARMY_COUNT_DAILY_DECREASE_FOR_TRAINING_XP = -0.1;
 
--- NResistance
+-- NResistance.
 NDefines.NResistance.INITIAL_STATE_COMPLIANCE = 0.1;							-- initial compliance percentage of a state once it is captured
 NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = -0.1;	-- compliance factor that applies when the state controller changes (in between allies, compliance is zeroed if it is taken by original country)
 
@@ -37,7 +41,7 @@ NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.08; -- base compliance grow
 NDefines.NResistance.COMPLIANCE_DECAY_AT_MAX_COMPLIANCE = -0.08; -- as compliance increases, it gets a decay rate depending on its value. compliance should stabilize at some value until its growth changes
 
 
--- NBuildings
+-- NBuildings.
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100;		-- Each level of airbase building multiplied by this, gives capacity (max operational value). Value is int. 1 for each airplane.
 
 NDefines.NBuildings.RADAR_RANGE_BASE = 15;				-- Radar range base, first level radar will be this + min, best radar will be this + max
@@ -50,16 +54,16 @@ NDefines.NBuildings.MAX_BUILDING_LEVELS = 50;			-- Max levels a building can hav
 
 NDefines.NBuildings.SABOTAGE_FACTORY_DAMAGE = 75.0;		-- How much damage takes a factory building in sabotage when state is occupied. Damage is mult by (1 + resistance strength), i.e. up to 2 x base value.
 
--- NProduction
+-- NProduction.
 NDefines.NProduction.BASE_FACTORY_SPEED = 4;
-NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 3.5;
-NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 3;
+NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4;
+NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 2.5;
 NDefines.NProduction.BASE_FACTORY_START_EFFICIENCY_FACTOR = 10; -- Base start efficiency for factories expressed in %.
 NDefines.NProduction.BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 30;	-- Base max efficiency for factories expressed in %.
 
 NDefines.NProduction.PRODUCTION_RESOURCE_LACK_PENALTY = -0.0175;
 
--- NTechnology
+-- NTechnology.
 NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 3;
 
 -- NMilitary
@@ -70,9 +74,9 @@ NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 4; -- Max height of regiments i
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2; -- Max width of support in division designer.
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 4; -- Max height of support in division designer.
 
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 4;	--Base cost to unlock a regiment slot,
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 2;	--Base cost to change a regiment column.
-NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 6; 	--Base cost to unlock a support slot
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 2;	--Base cost to unlock a regiment slot,
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 1;	--Base cost to change a regiment column.
+NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 4; 	--Base cost to unlock a support slot
 
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 999;		--Max army experience a country can store
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 999;		--Max navy experience a country can store
@@ -94,7 +98,7 @@ NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.003;				-- Balancing value to c
 
 NDefines.NMilitary.TRAINING_ATTRITION = 0.0075;		  			   -- amount of extra attrition from being in training
 
--- NAir
+-- NAir.
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.002; -- If a unit isn't motorized, still disrupt its supply by damage * this
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.025;
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_INFRA_DAMAGE_SPILL_FACTOR = 0.0008; -- Portion of truck damage to additionally deal to infrastructure
@@ -139,7 +143,7 @@ NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.036;	-- H
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.03;		-- Max planes that can join a combat comparing to the total strength of the ships
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.1; -- max extra plane % that ca n join every day
 
--- NNavy
+-- NNavy.
 NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0;						-- Chances one ship get damage each hour while on training 
 NDefines.NNavy.TRAINING_ACCIDENT_CRITICAL_HIT_CHANCES = 0;					-- If an accident happens, how likely it is to be a critical hit
 NDefines.NNavy.TRAINING_ACCIDENT_CRITICAL_HIT_DAMAGE_SCALE = 0;				-- Scale the value below in case of critical hit

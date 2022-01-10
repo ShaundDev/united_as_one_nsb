@@ -1475,4 +1475,29 @@ JAP_hold_up_in_china = { #We got this far but there are bigger targets to worry 
 		ordertype = front
 		execution_type = careful
 	}
+	
+	ai_strategy = {
+		type = front_control
+
+		tag = GXC
+
+		ratio = 0.25
+
+		priority = 100
+		ordertype = front
+		execution_type = careful
+	}
+	
+	ai_strategy = {
+		type = front_control
+
+		tag = YUN
+
+		ratio = 0.25
+
+		priority = 100
+		ordertype = front
+		execution_type = careful
+	}
+	
 }

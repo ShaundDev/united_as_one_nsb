@@ -2023,10 +2023,6 @@ country_event = {
 					value > 75
 				}
 			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 2
-				SOV = { has_idea = SOV_vyacheslav_molotov }
-			}
 			modifier = {
 				factor = 0
 				OR = {
@@ -2475,10 +2471,6 @@ country_event = {
 				factor = 1.2
 				SOV = { has_idea = SOV_maksim_litvinov }
 			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 0.8
-				SOV = { has_idea = SOV_vyacheslav_molotov }
-			}
 			modifier = {
 				factor = 0.5
 				NOT = { is_in_faction_with = FROM }
@@ -2626,10 +2618,6 @@ country_event = {
 				factor = 2
 				has_war = yes
 				alliance_strength_ratio > 0.8
-			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 1.2
-				SOV = { has_idea = SOV_vyacheslav_molotov }
 			}
 			modifier = { #Appropriate PC for Foreign Affairs
 				factor = 0.8
@@ -3195,10 +3183,6 @@ country_event = {
 				factor = 100
 				is_in_faction_with = FROM
 			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 1.5
-				SOV = { has_idea = SOV_vyacheslav_molotov }
-			}
 			modifier = {
 				factor = 0
 				OR = {
@@ -3546,10 +3530,6 @@ country_event = {
 				factor = 1.5
 				SOV = { has_idea = SOV_maksim_litvinov }
 			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 2
-				SOV = { has_idea = SOV_vyacheslav_molotov }
-			}
 			modifier = {
 				factor = 0.5
 				naval_strength_ratio = {
@@ -3635,10 +3615,6 @@ country_event = {
 			modifier = { #Appropriate PC for Foreign Affairs
 				factor = 1.5
 				SOV = { has_idea = SOV_maksim_litvinov }
-			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 2
-				SOV = { has_idea = SOV_vyacheslav_molotov }
 			}
 			modifier = {
 				factor = 0.5
@@ -3883,10 +3859,6 @@ country_event = {
 				factor = 10
 				has_war_with = USA
 			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 1.5
-				SOV = { has_idea = SOV_vyacheslav_molotov }
-			}
 		}
 
 		effect_tooltip = {
@@ -4092,10 +4064,6 @@ country_event = {
 			modifier = { #Appropriate PC for Foreign Affairs
 				factor = 2
 				SOV = { has_idea = SOV_maksim_litvinov }
-			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 1.5
-				SOV = { has_idea = SOV_vyacheslav_molotov }
 			}
 		}
 		
@@ -4315,10 +4283,6 @@ country_event = {
 			modifier = { #Appropriate PC for Foreign Affairs
 				factor = 2
 				SOV = { has_idea = SOV_maksim_litvinov }
-			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 1.5
-				SOV = { has_idea = SOV_vyacheslav_molotov }
 			}
 		}
 		
@@ -4593,10 +4557,6 @@ country_event = {
 				factor = 2
 				SOV = { has_idea = SOV_maksim_litvinov }
 			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 1.5
-				SOV = { has_idea = SOV_vyacheslav_molotov }
-			}
 		}
 		
 		FROM = {
@@ -4814,10 +4774,6 @@ country_event = {
 			modifier = { #Appropriate PC for Foreign Affairs
 				factor = 2
 				SOV = { has_idea = SOV_maksim_litvinov }
-			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 1.5
-				SOV = { has_idea = SOV_vyacheslav_molotov }
 			}
 		}
 		
@@ -5127,10 +5083,6 @@ country_event = {
 			modifier = { #Appropriate PC for Foreign Affairs
 				factor = 2
 				SOV = { has_idea = SOV_maksim_litvinov }
-			}
-			modifier = { #Appropriate PC for Foreign Affairs
-				factor = 1.5
-				SOV = { has_idea = SOV_vyacheslav_molotov }
 			}
 		}
 		

@@ -7,5 +7,11 @@ tags={
 	"Map"
 }
 name="united_as_one_nsb"
-supported_version="1.11.1"
+supported_version="1.11.4"
+replace_path="common/ai_equipment"
+replace_path="common/ai_focuses"
+replace_path="common/ai_peace"
+replace_path="common/ai_strategy"
+replace_path="common/ai_strategy_plans"
+replace_path="common/ai_templates"
 path="C:/Users/shaundd/Documents/Paradox Interactive/Hearts of Iron IV/mod/united_as_one_nsb"
