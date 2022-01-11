@@ -5,14 +5,21 @@ set_stability = 0.8
 set_war_support = 0.3
 # Starting tech
 set_technology = {
+	################## infantry ############
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-
+	motorised_infantry = 1
+	armored_car1 = 1
+	################# support ###############
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
 	tech_headquarters = 1
-
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	################ artillery ################	
 	interwar_artillery = 1
 	interwar_heavyartillery = 1
 	interwar_antiair = 1

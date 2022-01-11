@@ -75,7 +75,7 @@ sub_units = {
 		}
 	}
 
-	artillery_heavy = {
+	artillery_heavy_brigade = {
 		sprite = artillery
 		map_icon_category = infantry
 		priority = 100
