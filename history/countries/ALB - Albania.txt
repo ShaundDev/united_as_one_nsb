@@ -3,9 +3,19 @@
 OOB = "ALB_1936"
 
 set_technology = {
+	################## infantry ############
 	infantry_weapons = 1
+	motorised_infantry = 1
+	armored_car1 = 1
+	################# support ###############
 	tech_support = 1
+	tech_engineers = 1
 	tech_recon = 1
+	################ artillery ################	
+	interwar_artillery = 1
+	interwar_heavyartillery = 1
+	interwar_antiair = 1
+	interwar_pack = 1
 }
 
 recruit_character = ALB_king_zog

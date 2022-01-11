@@ -630,17 +630,18 @@ instant_effect = { #player
 			progress = 0.4
 			efficiency = 20
 		}
-		
+
 		add_equipment_production = {
 			equipment = {
-				type = light_tank_equipment_1
+				type = light_tank_chassis_1
 				creator = "ITA" 
+				version_name = "L3/35"
 			}
 			requested_factories = 1
 			progress = 0.4
 			efficiency = 20
 		}
-		
+
 		add_equipment_production = {
 		equipment = {
 			type = pack_artillery_equipment_1
@@ -705,41 +706,4 @@ instant_effect = { #player
 		progress = 0.15
 		efficiency = 20
 	}
-	
-		############################ Equipment stockpile
-	add_equipment_to_stockpile = {
-		type = infantry_equipment_0
-			amount = 8000
-			producer = ITA
-		}
-
-	add_equipment_to_stockpile = {
-		type = support_equipment_1
-			amount = 2000
-			producer = ITA
-		}	
-	add_equipment_to_stockpile = {
-		type = support_equipment_1
-			amount = 500
-			producer = ITA
-		}
-	add_equipment_to_stockpile = {
-		type = motorized_equipment_1
-			amount = 800
-			producer = ITA
-		}
-	add_equipment_to_stockpile = {
-		type = light_tank_equipment_0 
-			amount = 150
-			producer = ITA
-		}
-	
-	add_equipment_to_stockpile = {
-		type = armored_cars_equipment_1
-			amount = 200
-			producer = ITA
-		}
-	}
-
 }
-	#####################
