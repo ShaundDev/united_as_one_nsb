@@ -6041,9 +6041,6 @@ focus_tree = {
 		y = 0
 		relative_position_id = SOV_strengthen_the_mobilization_plan
 		cost = 5
-
-		mutually_exclusive = { focus = SOV_beaten_but_not_defeated }
-
 		available = {
 
 		}

@@ -874,48 +874,6 @@ SOV_have_some_train_production = {
 	}
 }
 
-# Make people sceptic about sending support to the Whites - again
-SOV_dont_support_whites = {
-
-	allowed = { has_dlc = "No Step Back" }
-	enable = {
-		SOV = { SOV_is_exiles = yes}
-		NOT = {
-			tag = SOV
-		}
-	}
-
-	abort = {
-		has_global_flag = SOV_soviet_civil_war_over
-	}
-
-	ai_strategy = {
-		type = alliance
-		id = SOV
-		value = -200
-	}
-	ai_strategy = {
-		type = befriend
-		id = SOV
-		value = -100
-	}
-	ai_strategy = {
-		type = support
-		id = SOV
-		value = -100
-	}
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = SOV
-		value = -200
-	}
-	ai_strategy = {
-		type = send_lend_lease_desire
-		id = SOV
-		value = -200
-	}
-}
-
 # Don't ally the Soviet Union if it has civil war
 SOV_dont_ally_us_soviet_civil_was = {
 	allowed = { always = yes }
