@@ -4183,15 +4183,6 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_completed_focus = HUN_elect_a_democratic_king
-				}
-				uncomplete_national_focus = {
-					focus = HUN_elect_a_democratic_king
-					uncomplete_children = yes
-				}
-			}
-			if = {
-				limit = {
 					has_completed_focus = HUN_elect_a_fascist_king
 				}
 				uncomplete_national_focus = {

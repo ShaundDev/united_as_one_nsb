@@ -4014,7 +4014,10 @@ focus_tree = {
 	focus = {
 		id = POL_elect_a_PSL_leader
 		icon = GFX_goal_support_democracy
-		#relative_position_id = POL_raise_the_black_madonna
+		prerequisite = { focus = POL_raise_the_black_madonna }
+		#prerequisite = { focus = POL_reassemble_the_sejm }
+		#prerequisite = { focus = POL_empower_the_morges }
+		relative_position_id = POL_raise_the_black_madonna
 		mutually_exclusive = { focus = POL_KPP_focus }
 		allow_branch = {
 			has_dlc = "No Step Back"

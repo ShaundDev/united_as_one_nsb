@@ -445,8 +445,6 @@ frloc_ruler_name_male_vow = {
 		has_country_leader = { character = ITA_arturo_riccardi }
 		has_country_leader = { character = ITA_alfredo_guzzoni }
 		has_country_leader = { character = ITA_ettore_muti }
-		has_country_leader = { character = ITA_amadeo_bordiga }
-		has_country_leader = { character = ITA_ivanoe_bonomi }
 		has_country_leader = { name = "Augustus Mussolini" }
 		### JAP
 		has_country_leader = { character = JAP_akira_muto }

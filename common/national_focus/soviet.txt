@@ -8415,7 +8415,7 @@ ai_will_do = {
 
 
 	focus = {
-		id = SOV_HMM_restore_russian_claims
+		id = SOV_restore_russian_claims
 		icon = GFX_focus_ger_great_red_menace
 		prerequisite = { focus = SOV_the_comintern }
 		x = 4
@@ -8484,12 +8484,12 @@ ai_will_do = {
 
 	focus = {
 
-		id = SOV_HMM_the_winter_war
+		id = SOV_the_winter_war
 		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = SOV_HMM_restore_russian_claims }
+		prerequisite = { focus = SOV_restore_russian_claims }
 	    x = 0
 		y = 1
-		relative_position_id = SOV_HMM_restore_russian_claims
+		relative_position_id = SOV_restore_russian_claims
 		cost = 1
 
 		ai_will_do = {
