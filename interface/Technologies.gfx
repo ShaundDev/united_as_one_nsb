@@ -377,7 +377,22 @@ spriteTypes = {
 		name = "GFX_interwar_artillery_medium"
 		texturefile = "gfx/interface/technologies/artillery/Art_1_allies.dds"
 	}	
+
+	SpriteType = {
+		name = "GFX_heavy_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty3_comintern.dds"
+	}	
 	
+	SpriteType = {
+		name = "GFX_heavy_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty2_comintern.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_interwar_heavyartillery_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty1_comintern.dds"
+	}
+
 	### infantry tech	###
 
 	SpriteType = {
@@ -3475,6 +3490,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_interwar_artillery_medium"
 		texturefile = "gfx/interface/technologies/Art_1_allies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_heavy_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty3_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_heavy_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty2_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_interwar_heavyartillery_medium"
+		texturefile = "gfx/interface/technologies/artillery/heavy_arty1_allies.dds"
 	}
 
 	SpriteType = {
