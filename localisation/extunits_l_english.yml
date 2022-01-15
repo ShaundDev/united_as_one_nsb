@@ -20,6 +20,14 @@
  pack_artillery_brigade:0 "Pack Artillery"
  pack_artillery_brigade_desc:0 ""
 
+ ### Heavy Artilery Unit
+ heavy_artillery:0 "Support Heavy Artillery"
+ heavy_artillery_desc:0 ""
+ heavy_artillery_brigade:0 "Heavy Artillery"
+ heavy_artillery_brigade_desc:0 ""
+ mot_heavy_artillery_brigade:0 "Mot. Heavy Artillery"
+ mot_heavy_artillery_brigade_desc:0 ""
+
 ### Pack Artilery Research Upgrade
  pack2:0 "Pack Artillery Upgrade"
  pack2_desc:0 "Upgraded carriage designs allow more rapid deployment of small artillery pieces."
