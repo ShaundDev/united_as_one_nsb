@@ -51,8 +51,19 @@
  radio_equipment:0 "Radio Eq."
  radio_equipment_1:0 "Radio Equipment"
  radio_equipment_1_short:0 "Radio Equipment"
+
  ### Light & Garrison Infantry
  light_infantry:0 "Light Infantry"
  light_infantry_desc:0 ""
  garrison:0 "Garrison"
  garrison_desc:0 ""
+
+ ## Industry Research
+ industry_plan1:0 "Industrial Planning I"
+ industry_plan1_desc:0 ""
+ industry_plan2:0 "Industrial Planning II"
+ industry_plan2_desc:0 ""
+ industry_plan3:0 "Industrial Planning III"
+ industry_plan3_desc:0 ""
+ industry_plan4:0 "Industrial Planning IV"
+ industry_plan4_desc:0 ""

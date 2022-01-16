@@ -1806,6 +1806,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_basic_line_production_medium"
+		texturefile = "gfx/interface/technologies/industry/basic_line_production.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_assembly_line_production_medium"
 		texturefile = "gfx/interface/technologies/assembly_line_production.dds"
 	}
