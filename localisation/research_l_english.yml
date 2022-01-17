@@ -1,1 +1,15 @@
 ﻿l_english:
+
+### Pack Artilery Research Upgrade
+ pack2:0 "Pack Artillery Upgrade"
+ pack2_desc:0 "Upgraded carriage designs allow more rapid deployment of small artillery pieces."
+ pack4:0 "Improved Pack Artillery Upgrade I"
+ pack4_desc:0 "Improved alloys and materials allow the use of more advanced ammunition types in our small artillery pieces."
+
+### Heavy Artillery Upgrade
+ heavy_artillery1:0 "Heavy Artillery Upgrade"
+ heavy_artillery1_desc:0 "Upgraded carriage designs allow more rapid deployment of small artillery pieces."
+ heavy_artillery3:0 "Heavy Artillery Upgrade"
+ heavy_artillery3_desc:0 "Upgraded carriage designs allow more rapid deployment of small artillery pieces."
+ heavy_artillery4:0 "Heavy Artillery Upgrade"
+ heavy_artillery4_desc:0 "Upgraded carriage designs allow more rapid deployment of small artillery pieces."

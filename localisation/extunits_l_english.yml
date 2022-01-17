@@ -28,12 +28,6 @@
  mot_heavy_artillery_brigade:0 "Mot. Heavy Artillery"
  mot_heavy_artillery_brigade_desc:0 ""
 
-### Pack Artilery Research Upgrade
- pack2:0 "Pack Artillery Upgrade"
- pack2_desc:0 "Upgraded carriage designs allow more rapid deployment of small artillery pieces."
- pack4:0 "Improved Pack Artillery Upgrade I"
- pack4_desc:0 "Improved alloys and materials allow the use of more advanced ammunition types in our small artillery pieces."
-
  ### Pack Artillery Generic
  pack_artillery_equipment:0 "Pack Artillery"
  pack_artillery_equipment_1:0 "Pack Artillery I"
