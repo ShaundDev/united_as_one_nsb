@@ -19,6 +19,7 @@ NDefines.NDiplomacy.MP_NUM_LOSERS_FOR_PEACE_PAUSE = 1; -- Number of human player
 NDefines.NDiplomacy.GUARANTEE_COST = 10;
 
 -- NCountry.
+NDefines.NCountry.BASE_RESEARCH_SLOTS = 3;
 NDefines.NCountry.LOCAL_MANPOWER_ACCESSIBLE_FACTOR = 0.3;         -- accessible recruitable factor base
 NDefines.NCountry.MAJOR_MIN_FACTORIES = 90;						-- need at least these many factories to become a major
 NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.85;			-- Min ratio of air superiority for paradropping
