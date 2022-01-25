@@ -45,11 +45,6 @@ technologies = {
 			leads_to_tech = advanced_machine_tools 
 			research_cost_coeff = 1
 		}
-
-		path = {
-			leads_to_tech = improved_equipment_conversion
-			research_cost_coeff = 1
-		}
 		
 		path = {
 			leads_to_tech = industry_plan1
@@ -79,7 +74,7 @@ technologies = {
 
 	industry_plan1 = {	
 		
-		conversion_cost_civ_to_mil_factor = -0.15
+		equipment_conversion_speed = 0.10
 		production_factory_efficiency_gain_factor = 0.05
 		line_change_production_efficiency_factor = 0.05
 		production_speed_buildings_factor = 0.025
@@ -139,7 +134,7 @@ technologies = {
 
 	industry_plan2 = {
 		
-		conversion_cost_civ_to_mil_factor = -0.15
+		equipment_conversion_speed = 0.10
 		production_factory_efficiency_gain_factor = 0.075
 		line_change_production_efficiency_factor = 0.075
 		production_speed_buildings_factor = 0.025
@@ -202,8 +197,8 @@ technologies = {
 	}
 
 	industry_plan3 = {
-		
-		conversion_cost_civ_to_mil_factor = -0.15
+
+		equipment_conversion_speed = 0.10
 		production_factory_efficiency_gain_factor = 0.1
 		line_change_production_efficiency_factor = 0.1
 		production_speed_buildings_factor = 0.025
@@ -278,7 +273,7 @@ technologies = {
 	
 	industry_plan4 = {
 		
-		conversion_cost_civ_to_mil_factor = -0.15
+		equipment_conversion_speed = 0.10
 		production_factory_efficiency_gain_factor = 0.15
 		line_change_production_efficiency_factor = 0.15
 		production_speed_buildings_factor = 0.025
@@ -368,77 +363,7 @@ technologies = {
 	}
 
 	#Conversion branch - Enabled in DoD
-	improved_equipment_conversion = {
 	
-		equipment_conversion_speed = 0.40
-
-		allow_branch = {
-			has_dlc = "Death or Dishonor"
-		}
-
-		path = {
-			leads_to_tech = advanced_equipment_conversion
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1937
-		
-		folder = {
-			name = industry_folder
-			position = { x = -2 y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 0
-				NOT = { has_government = fascism }
-			}
-		}
-		
-		categories = {
-			industry
-		}
-	}
-	
-	advanced_equipment_conversion = {
-		
-		equipment_conversion_speed = 0.40
-
-		research_cost = 1.5
-		start_year = 1939
-		
-		folder = {
-			name = industry_folder
-			position = { x = -2 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 0
-				NOT = { has_government = fascism }
-			}
-		}
-		
-		categories = {
-			industry
-		}
-	}
-
 	###############
 	basic_industry = {
 

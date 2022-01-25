@@ -601,49 +601,64 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
-		name = "GFX_tech_mountaineers3_medium"
-		texturefile = "gfx/interface/technologies/mountain3.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_tech_mountaineers2_medium"
-		texturefile = "gfx/interface/technologies/mountain2.dds"
-	}	
-	
-	SpriteType = {
 		name = "GFX_tech_mountaineers_medium"
 		texturefile = "gfx/interface/technologies/mountain.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_marines3_medium"
-		texturefile = "gfx/interface/technologies/marines3.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_marines2_medium"
-		texturefile = "gfx/interface/technologies/marines2.dds"
+		name = "GFX_tech_mountaineers2_medium"
+		texturefile = "gfx/interface/technologies/mountain2.dds"
 	}	
-	
+
+	SpriteType = {
+		name = "GFX_tech_mountaineers3_medium"
+		texturefile = "gfx/interface/technologies/mountain3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_mountaineers4_medium"
+		texturefile = "gfx/interface/technologies/mountain4.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_marines_medium"
 		texturefile = "gfx/interface/technologies/marines.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_paratroopers3_medium"
-		texturefile = "gfx/interface/technologies/paratroopers3.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_paratroopers2_medium"
-		texturefile = "gfx/interface/technologies/paratroopers2.dds"
+		name = "GFX_marines2_medium"
+		texturefile = "gfx/interface/technologies/marines2.dds"
 	}	
-	
+
+	SpriteType = {
+		name = "GFX_marines3_medium"
+		texturefile = "gfx/interface/technologies/marines3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_marines4_medium"
+		texturefile = "gfx/interface/technologies/marines4.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_paratroopers_medium"
 		texturefile = "gfx/interface/technologies/paratroopers.dds"
 	}	
+
+	SpriteType = {
+		name = "GFX_paratroopers2_medium"
+		texturefile = "gfx/interface/technologies/paratroopers2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_paratroopers3_medium"
+		texturefile = "gfx/interface/technologies/paratroopers3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_paratroopers4_medium"
+		texturefile = "gfx/interface/technologies/paratroopers4.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_tech_special_forces_medium"
@@ -676,18 +691,66 @@ spriteTypes = {
 	}
 
 
+	##Infantry AT##
 
-
-	SpriteType = {
-		name = "GFX_infantry_at2_medium"
-		texturefile = "gfx/interface/technologies/infantry_at2.dds"
-	}	
-	
 	SpriteType = {
 		name = "GFX_infantry_at_medium"
-		texturefile = "gfx/interface/technologies/infantry_at.dds"
-	}	
-	
+		texturefile = "gfx/interface/technologies/land/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at2_medium"
+		texturefile = "gfx/interface/technologies/land/antitank2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/land/antitank3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at4_medium"
+		texturefile = "gfx/interface/technologies/land/antitank4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/land/ger_antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_infantry_at4_medium"
+		texturefile = "gfx/interface/technologies/land/ger_antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/land/eng_antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_infantry_at4_medium"
+		texturefile = "gfx/interface/technologies/land/eng_antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/land/jap_antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_infantry_at4_medium"
+		texturefile = "gfx/interface/technologies/land/jap_antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/land/usa_antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_at4_medium"
+		texturefile = "gfx/interface/technologies/land/usa_antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/land/sov_antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_infantry_at4_medium"
+		texturefile = "gfx/interface/technologies/land/sov_antitank1.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_infantry_weapons2_medium"
 		texturefile = "gfx/interface/technologies/infantry_weapons.dds"

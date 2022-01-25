@@ -19,30 +19,7 @@
  pack_artillery_equipment_2_short:0 "Improved Pack Artillery"
  pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible."
 
- ## Generic Pack Artillery
- pack_artillery_equipment:0 "Pack Artillery"
- pack_artillery_equipment_1:0 "Pack Artillery I"
- pack_artillery_equipment_1_short:0 "Pack Artillery"
- pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
- pack_artillery_equipment_2:0 "Pack Artillery II"
- pack_artillery_equipment_2_short:0 "Improved Pack Artillery"
- pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
-
- ## GER Pack Artillery 
- GER_pack_artillery_equipment_1:0 "7.5 cm Gebirgsgeschütz 36"
- GER_pack_artillery_equipment_1_short:0 "7.5cm GebG 36"
- GER_pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
- GER_pack_artillery_equipment_2:0 "7.5 cm Leichtes Infanteriegeschütz 18F"
- GER_pack_artillery_equipment_2_short:0 "7.5 cm le.IG 18F"
- GER_pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
-
  ## Allied Pack Artillery
- ENG_pack_artillery_equipment_1:0 "Ordnance QF 3.7-inch Mountain Howitzer Mk 1"
- ENG_pack_artillery_equipment_1_short:0 "QF 3.7-inch Howitzer Mk 1"
- ENG_pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
- ENG_pack_artillery_equipment_2:0 "Ordnance QF 3.7-inch Mountain Howitzer Mk 3"
- ENG_pack_artillery_equipment_2_short:0 "QF 3.7-inch Howitzer Mk 3"
- ENG_pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
  AST_pack_artillery_equipment_1:0 "Ordnance QF 3.7-inch Mountain Howitzer Mk 1"
  AST_pack_artillery_equipment_1_short:0 "QF 3.7-inch Howitzer Mk 1"
  AST_pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
@@ -74,34 +51,17 @@
  SAF_pack_artillery_equipment_2_short:0 "QF 3.7-inch Howitzer Mk 3"
  SAF_pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
 
- ## USA Pack Artillery
- USA_pack_artillery_equipment_1:0 "75mm Pack Howitzer M1A1 Mountain Artillery"
- USA_pack_artillery_equipment_1_short:0 "75mm Pack Howitzer M1A1"
- USA_pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
- USA_pack_artillery_equipment_2:0 "75mm Pack Howitzer M3A3 Mountain Artillery"
- USA_pack_artillery_equipment_2_short:0 "75mm Pack Howitzer M3A3"
- USA_pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
 
- ## SOV Pack Artillery
- SOV_pack_artillery_equipment_0:0 "Pack gun M1938"
- SOV_pack_artillery_equipment_0_short:0 "76mm Pack gun M1938"
- SOV_pack_artillery_equipment_0_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
-
- ## French Pack Artillery
- FRA_pack_artillery_equipment_0:0 "Canon de 75 montagne modele 1928 Mountain Artillery"
- FRA_pack_artillery_equipment_0_short:0 "Canon de 75 montagne M1928 Pack-Art"
- FRA_pack_artillery_equipment_0_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
- JAP_pack_artillery_equipment_0:0 "Type 94 75mm Mountain Gun"
- JAP_pack_artillery_equipment_0_short:0 "Type 94 75mm Mountain Gun"
- JAP_pack_artillery_equipment_0_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
-
- ## Italy Pack Artillery
- ITA_pack_artillery_equipment_0:0 "Obice da 75/18"
- ITA_pack_artillery_equipment_0_short:0 "Obice da 75/18 m34 Pack-Art"
- ITA_pack_artillery_equipment_0_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
-  
- 
- ## Heavy Artillery
+ #### Generic Equipment
+ ## Generic Pack Artillery
+ pack_artillery_equipment:0 "Pack Artillery"
+ pack_artillery_equipment_1:0 "Pack Artillery I"
+ pack_artillery_equipment_1_short:0 "Pack Artillery"
+ pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+ pack_artillery_equipment_2:0 "Pack Artillery II"
+ pack_artillery_equipment_2_short:0 "Improved Pack Artillery"
+ pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+ ## Generic Heavy Artillery
  heavy_artillery_equipment:0 "Heavy Artillery"
  heavy_artillery_equipment_short:0 "Heavy Artillery"
  heavy_artillery_equipment_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
@@ -117,8 +77,26 @@
  heavy_artillery_equipment_4:0 "Heavy Artillery IV"
  heavy_artillery_equipment_4_short:0 "150mm m.44"
  heavy_artillery_equipment_4_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
+ ## Generic Antitank
+ infantry_at2:0 "Infantry Anti-Tank II"
+ infantry_at2_short:0 "Infantry Anti-Tank II"
+ infantry_at2_desc:0 "Improved Technics for our Infantry to take out enemy Tanks."
+ infantry_at3:0 "Rocket Propelled Grenade System"
+ infantry_at3_short:0 "Rocket Propelled Grenade System"
+ infantry_at3_desc:0 "The introduction of Rocket propelled anti-tank systems will greatly increase our infantry anti-tank capability."
+ infantry_at4:0 "Rocket Propelled Grenade System II"
+ infantry_at4_short:0 "Rocket Propelled Grenade System II"
+ infantry_at4_desc:0 "The introduction of Rocket propelled anti-tank systems will greatly increase our infantry anti-tank capability."
 
- ## German Medium Artillery
+ #### GER Equipment
+ ## GER Pack Artillery 
+ GER_pack_artillery_equipment_1:0 "7.5 cm Gebirgsgeschütz 36"
+ GER_pack_artillery_equipment_1_short:0 "7.5cm GebG 36"
+ GER_pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+ GER_pack_artillery_equipment_2:0 "7.5 cm Leichtes Infanteriegeschütz 18F"
+ GER_pack_artillery_equipment_2_short:0 "7.5 cm le.IG 18F"
+ GER_pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+ ## GER Medium Artillery
  GER_heavy_artillery_equipment:0 "15cm sFH"
  GER_heavy_artillery_equipment_short:0 "15cm sFH"
  GER_heavy_artillery_equipment_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
@@ -131,8 +109,24 @@
  GER_heavy_artillery_equipment_3:0 "15cm sFH 18/40 Med-artillery III"
  GER_heavy_artillery_equipment_3_short:0 "15cm sFH 18/40"
  GER_heavy_artillery_equipment_3_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
+ ## GER Antitank
+ GER_infantry_at2:0 "Panzerfaust 30"
+ GER_infantry_at2_short:0 "Panzerfaust 30"
+ GER_infantry_at3:0 "Panzerfaust 60"
+ GER_infantry_at3_short:0 "Panzerfaust 60"
+ GER_infantry_at4:0 "Panzerschreck"
+ GER_infantry_at4_short:0 "Panzerschreck"
 
- ## Allied Heavy Artillery
+
+ #### ENG Equipment
+ ## ENG Pack Artillery
+ ENG_pack_artillery_equipment_1:0 "Ordnance QF 3.7-inch Mountain Howitzer Mk 1"
+ ENG_pack_artillery_equipment_1_short:0 "QF 3.7-inch Howitzer Mk 1"
+ ENG_pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+ ENG_pack_artillery_equipment_2:0 "Ordnance QF 3.7-inch Mountain Howitzer Mk 3"
+ ENG_pack_artillery_equipment_2_short:0 "QF 3.7-inch Howitzer Mk 3"
+ ENG_pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+ ## ENG Heavy Artillery
  ENG_heavy_artillery_equipment_1:0 "BL 4.5-inch Medium Field Gun Mk.1 Med-artillery I"
  ENG_heavy_artillery_equipment_1_short:0 "BL 4.5-inch Gun"
  ENG_heavy_artillery_equipment_1_desc:0 "Medium artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to teach."
@@ -142,7 +136,11 @@
  ENG_heavy_artillery_equipment_3:0 "BL 5.5-inch Gun Mk.3 Med-artillery III"
  ENG_heavy_artillery_equipment_3_short:0 "BL 5.5-inch Gun Mk.3"
  ENG_heavy_artillery_equipment_3_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
+ ## ENG Antitank
+ ENG_infantry_at1:0 "Boys Anti-Tank Rifle"
+ ENG_infantry_at3:0 "PIAT"
 
+ ## AST Heavy Artillery
  AST_heavy_artillery_equipment_1:0 "BL 4.5-inch Medium Field Gun Mk.1 Med-artillery I"
  AST_heavy_artillery_equipment_1_short:0 "BL 4.5-inch Gun"
  AST_heavy_artillery_equipment_1_desc:0 "Medium artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to teach."
@@ -208,7 +206,13 @@
  SAF_heavy_artillery_equipment_3:0 "BL 5.5-inch Gun Mk.3 Med-artillery III"
  SAF_heavy_artillery_equipment_3_short:0 "BL 5.5-inch Gun Mk.3"
  SAF_heavy_artillery_equipment_3_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
-## Italy Heavy Artillery
+
+ ####ITA Equipment
+ ## ITA Pack Artillery
+ ITA_pack_artillery_equipment_0:0 "Obice da 75/18"
+ ITA_pack_artillery_equipment_0_short:0 "Obice da 75/18 m34 Pack-Art"
+ ITA_pack_artillery_equipment_0_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+## ITA Heavy Artillery
  ITA_heavy_artillery_equipment:0 "Obice da 100/17 mod. 16"
  ITA_heavy_artillery_equipment_short:0 "Obice da 100/17 mod. 16"
  ITA_heavy_artillery_equipment_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
@@ -222,6 +226,7 @@
  ITA_heavy_artillery_equipment_3_short:0 "Cannone da 105/28"
  ITA_heavy_artillery_equipment_3_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
 
+ ####USA Equipment
  ## USA Heavy Artillery
  USA_heavy_artillery_equipment_1:0 "155mm Howitzer M1918 Med-artillery I"
  USA_heavy_artillery_equipment_1_short:0 "155mm Howitzer M1918"
@@ -232,7 +237,22 @@
  USA_heavy_artillery_equipment_3:0 "155mm Howitzer M1A1 Med-artillery III"
  USA_heavy_artillery_equipment_3_short:0 "155mm Howitzer M1A1"
  USA_heavy_artillery_equipment_3_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
+ ## USA Pack Artillery
+ USA_pack_artillery_equipment_1:0 "75mm Pack Howitzer M1A1 Mountain Artillery"
+ USA_pack_artillery_equipment_1_short:0 "75mm Pack Howitzer M1A1"
+ USA_pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+ USA_pack_artillery_equipment_2:0 "75mm Pack Howitzer M3A3 Mountain Artillery"
+ USA_pack_artillery_equipment_2_short:0 "75mm Pack Howitzer M3A3"
+ USA_pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+ ## USA Antitank
+ USA_infantry_at3:0 "M1 Bazooka"
+ USA_infantry_at4:0 "M1 Bazooka"
 
+ ####SOV Equipment
+ ## SOV Pack Artillery
+ SOV_pack_artillery_equipment_0:0 "Pack gun M1938"
+ SOV_pack_artillery_equipment_0_short:0 "76mm Pack gun M1938"
+ SOV_pack_artillery_equipment_0_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
  ## Soviet Heavy Artillery
  SOV_heavy_artillery_equipment_1:0 "122mm Howitzer M1909/37 Med-artillery I"
  SOV_heavy_artillery_equipment_1_short:0 "122mm Howitzer M1909/37"
@@ -243,8 +263,20 @@
  SOV_heavy_artillery_equipment_3:0 "203mm Howitzer M1942 (D-1) Med-artillery III"
  SOV_heavy_artillery_equipment_3_short:0 "203 Howitzer M1942"
  SOV_heavy_artillery_equipment_3_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
+ ## SOV Antitank
+ SOV_infantry_at:0 "PTRD"
+ SOV_infantry_at3:0 "RPG-43"
 
- ## French Heavy Artillery
+
+ ####FRA Equipment
+ ## FRA Pack Artillery
+ FRA_pack_artillery_equipment_1:0 "Canon de 75 montagne modele 1928 Mountain Artillery"
+ FRA_pack_artillery_equipment_1_short:0 "Canon de 75 montagne M1928 Pack-Art"
+ FRA_pack_artillery_equipment_1_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+ JAP_pack_artillery_equipment_2:0 "Type 94 75mm Mountain Gun"
+ JAP_pack_artillery_equipment_2_short:0 "Type 94 75mm Mountain Gun"
+ JAP_pack_artillery_equipment_2_desc:0 "Pack guns are artillery pieces designed for use in mountain warfare and areas where usual wheeled transport is not possible. They are similar to infantry support guns, and are generally capable of being broken down into smaller loads."
+ ## FRA Heavy Artillery
  FRA_heavy_artillery_equipment_1:0 "Canon de 155 C modele 1917 Schneider Med-artillery I"
  FRA_heavy_artillery_equipment_1_short:0 "Canon de 155 C M1917"
  FRA_heavy_artillery_equipment_1_desc:0 "Medium artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to teach."
@@ -254,6 +286,7 @@
  FRA_heavy_artillery_equipment_3:0 "Canon de 155 C modele 1941 Med-artillery III"
  FRA_heavy_artillery_equipment_3_short:0 "Canon de 155 C M1941"
  FRA_heavy_artillery_equipment_3_desc:0 "New heavier designs, taking advantage of new hydraulic recoil devices and longer barrels."
+
 
  ## Japanese Heavy Artillery
  JAP_heavy_artillery_equipment_3:0 "Type 14 10cm Cannon"
@@ -265,4 +298,3 @@
  JAP_heavy_artillery_equipment_2:0 "10th Year Type 12cm/45 Dual Purpose Gun"
  JAP_heavy_artillery_equipment_2_short:0 "10th Year Type 12cm/45 DPG"
  JAP_heavy_artillery_equipment_2_desc:0 "The 10th Year Type 12cm/45 gun was a 120 mm dual-purpose anti-aircraft and coastal defense gun used during the World War II. It served as the secondary armament on a number of Japanese aircraft carriers and cruisers and as the primary armament on smaller ships. Available in both single and dual mounts the gun fired either high explosive or incendiary shrapnel shells that weighed 20.6 kilograms, with a complete round weighing 32.4 kilograms. About 3000 were built from 1921 to 1945."
- 

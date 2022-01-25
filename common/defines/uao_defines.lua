@@ -56,7 +56,7 @@ NDefines.NBuildings.MAX_BUILDING_LEVELS = 50;			-- Max levels a building can hav
 NDefines.NBuildings.SABOTAGE_FACTORY_DAMAGE = 75.0;		-- How much damage takes a factory building in sabotage when state is occupied. Damage is mult by (1 + resistance strength), i.e. up to 2 x base value.
 
 -- NProduction.
-NDefines.NProduction.BASE_FACTORY_SPEED = 4;
+NDefines.NProduction.BASE_FACTORY_SPEED = 5;
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4;
 NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 2.5;
 NDefines.NProduction.BASE_FACTORY_START_EFFICIENCY_FACTOR = 10; -- Base start efficiency for factories expressed in %.
