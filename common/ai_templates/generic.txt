@@ -327,7 +327,7 @@ armor_generic = {
 
 			modifier = {
 				factor = 4
-				has_tech = armored_car1
+				has_tech = armoured_car1
 			}
 		}
 		

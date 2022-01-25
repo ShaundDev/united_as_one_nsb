@@ -553,7 +553,7 @@ armored_USA= {
 
 			modifier = {
 				factor = 10
-				has_tech = armored_car1
+				has_tech = armoured_car1
 			}
 		}
 		production_prio = {

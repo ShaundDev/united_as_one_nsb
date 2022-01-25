@@ -156,7 +156,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	set_technology = {
-		armored_car1 = 1
+		armoured_car1 = 1
 	}
 }
 1939.1.1 = {

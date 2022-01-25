@@ -5062,7 +5062,7 @@ country_event = {
 
 		trigger = {
 			var:BUL_military_vehicles_seller = {
-				has_tech = armored_car1
+				has_tech = armoured_car1
 			}
 		}
 

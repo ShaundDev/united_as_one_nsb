@@ -263,12 +263,12 @@ technologies = {
 	infantry_at = {
 
 		category_all_infantry = {
-			hard_attack = 0.07
-			ap_attack = 0.25
+			hard_attack = 0.08
+			ap_attack = 0.15
 		}
 		category_light_infantry = {
 			hard_attack = 0.05
-			ap_attack = 0.20
+			ap_attack = 0.10
 		}
 		path = {
 			leads_to_tech = infantry_at2
@@ -295,12 +295,12 @@ technologies = {
 	infantry_at2 = {
 
 		category_all_infantry = {
-			hard_attack = 0.08
-			ap_attack = 0.25
+			hard_attack = 0.09
+			ap_attack = 0.20
 		}
 		category_light_infantry = {
 			hard_attack = 0.05
-			ap_attack = 0.20
+			ap_attack = 0.15
 		}
 		path = {
 			leads_to_tech = infantry_at3
@@ -325,12 +325,12 @@ technologies = {
 	infantry_at3 = {
 
 		category_all_infantry = {
-			hard_attack = 0.2
-			ap_attack = 0.5
+			hard_attack = 0.20
+			ap_attack = 0.25
 		}
 		category_light_infantry = {
-			hard_attack = 0.1
-			ap_attack = 0.3
+			hard_attack = 0.15
+			ap_attack = 0.2
 		}
 		
 		research_cost = 1.5
@@ -357,11 +357,11 @@ technologies = {
 
 		category_all_infantry = {
 			hard_attack = 0.25
-			ap_attack = 1
+			ap_attack = 0.5
 		}
 		category_light_infantry = {
 			hard_attack = 0.2
-			ap_attack = 1
+			ap_attack = 0.4
 		}
 		
 		research_cost = 1.5
@@ -474,7 +474,72 @@ technologies = {
 			}
 		}
 	}
-	
+
+	amphibious_mechanized_infantry = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		dependencies = {
+
+		}
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_2
+			research_cost_coeff = 1
+		}
+		enable_subunits = {
+			amphibious_mechanized
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1941 }
+		}
+		research_cost = 1.5
+		start_year = 1941
+		
+		categories = {
+			motorized_equipment
+			cat_mechanized_equipment
+			tp_tech
+		}
+		
+		ai_will_do = {
+			factor = 0			
+		}
+	}
+
+	amphibious_mechanized_infantry_2 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_2
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1943 }
+		}
+		dependencies = {
+
+		}
+		research_cost = 1.5
+		start_year = 1943
+		
+		
+		categories = {
+			motorized_equipment
+			cat_mechanized_equipment
+			tp_tech
+		}
+		
+		ai_will_do = {
+			factor = 0	
+			
+		}
+	}
+
 	paratroopers = {
 
 		enable_subunits = {

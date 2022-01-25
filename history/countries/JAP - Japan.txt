@@ -6,7 +6,7 @@ set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.8
 set_research_slots = 5
 create_intelligence_agency = {
-	name = "G-2 Department" "Section 3"
+	name = "G-2 Department Section 3"
 	icon = "GFX_intelligence_agency_logo_jap"
 }
 
@@ -83,7 +83,7 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	motorised_infantry = 1
-	armored_car1 = 1
+	armoured_car1 = 1
 	marines  = 1
 	################# support ###############
 	tech_headquarters = 1
@@ -197,7 +197,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	set_technology = {
-		armored_car1 = 1
+		armoured_car1 = 1
 	}
 }
 

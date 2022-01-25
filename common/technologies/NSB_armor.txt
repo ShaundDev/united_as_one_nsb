@@ -13,7 +13,7 @@ technologies = {
 	@1945 = 12
 	@1946 = 20
 
-	armored_car1 = {
+	armoured_car1 = {
 
 		enable_subunits = {
 			armored_car
@@ -24,7 +24,7 @@ technologies = {
 		}
 		allow_branch = { has_dlc = "La Resistance" }
 		path = {
-			leads_to_tech = armored_car2
+			leads_to_tech = armoured_car2
 			research_cost_coeff = 1
 		}
 
@@ -64,14 +64,14 @@ technologies = {
 		}
 	}
 
-	armored_car2 = {
+	armoured_car2 = {
 
 		enable_equipments = {
 			armored_car_equipment_1
 		}
 		
 		path = {
-			leads_to_tech = armored_car3
+			leads_to_tech = armoured_car3
 			research_cost_coeff = 1
 		}
 
@@ -111,7 +111,7 @@ technologies = {
 		}
 	}
 
-	armored_car3 = {
+	armoured_car3 = {
 
 		enable_equipments = {
 			armored_car_equipment_2

@@ -554,7 +554,7 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	motorised_infantry = 1
-	armored_car1 = 1
+	armoured_car1 = 1
 	paratroopers = 1
 	################# support ###############
 	tech_support = 1
@@ -649,7 +649,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	set_technology = {
-		armored_car1 = 1
+		armoured_car1 = 1
 	}
 }
 
