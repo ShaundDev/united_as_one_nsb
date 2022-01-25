@@ -158,6 +158,11 @@ set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
 
+create_intelligence_agency = {
+	name = "Abwehr"
+	icon = "GFX_intelligence_agency_logo_ger"
+}
+
 #Trade
 create_import = {
 		resource = tungsten

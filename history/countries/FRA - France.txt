@@ -30,6 +30,10 @@ if = {
 set_research_slots = 4
 set_stability = 0.5
 
+create_intelligence_agency = {
+	name = "Deuxième Bureau"
+	icon = "GFX_intelligence_agency_logo_fra"
+}
 
 # Starting tech
 set_technology = {

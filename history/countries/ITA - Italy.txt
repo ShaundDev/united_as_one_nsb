@@ -20,6 +20,12 @@ starting_train_buffer = 1.5
 set_research_slots = 5
 set_stability = 0.6
 set_war_support = 0.7
+
+create_intelligence_agency = {
+	name = "Servizio Informazioni Militare"
+	icon = "GFX_intelligence_agency_logo_ita"
+}
+
 add_ideas = {
 	victor_emmanuel
 	vittoria_mutilata
