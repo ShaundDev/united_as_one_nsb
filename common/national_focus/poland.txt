@@ -2612,7 +2612,7 @@ focus_tree = {
 		id = POL_polish_revanchism
 		icon = GFX_focus_POL_polish_revanchism
 		prerequisite = { focus = POL_ozon }
-		mutually_exclusive = { focus = POL_align_with_the_west focus = POL_baltic_security }
+		mutually_exclusive = { focus = POL_align_with_the_west }
 		
 		x = -1
 		y = 1
@@ -2693,7 +2693,6 @@ focus_tree = {
 	focus = {
 		id = POL_sea_to_sea
 		icon = GFX_focus_generic_strike_at_democracy1
-		prerequisite = { focus = POL_baltic_ultimatums }
 		prerequisite = { focus = POL_the_old_borders }
 		
 		x = 0
@@ -3797,7 +3796,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = POL_camp_of_national_unity
 		cost = 5
-		mutually_exclusive = { focus = POL_polish_revanchism focus = POL_baltic_security }
+		mutually_exclusive = { focus = POL_polish_revanchism }
 		allow_branch = {
 			if = {
 				limit = {
@@ -4014,11 +4013,9 @@ focus_tree = {
 	focus = {
 		id = POL_elect_a_PSL_leader
 		icon = GFX_goal_support_democracy
-		prerequisite = { focus = POL_raise_the_black_madonna }
 		#prerequisite = { focus = POL_reassemble_the_sejm }
 		#prerequisite = { focus = POL_empower_the_morges }
 		relative_position_id = POL_raise_the_black_madonna
-		mutually_exclusive = { focus = POL_KPP_focus }
 		allow_branch = {
 			has_dlc = "No Step Back"
 			if = {
@@ -4121,8 +4118,7 @@ focus_tree = {
 	focus = {
 		id = POL_internationalism
 		icon = GFX_goal_generic_positive_trade_relations
-		prerequisite = { focus = POL_restore_the_sejm }
-		relative_position_id = POL_restore_the_sejm
+		#relative_position_id = POL_restore_the_sejm
 		allow_branch = { NOT = { has_dlc = "No Step Back" } }
 
 		x = 0

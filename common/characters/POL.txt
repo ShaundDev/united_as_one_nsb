@@ -363,15 +363,6 @@ characters = {
 				}
 				if = {
 					limit = {
-						has_dlc = "Poland: United and Ready"
-						NOT = {
-							has_dlc = "No Step Back"
-						}
-					}
-					has_completed_focus = POL_restore_the_sejm 
-				}
-				if = {
-					limit = {
 						has_dlc = "No Step Back"
 					}
 					has_completed_focus = POL_nationalist_constitution 
@@ -1175,16 +1166,6 @@ characters = {
 							has_autonomy_state = autonomy_supervised_state
 						}
 					}
-					if = {
-						limit = {
-							has_dlc = "Poland: United and Ready"
-							NOT = {
-								has_dlc = "No Step Back"
-							}
-						}
-						has_completed_focus = POL_restore_the_sejm 
-					}
-				}
 				traits = {
 					democratic_reformer 
 				}
@@ -1486,15 +1467,6 @@ characters = {
 					NOT = {
 						has_autonomy_state = autonomy_supervised_state
 					}
-				}
-				if = {
-					limit = {
-						has_dlc = "Poland: United and Ready"
-						NOT = {
-							has_dlc = "No Step Back"
-						}
-					}
-					has_completed_focus = POL_restore_the_sejm 
 				}
 				if = {
 					limit = {

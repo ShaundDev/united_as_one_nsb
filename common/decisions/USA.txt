@@ -495,7 +495,6 @@ foreign_support = {
 
 		target_root_trigger = {
 			OR = {
-				has_completed_focus = USA_limited_intervention
 				has_completed_focus = USA_lend_lease_act
 			}
 		}

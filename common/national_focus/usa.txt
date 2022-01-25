@@ -425,7 +425,6 @@ focus_tree = {
 		x = 4
 		y = 1
 		prerequisite = { focus = USA_continue_the_new_deal}
-		#mutually_exclusive = { focus = USA_limited_intervention }
 		relative_position_id = USA_continue_the_new_deal
 		cost = 10
 
@@ -527,15 +526,6 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = {
-					has_completed_focus = USA_limited_intervention
-				}
-				swap_ideas = {
-					remove_idea = USA_limited_intervention
-					add_idea = USA_lend_lease_act_li
-				}
-			}
-			else_if = {
 				limit = { has_completed_focus = USA_neutrality_act }
 				swap_ideas = {
 					remove_idea = USA_neutrality_act

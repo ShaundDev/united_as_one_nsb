@@ -6,7 +6,7 @@ set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.8
 set_research_slots = 5
 create_intelligence_agency = {
-	name = "G-2 Department Section 3"
+	name = "G-2 Department"
 	icon = "GFX_intelligence_agency_logo_jap"
 }
 

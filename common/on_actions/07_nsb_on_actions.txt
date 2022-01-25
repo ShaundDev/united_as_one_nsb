@@ -519,7 +519,6 @@ on_actions = {
 					}
 					load_focus_tree = { tree = polish_focus keep_completed = no }
 					mark_focus_tree_layout_dirty = yes
-					unlock_national_focus = POL_restore_the_sejm
 					unlock_national_focus = POL_internationalism
 					unlock_national_focus = POL_liberalism_focus
 				}
@@ -1552,7 +1551,6 @@ on_actions = {
 			### SOVIET CIVIL WAR TRIGGER
 			IF = {
 				limit = { 
-					SOV_is_opposition = yes # Don't test for Stalin
 					SOV_soviet_civil_war_not_started = yes # Only test before the war has started 
 					check_variable = { SOV_paranoia > 89}
 				}
