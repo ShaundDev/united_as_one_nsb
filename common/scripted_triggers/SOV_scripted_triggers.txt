@@ -1121,19 +1121,6 @@ SOV_advisor_is_aligned_centre = {
 	}
 }
 
-SOV_has_crackdown = {
-	custom_trigger_tooltip = {
-		tooltip = SOV_has_crackdown_tt
-		OR = {
-			has_active_mission = SOV_ukraine_crackdown_timer
-			has_active_mission = SOV_steppe_crackdown_timer
-			has_active_mission = SOV_northern_crackdown_timer
-			has_active_mission = SOV_siberian_crackdown_timer
-			has_active_mission = SOV_urals_crackdown_timer
-		}
-	}
-}
-
 SOV_is_major_not_original_sov = {
 	is_major = yes
 	hidden_trigger = {

@@ -3358,7 +3358,6 @@ focus_tree = {
 			OR = {
 				GER = { NOT = { has_government = fascism } }
 				GER = { exists = no }
-				GER = { has_completed_focus = GER_oppose_hitler }
 				has_war_with = ENG
 			}
 			NOT = {
@@ -5648,10 +5647,6 @@ focus_tree = {
 							has_war_with = ROOT
 						}
 					}
-					GER = {
-						has_completed_focus = GER_revive_the_kaiserreich 
-						is_faction_leader = yes
-					}
 				}
 			}
 		}
@@ -5669,9 +5664,6 @@ focus_tree = {
 				limit = {
 					is_in_faction = yes
 					NOT = { has_war_with = GER }
-					GER = {
-						has_completed_focus = GER_revive_the_kaiserreich
-					}
 				}
 				leave_faction = yes
 				GER = { country_event = { id = generic.2 } }
@@ -5680,9 +5672,6 @@ focus_tree = {
 				limit = {
 					is_in_faction = no
 					NOT = { has_war_with = GER }
-					GER = {
-						has_completed_focus = GER_revive_the_kaiserreich
-					}
 				}
 				GER = { country_event = { id = generic.2 } }
 			}
@@ -5755,7 +5744,6 @@ focus_tree = {
 			if = {
 				limit = {
 					NOT = { has_war_with = GER }
-					NOT = { GER = { has_completed_focus = GER_revive_the_kaiserreich } }
 				}
 				effect_tooltip = {
 					every_country = {

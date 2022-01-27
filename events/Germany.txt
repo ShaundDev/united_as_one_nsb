@@ -1991,7 +1991,6 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { NOT = { has_completed_focus = FRA_strengthen_the_little_entente } }
 			add_stability = 0.05
 		}
 	}
@@ -2936,7 +2935,7 @@ country_event = {
 	option = { # Support France
 		name = germany.61.b
 		trigger = {
-			NOT = { has_completed_focus = ENG_a_change_in_course }
+
 		}
 		ai_chance = {
 			factor = 10
@@ -6039,10 +6038,6 @@ country_event = {
 		name = germany.122.b
 		ai_chance = {
 			factor = 50
-			modifier = {
-				factor = 0
-				FRA = { has_completed_focus = FRA_strengthen_the_little_entente }
-			}
 			modifier = {
 				factor = 0
 				POL = {

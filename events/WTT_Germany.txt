@@ -1262,7 +1262,6 @@ country_event = {
 		name = germany.61.b
 		trigger = {
 			NOT = { GER = { has_country_flag = germany_war_return_kaiser } }
-			NOT = { has_completed_focus = ENG_a_change_in_course }
 		}
 		ai_chance = { 
 			factor = 10
@@ -1317,7 +1316,7 @@ country_event = {
 		name = germany.61.c
 		trigger = {
 			GER = { has_country_flag = germany_war_return_kaiser }
-			NOT = { has_completed_focus = ENG_a_change_in_course }
+
 		}
 		ai_chance = { 
 			factor = 10
@@ -1381,16 +1380,11 @@ country_event = {
 	
 	option = {
 		name = germany.62.a
-		trigger = { NOT = { has_completed_focus = ENG_a_change_in_course } }
+		trigger = {  }
 		add_opinion_modifier = { target = GER modifier = protest_action }
 		GER = {
 			add_war_support = 0.1
 		}
-	}
-
-	option = {
-		name = germany.62.b
-		trigger = { has_completed_focus = ENG_a_change_in_course }
 	}
 }
 

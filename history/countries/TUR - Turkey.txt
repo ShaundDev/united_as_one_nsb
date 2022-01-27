@@ -252,7 +252,6 @@ if = {
 		complete_national_focus = TUR_hava_okulu
 		complete_national_focus = TUR_ratify_the_six_arrows
 		complete_national_focus = TUR_peace_at_home
-		complete_national_focus = TUR_turkish_state_railways
 		complete_national_focus = TUR_the_second_five_year_plan
 		complete_national_focus = TUR_treaty_of_saadabad
 		complete_national_focus = TUR_the_sanayiciler

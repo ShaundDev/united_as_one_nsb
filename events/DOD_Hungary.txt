@@ -881,7 +881,6 @@ country_event = {
 		trigger = {
 			FRA = {
 				NOT = { has_war_with = HUN }
-				NOT = { has_completed_focus = FRA_strengthen_the_little_entente } #would be super awkward
 				has_government = democratic
 			}
 		}
@@ -2007,65 +2006,6 @@ country_event = {
 		}
 		clr_country_flag = ROM_mediation
 		set_country_flag = ROM_mediation_refused	
-	}
-}
-#Balkan Crisis - Intervention
-country_event = {
-	id = DOD_hungary.60
-	title = DOD_hungary.60.t
-	desc = DOD_hungary.60.desc
-	picture = GFX_report_event_military_planning
-	
-	is_triggered_only = yes
-
-	option = {# back Hungary
-		name = DOD_hungary.60.a
-		ai_chance = {
-			factor = 35
-			modifier = {
-				is_in_faction_with = HUN
-				factor = 100
-			}
-			modifier = {
-				is_in_faction_with = ROM
-				factor = 0
-			}
-		}
-		add_threat = 1
-		give_guarantee = HUN
-		ROM = { country_event = { id = DOD_hungary.61 } }
-	}
-
-	option = {# back Romania
-		name = DOD_hungary.60.b
-		ai_chance = {
-			factor = 35
-			modifier = {
-				is_in_faction_with = HUN
-				factor = 0
-			}
-			modifier = {
-				is_in_faction_with = ROM
-				factor = 100
-			}
-			modifier = {
-				tag = GER
-				has_completed_focus = GER_oppose_hitler
-				HUN = { has_completed_focus = HUN_invite_the_habsburg_prince }
-				factor = 0
-			}
-		}
-		add_threat = 1
-		give_guarantee = ROM
-		HUN = { country_event = { id = DOD_hungary.62 } }
-	}
-
-	option = {# let them work it out
-		name = DOD_hungary.60.c
-		ai_chance = {
-			factor = 35
-		}
-		
 	}
 }
 
@@ -4111,54 +4051,6 @@ country_event = {
 }
 
 #Pressure Romania - Romania presented with an Ultimatum
-country_event = {
-	id = DOD_hungary.111
-	title = DOD_hungary.111.t
-	desc = DOD_hungary.111.desc 
-	picture = GFX_report_event_soviet_soldiers_tank
-	
-	is_triggered_only = yes
-
-	option = {# give in to territorial demands
-		name = DOD_hungary.111.a
-		ai_chance = {
-			factor = 25
-		}
-		SOV = {
-			country_event = { days = 1 id = soviet.4 }
-		}
-		set_country_flag = bessarabia_ceded
-		HUN = { country_event = DOD_hungary.51 } 
-	}
-
-	option = {# compromise on territorial demands
-		name = DOD_hungary.111.b
-		ai_chance = {
-			factor = 50
-		}
-		SOV = { country_event = DOD_hungary.113 }
-	}
-
-	option = {# offer to put a communist government in charge
-		name = DOD_hungary.111.c
-		ai_chance = {
-			factor = 75 #if available
-		}
-		trigger = {
-			NOT = { has_completed_focus = ROM_appoint_soviet_friendly_government }
-		}
-		SOV = { country_event = DOD_hungary.114 }
-		
-	}	
-	option = {# no deals!
-		name = DOD_hungary.111.d
-		ai_chance = {
-			factor = 25
-		}
-		SOV = { country_event = DOD_hungary.115 }
-		
-	}
-}
 
 #Pressure Romania - SOV refuses
 country_event = {

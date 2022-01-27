@@ -623,7 +623,6 @@ on_actions = {
 					limit = {
 						original_tag = FRA
 						OR = {
-							has_completed_focus = FRA_right_wing_rhetoric
 							has_completed_focus = FRA_utilize_the_leagues
 						}
 					}

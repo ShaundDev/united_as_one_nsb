@@ -167,30 +167,6 @@ bulgaria_ally = {
 	}
 }
 
-yugoslavia_ally = {
-	allowed = {
-		original_tag = ITA
-	}
-	enable = {
-		has_completed_focus = ITA_yugoslavia_friend
-		country_exists = YUG
-	}
-	abort = {
-		NOT = { country_exists = YUG }
-	}
-
-	ai_strategy = {
-		type = befriend
-		id = "YUG"
-		value = 100
-	}
-	ai_strategy = {
-		type = alliance
-		id = "YUG"
-		value = 100
-	}
-}
-
 greece_ally = {
 	allowed = {
 		original_tag = ITA

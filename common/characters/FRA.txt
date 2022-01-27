@@ -62,7 +62,6 @@ characters={
 			}
 			available  = {
 				or  = {
-					has_completed_focus  = FRA_leftist_rhetoric 
 					has_completed_focus  = FRA_invite_communist_ministers 
 				}
 				not  = {
@@ -1163,7 +1162,6 @@ characters={
 			}
 			available  = {
 				or  = {
-					has_completed_focus  = FRA_right_wing_rhetoric 
 					has_completed_focus  = FRA_utilize_the_leagues 
 					has_focus_tree  = vichy_french_focus
 				}

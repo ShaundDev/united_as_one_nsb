@@ -101,7 +101,6 @@ set_convoys = 5
 	complete_national_focus = EST_ismaaliit
 	complete_national_focus = BALTIC_rejoin_the_railways
 	complete_national_focus = BALTIC_renew_allied_trade
-	complete_national_focus = EST_establish_the_rahvuskogu
 	complete_national_focus = EST_national_council
 	complete_national_focus = EST_chamber_of_deputies
 	complete_national_focus = EST_modernize_capital

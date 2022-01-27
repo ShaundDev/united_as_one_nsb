@@ -165,67 +165,6 @@ news_event = {
 }
 
 # Clamp Down on Danzig
-news_event = {
-	id = nsb_news.4
-	title = nsb_news.4.t
-	desc = nsb_news.4.desc
-	picture = GFX_news_event_generic_parliament
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = nsb_news.4.a
-		trigger = {
-			tag = FROM
-		}
-	}
-	option = {
-		name = nsb_news.4.b
-		trigger = {
-			NOT = { tag = FROM }
-			has_government = democratic
-			GER = {
-				NOT = {
-					OR = {
-						has_completed_focus = GER_rhineland
-						has_completed_focus = GER_oppose_hitler
-					}
-				}
-			}
-		}
-	}
-	option = {
-		name = nsb_news.4.c
-		trigger = {
-			NOT = { tag = FROM }
-			has_government = democratic
-			GER = {
-				OR = {
-					has_completed_focus = GER_rhineland
-					has_completed_focus = GER_oppose_hitler
-				}
-			}
-		}
-	}
-	option = {
-		name = nsb_news.4.d
-		trigger = {
-			tag = GER
-			NOT = { has_government = democratic }
-		}
-	}
-	option = {
-		name = nsb_news.4.e
-		trigger = {
-			NOT = { tag = GER }
-			NOT = { tag = FROM }
-			NOT = { has_government = democratic }
-		}
-	}
-}
-
 # Poland chooses a King
 news_event = {
 	id = nsb_news.5

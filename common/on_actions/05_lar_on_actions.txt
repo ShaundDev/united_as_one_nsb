@@ -711,9 +711,6 @@ on_actions = {
 						has_dlc = "La Resistance"
 					}
 					complete_national_focus = FRA_invite_communist_ministers
-					else = {
-						complete_national_focus = FRA_leftist_rhetoric
-					}
 				}
 			}
 			if = {
@@ -733,9 +730,6 @@ on_actions = {
 						has_dlc = "La Resistance"
 					}
 					complete_national_focus = FRA_utilize_the_leagues
-					else = {
-						complete_national_focus = FRA_right_wing_rhetoric
-					}
 				}
 			}
 			# Give back POR focus tree to Salazarist Portugal if they win the civil war.

@@ -749,69 +749,6 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					original_tag = EST
-					NOT = { has_focus_tree = estonia_tree }
-					has_dlc = "No Step Back"
-				}
-				load_focus_tree = { tree = estonia_tree keep_completed = yes }
-				if = { #Give Estonia their focus tree back if the Vapsid win the civil war.
-					limit = { has_government = fascism }
-					if = {
-						limit = { has_completed_focus = EST_era_of_silence }
-						uncomplete_national_focus = {
-							focus = EST_era_of_silence
-							uncomplete_children = yes
-						}
-					}
-					if = {
-						limit = { has_completed_focus = BALTIC_restore_workers_republic }
-						uncomplete_national_focus = {
-							focus = BALTIC_restore_workers_republic
-							uncomplete_children = yes
-						}
-					}
-					unlock_national_focus = EST_rally_the_nation
-					unlock_national_focus = EST_march_on_talinn
-				}
-				if = { #In case the old government defeats the Communists
-					limit = { has_government = neutrality }
-					if = {
-						limit = { has_completed_focus = BALTIC_restore_workers_republic }
-						uncomplete_national_focus = {
-							focus = BALTIC_restore_workers_republic
-							uncomplete_children = yes
-						}
-					}
-					if = {
-						limit = { has_completed_focus = EST_rally_the_nation }
-						uncomplete_national_focus = {
-							focus = EST_rally_the_nation
-							uncomplete_children = yes
-						}
-					}
-					complete_national_focus = EST_era_of_silence
-				}
-				if = { #In case of communist uprising
-					limit = { has_government = communism }
-					if = {
-						limit = { has_completed_focus = EST_era_of_silence }
-						uncomplete_national_focus = {
-							focus = EST_era_of_silence
-							uncomplete_children = yes
-						}
-					}
-					if = {
-						limit = { has_completed_focus = EST_rally_the_nation }
-						uncomplete_national_focus = {
-							focus = EST_rally_the_nation
-							uncomplete_children = yes
-						}
-					}
-					complete_national_focus = BALTIC_restore_workers_republic
-				}
-			}
-			if = {
-				limit = {
 					original_tag = LAT
 					NOT = { has_focus_tree = latvia_tree }
 					has_dlc = "No Step Back"

@@ -33,9 +33,6 @@ USA_historical_plan = {
 					option = DEFAULT
 				}
 				OR = {	
-					GER = {
-						has_completed_focus = GER_oppose_hitler
-					}
 					ENG = {
 						not = { has_government = democratic }
 					}
@@ -104,7 +101,7 @@ USA_historical_plan = {
 	}
 
 	focus_factors = {
-		USA_suspend_the_presecution = 0 # well done, not medium rare
+
 	}
 
 	research = {

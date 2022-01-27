@@ -14,7 +14,6 @@ characters={
 			idea_token = ENG_winston_churchill
 			available  = {
 				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
 				if  = {
 					limit  = {
 						has_dlc = "Man the Guns"
@@ -57,43 +56,6 @@ characters={
 			ideology=liberalism
 			traits={ conservative_grandee }
 			expire="1938.1.1.1"
-			id=-1
-		}
-	}
-
-	ENG_oswald_mosley={
-		name=ENG_oswald_mosley
-		portraits={
-			civilian={
-				large=GFX_portrait_ENG_oswald_mosley
-			}
-			army={
-				small="GFX_idea_ENG_oswald_mosley"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ENG_oswald_mosley
-			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
-			}
-			allowed  = {
-				original_tag  = ENG
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				economic_organizer 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
-		
-		country_leader={
-			ideology=fascism_ideology
-			traits={ champion_of_peace_1 economic_reformer }
-			expire="1965.1.1.1"
 			id=-1
 		}
 	}
@@ -199,9 +161,7 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
+
 			}
 			traits = {
 				army_chief_maneuver_3
@@ -242,9 +202,7 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
+
 			}
 			
 			traits = {
@@ -430,9 +388,7 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
+
 			}
 			traits = {
 				military_theorist
@@ -568,9 +524,7 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
+
 			}
 			traits = {
 				army_chief_offensive_2
@@ -724,9 +678,7 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
+
 			}
 			traits = {
 				army_regrouping_2
@@ -998,33 +950,6 @@ characters={
 
 	# Alexander up there
 
-	ENG_raymond_briggs={
-		name=ENG_raymond_briggs
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_2"
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = ENG_raymond_briggs
-			ledger = army
-			visible = {
-				has_completed_focus = ENG_eliminate_the_upper_class
-			}
-			available = {
-				has_completed_focus = ENG_eliminate_the_upper_class
-			}
-			allowed = {
-				original_tag = ENG
-			}
-			traits = {
-				military_theorist
-			}
-		}
-	}
-
 	ENG_james_somerville={
 		name=ENG_james_somerville
 		portraits={
@@ -1041,9 +966,7 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
+
 			}
 			
 			traits = {
@@ -1514,9 +1437,7 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
+
 			}
 			traits = {
 				navy_amphibious_assault_3
@@ -1599,22 +1520,7 @@ characters={
 			slot = political_advisor
 			idea_token = clement_attlee
 			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_completed_focus  = ENG_a_change_in_course 
-					}
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
+
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1878,33 +1784,6 @@ characters={
 			}
 			traits  = {
 				red_suffragette 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
-	}
-
-	ENG_david_lloyd_george={
-		name=ENG_david_lloyd_george
-		portraits={
-			army={
-				small="GFX_idea_ENG_david_lloyd_george"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ENG_david_lloyd_george
-			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
-			}
-			allowed  = {
-				original_tag  = ENG
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				old_figurehead 
 			}
 			ai_will_do  = {
 				factor  = 1.000
@@ -2176,117 +2055,6 @@ characters={
 			}
 			traits  = {
 				quartermaster_trainee 
-			}
-		}
-	}
-
-	ENG_corgis_1={
-		name=ENG_corgis_1
-		portraits={
-			army={
-				small="GFX_idea_ENG_corgis_1"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ENG_corgis_1
-			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
-				has_country_leader  = {
-					name = "Elizabeth II"
-					ruling_only  = yes 
-				}
-			}
-			visible  = {
-				has_country_leader  = {
-					name = "Elizabeth II"
-					ruling_only  = yes 
-				}
-			}
-			allowed  = {
-				original_tag  = ENG
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				face_licker 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
-	}
-
-	ENG_corgis_2={
-		name=ENG_corgis_2
-		portraits={
-			army={
-				small="GFX_idea_ENG_corgis_2"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ENG_corgis_2
-			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
-				has_country_leader  = {
-					name = "Elizabeth II"
-					ruling_only  = yes 
-				}
-			}
-			visible  = {
-				has_country_leader  = {
-					name = "Elizabeth II"
-					ruling_only  = yes 
-				}
-			}
-			allowed  = {
-				original_tag  = ENG
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				heels_nipper 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
-	}
-
-	ENG_corgis_3={
-		name=ENG_corgis_3
-		portraits={
-			army={
-				small="GFX_idea_ENG_corgis_3"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ENG_corgis_3
-			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
-				has_country_leader  = {
-					name = "Elizabeth II"
-					ruling_only  = yes 
-				}
-			}
-			visible  = {
-				has_country_leader  = {
-					name = "Elizabeth II"
-					ruling_only  = yes 
-				}
-			}
-			allowed  = {
-				original_tag  = ENG
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				snuggler 
-			}
-			ai_will_do  = {
-				factor  = 1.000
 			}
 		}
 	}

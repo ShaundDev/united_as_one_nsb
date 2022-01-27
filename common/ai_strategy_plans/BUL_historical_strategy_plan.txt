@@ -36,7 +36,7 @@ BUL_historical_plan = {
 		BUL_dissolve_the_military_union #Short focus
 		BUL_acquire_modern_tools #Short focus
 		BUL_negotiate_bulgarian_rearmament #Short focus
-		BUL_the_tsars_regime
+		BUL_appoint_right_wing_ministers
 		BUL_improve_the_road_system
 		#1937
 		BUL_restore_the_tarnovo_constitution

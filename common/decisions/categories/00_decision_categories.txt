@@ -100,7 +100,6 @@ fascism_on_the_rise = {
 			AND = {
 				original_tag = FIN
 				is_ai = yes
-				EST = { has_completed_focus = EST_national_pride_in_finland }
 			}
 		}
 	}
