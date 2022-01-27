@@ -28,9 +28,7 @@ HOL_historical_plan = {
 				rule = HOL_ai_behavior 
 				option = DEFAULT
 			}
-		}
-		ENG = { has_completed_focus = ENG_a_change_in_course }
-		
+		}	
 	}
 
 	ai_national_focuses = {

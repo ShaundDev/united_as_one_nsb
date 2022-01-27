@@ -223,17 +223,32 @@ spriteTypes = {
 		name = "GFX_mechanised_infantry3_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_3.dds"
 	}	
-	
+
+	SpriteType = {
+		name = "GFX_SOV_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/mechanized_equipment_3.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_mechanised_infantry2_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_2.dds"
 	}	
 	
 	SpriteType = {
+		name = "GFX_SOV_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/mechanized_equipment_2.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
 	}	
-	
+
+	SpriteType = {
+		name = "GFX_SOV_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/mechanized_equipment_1.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_interwar_antitank_medium"
 		texturefile = "gfx/interface/technologies/AT_1_allies.dds"
@@ -2434,17 +2449,32 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_GER_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/GER_mechanized_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_3.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_GER_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/GER_mechanized_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_2.dds"
 	}
 
 	SpriteType = {
+		name = "GFX_GER_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_2.dds"
+	}	
+
+	SpriteType = {
 		name = "GFX_GER_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/GER_mechanized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_mechanized_equipment_medium"
+		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_1.dds"
 	}
 
 	SpriteType = {
@@ -2818,17 +2848,32 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_SOV_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/SOV_mechanized_equipment_3.dds"
-	}		
+		texturefile = "gfx/interface/technologies/land/SOV_mechanized_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/SOV_mechanized_equipment_3.dds"
+	}
 	
+	SpriteType = {
+		name = "GFX_SOV_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/SOV_mechanized_equipment_1.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_SOV_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/SOV_mechanized_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/land/SOV_mechanized_equipment_2.dds"
 	}	
-	
+
+	SpriteType = {
+		name = "GFX_SOV_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/SOV_mechanized_equipment_2.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_SOV_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/SOV_mechanized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/land/SOV_mechanized_equipment_1.dds"
 	}	
 
 	SpriteType = {
@@ -2863,6 +2908,20 @@ spriteTypes = {
 	
 	### ENG equipment ###	
 
+	SpriteType = {
+		name = "GFX_ENG_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared1_mechanized_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_1.dds"
+	}	
 
 	SpriteType = {
 		name = "GFX_ENG_rocket_artillery4_medium"
@@ -3113,17 +3172,32 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_FRA_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/fra_mechanized_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/land/FRA_mechanized_equipment_3.dds"
 	}		
 	
 	SpriteType = {
+		name = "GFX_FRA_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/FRA_mechanized_equipment_3.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_FRA_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/fra_mechanized_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/land/FRA_mechanized_equipment_2.dds"
 	}	
-	
+
+	SpriteType = {
+		name = "GFX_FRA_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/FRA_mechanized_equipment_2.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_FRA_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/fra_mechanized_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/FRA_mechanized_equipment_1.dds"
 	}
 
 	SpriteType = {
@@ -3745,19 +3819,34 @@ spriteTypes = {
 		
 	SpriteType = {
 		name = "GFX_JAP_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/JAP_mechanized_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_3.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_JAP_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/JAP_mechanized_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_JAP_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/JAP_mechanized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_1.dds"
 	}		
-		
+
+	SpriteType = {
+		name = "GFX_JAP_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_1.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_JAP_motorized_rocket_unit_medium"
 		texturefile = "gfx/interface/technologies/JAP_motorized_rocket_unit.dds"
@@ -4763,6 +4852,84 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_POL_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/pol_motorised_infantry.dds"
+	}
+
+
+	### Commonwealth equipment
+
+	SpriteType = {
+		name = "GFX_RAJ_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAJ_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RAJ_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CAN_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared1_mechanized_equipment_3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_CAN_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/CAN_mechanized_equipment_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_CAN_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/CAN_mechanized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_NZL_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_NZL_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_NZL_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SAF_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SAF_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SAF_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_AST_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_AST_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_AST_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_1.dds"
 	}
 
 

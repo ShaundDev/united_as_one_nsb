@@ -2058,13 +2058,6 @@ focus_tree = {
 							is_puppet = yes
 						}
 					}
-					FRA = {
-						OR = {
-							exists = no
-							is_puppet = yes
-							NOT = { has_completed_focus = FRA_strengthen_the_little_entente }
-						}
-					}
 				}
 			}
 		}
