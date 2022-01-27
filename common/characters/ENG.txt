@@ -3,12 +3,39 @@ characters={
 		name=ENG_winston_churchill
 		portraits={
 			civilian={
-				large="gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
+				large=GFX_portrait_ENG_winston_churchill
 			}
 			army={
 				small="GFX_idea_ENG_winston_churchill"
 			}
 		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_winston_churchill
+			available  = {
+				has_government  = neutrality 
+				has_completed_focus  = ENG_the_kings_party 
+				if  = {
+					limit  = {
+						has_dlc = "Man the Guns"
+					}
+					NOT = {
+						has_autonomy_state  = autonomy_supervised_state
+					}
+				}
+			}
+			allowed  = {
+				original_tag  = ENG
+				has_dlc = "Man the Guns"
+			}
+			traits  = {
+				royalist_bulldog 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+
 		country_leader={
 			ideology=conservatism
 			traits = {
@@ -23,7 +50,7 @@ characters={
 		name=ENG_stanley_baldwin
 		portraits={
 			civilian={
-				large="gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
+				large=GFX_portrait_ENG_stanley_baldwin
 			}
 		}
 		country_leader={
@@ -34,11 +61,101 @@ characters={
 		}
 	}
 
+	ENG_oswald_mosley={
+		name=ENG_oswald_mosley
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_oswald_mosley
+			}
+			army={
+				small="GFX_idea_ENG_oswald_mosley"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_oswald_mosley
+			available  = {
+				has_government  = neutrality 
+				has_completed_focus  = ENG_the_kings_party 
+			}
+			allowed  = {
+				original_tag  = ENG
+				has_dlc = "Man the Guns"
+			}
+			traits  = {
+				economic_organizer 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits={ champion_of_peace_1 economic_reformer }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	ENG_harry_pollitt={
+		name=ENG_harry_pollitt
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_harry_pollitt
+			}
+			army={
+				small="GFX_idea_harry_pollitt"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = harry_pollitt
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+				if  = {
+					limit  = {
+						has_dlc = "Man the Guns"
+					}
+					has_government  = communism 
+				}
+				if  = {
+					limit  = {
+						has_dlc = "Man the Guns"
+					}
+					NOT = {
+						has_autonomy_state  = autonomy_supervised_state
+					}
+				}
+			}
+			traits  = {
+				communist_revolutionary 
+			}
+			do_effect  = {
+				NOT = {
+					has_government  = communism 
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+		
+		country_leader={
+			ideology=leninism
+			traits={ staunch_stalinist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
 	ENG_neville_chamberlain={
 		name=ENG_neville_chamberlain
 		portraits={
 			civilian={
-				large="gfx/leaders/ENG/Portrait_Britain_Neville_Chamberlain.dds"
+				large=GFX_portrait_ENG_neville_chamberlain
 			}
 		}
 		country_leader={
@@ -54,7 +171,7 @@ characters={
 		name=ENG_horatio_dundas
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_6.dds"
+				large=GFX_portrait_ENG_horatio_dundas
 			}
 		}
 		country_leader={
@@ -72,7 +189,7 @@ characters={
 				small="GFX_idea_alan_brooke"
 			}
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Alan_Brooke.dds"
+				large=GFX_portrait_ENG_alan_brooke
 			}
 		}
 		advisor={
@@ -82,7 +199,9 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-
+				NOT = {
+					has_completed_focus = ENG_eliminate_the_upper_class
+				}
 			}
 			traits = {
 				army_chief_maneuver_3
@@ -111,7 +230,7 @@ characters={
 				small="GFX_idea_bernard_montgomery"
 			}
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Bernard_Montgomery.dds"
+				large=GFX_portrait_ENG_bernard_montgomery
 			}
 		}
 		advisor={
@@ -123,7 +242,9 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-
+				NOT = {
+					has_completed_focus = ENG_eliminate_the_upper_class
+				}
 			}
 			
 			traits = {
@@ -149,7 +270,7 @@ characters={
 				small="GFX_idea_claude_auchinleck"
 			}
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Claude_Auchinleck.dds"
+				large=GFX_portrait_ENG_claude_auchinleck
 			}
 		}
 		advisor={
@@ -183,8 +304,8 @@ characters={
 		name=ENG_neil_ritchie
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Neil_Ritchie.dds"
-				small="gfx/interface/ideas/idea_ENG_neil_ritchie.dds"
+				large=GFX_portrait_ENG_neil_ritchie
+				small=GFX_portrait_ENG_neil_ritchie_small
 			}
 		}
 		corps_commander={
@@ -202,8 +323,8 @@ characters={
 		name=ENG_alan_cunningham
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Alan_Cunningham.dds"
-				small="gfx/interface/ideas/idea_ENG_alan_cunningham.dds"
+				large=GFX_portrait_ENG_alan_cunningham
+				small=GFX_portrait_ENG_alan_cunningham_small
 			}
 		}
 		corps_commander={
@@ -220,8 +341,8 @@ characters={
 		name=ENG_william_slim
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_William_Slim.dds"
-				small="gfx/interface/ideas/idea_ENG_william_slim.dds"
+				large=GFX_portrait_ENG_william_slim
+				small=GFX_portrait_ENG_william_slim_small
 			}
 		}
 		corps_commander={
@@ -239,8 +360,8 @@ characters={
 		name=ENG_richard_oconnor
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Richard_OConnor.dds"
-				small="gfx/interface/ideas/idea_ENG_richard_oconnor.dds"
+				large=GFX_portrait_ENG_richard_oconnor
+				small=GFX_portrait_ENG_richard_oconnor_small
 			}
 		}
 		corps_commander={
@@ -257,8 +378,8 @@ characters={
 		name=ENG_william_platt
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_William_Platt.dds"
-				small="gfx/interface/ideas/idea_ENG_william_platt.dds"
+				large=GFX_portrait_ENG_william_platt
+				small=GFX_portrait_ENG_william_platt_small
 			}
 		}
 		corps_commander={
@@ -275,8 +396,8 @@ characters={
 		name=ENG_george_giffard
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_George_Giffard.dds"
-				small="gfx/interface/ideas/idea_ENG_george_giffard.dds"
+				large=GFX_portrait_ENG_george_giffard
+				small=GFX_portrait_ENG_george_giffard_small
 			}
 		}
 		corps_commander={
@@ -297,7 +418,7 @@ characters={
 				small="GFX_idea_harold_alexander"
 			}
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Harold_Alexander.dds"
+				large=GFX_portrait_ENG_harold_alexander
 			}
 		}
 		advisor={
@@ -309,7 +430,9 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-
+				NOT = {
+					has_completed_focus = ENG_eliminate_the_upper_class
+				}
 			}
 			traits = {
 				military_theorist
@@ -339,8 +462,8 @@ characters={
 		name=ENG_jackie_smyth
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_John_Jackie_Smyth.dds"
-				small="gfx/interface/ideas/idea_ENG_john_jackie_smyth.dds"
+				large=GFX_portrait_ENG_jackie_smyth
+				small=GFX_portrait_ENG_jackie_smyth_small
 			}
 		}
 		corps_commander={
@@ -358,8 +481,8 @@ characters={
 		name=ENG_thomas_jacomb_hutton
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Thomas_Jacomb_Hutton.dds"
-				small="gfx/interface/ideas/idea_ENG_thomas_jacomb_hutton.dds"
+				large=GFX_portrait_ENG_thomas_jacomb_hutton
+				small=GFX_portrait_ENG_thomas_jacomb_hutton_small
 			}
 		}
 		corps_commander={
@@ -377,8 +500,8 @@ characters={
 		name=ENG_arthur_percival
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Arthur_Percival.dds"
-				small="gfx/interface/ideas/idea_ENG_arthur_percival.dds"
+				large=GFX_portrait_ENG_arthur_percival
+				small=GFX_portrait_ENG_arthur_percival_small
 			}
 		}
 		corps_commander={
@@ -396,8 +519,8 @@ characters={
 		name=ENG_merton_beckwithsmith
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Merton_Beckwith_Smith.dds"
-				small="gfx/interface/ideas/idea_ENG_merton_beckwith_smith.dds"
+				large=GFX_portrait_ENG_merton_beckwithsmith
+				small=GFX_portrait_ENG_merton_beckwithsmith_small
 			}
 		}
 		corps_commander={
@@ -415,8 +538,8 @@ characters={
 		name=ENG_henry_pownall
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Henry_Pownall.dds"
-				small="gfx/interface/ideas/idea_ENG_henry_pownall.dds"
+				large=GFX_portrait_ENG_henry_pownall
+				small=GFX_portrait_ENG_henry_pownall_small
 			}
 		}
 		corps_commander={
@@ -434,7 +557,7 @@ characters={
 		name=ENG_john_vereker
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_John_Vereker.dds"
+				large=GFX_portrait_ENG_john_vereker
 				small="GFX_idea_john_vereker"
 			}
 		}
@@ -445,7 +568,9 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-
+				NOT = {
+					has_completed_focus = ENG_eliminate_the_upper_class
+				}
 			}
 			traits = {
 				army_chief_offensive_2
@@ -471,8 +596,8 @@ characters={
 		name=ENG_henry_wilson
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Henry_Maitland_Wilson.dds"
-				small="gfx/interface/ideas/idea_ENG_henry_maitland_wilson.dds"
+				large=GFX_portrait_ENG_henry_wilson
+				small=GFX_portrait_ENG_henry_wilson_small
 			}
 		}
 		corps_commander={
@@ -490,8 +615,8 @@ characters={
 		name=ENG_william_gott
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_William_Gott.dds"
-				small="gfx/interface/ideas/idea_ENG_william_gott.dds"
+				large=GFX_portrait_ENG_william_gott
+				small=GFX_portrait_ENG_william_gott_small
 			}
 		}
 		corps_commander={
@@ -509,8 +634,8 @@ characters={
 		name=ENG_jock_campbell
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Jock_Campbell.dds"
-				small="gfx/interface/ideas/idea_ENG_jock_campbell.dds"
+				large=GFX_portrait_ENG_jock_campbell
+				small=GFX_portrait_ENG_jock_campbell_small
 			}
 		}
 		corps_commander={
@@ -528,8 +653,8 @@ characters={
 		name=ENG_oliver_leese
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Oliver_Leese.dds"
-				small="gfx/interface/ideas/idea_ENG_oliver_leese.dds"
+				large=GFX_portrait_ENG_oliver_leese
+				small=GFX_portrait_ENG_oliver_leese_small
 			}
 		}
 		corps_commander={
@@ -547,8 +672,8 @@ characters={
 		name=ENG_miles_dempsey
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Miles_Dempsey.dds"
-				small="gfx/interface/ideas/idea_ENG_miles_dempsey.dds"
+				large=GFX_portrait_ENG_miles_dempsey
+				small=GFX_portrait_ENG_miles_dempsey_small
 			}
 		}
 		corps_commander={
@@ -566,8 +691,8 @@ characters={
 		name=ENG_brian_horrocks
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Brian_Horrocks.dds"
-				small="gfx/interface/ideas/idea_ENG_brian_horrocks.dds"
+				large=GFX_portrait_ENG_brian_horrocks
+				small=GFX_portrait_ENG_brian_horrocks_small
 			}
 		}
 		corps_commander={
@@ -588,7 +713,7 @@ characters={
 				small="GFX_idea_archibald_wavell"
 			}
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Archibald_Wavell.dds"
+				large=GFX_portrait_ENG_archibald_wavell
 			}
 		}
 		advisor={
@@ -599,7 +724,9 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-
+				NOT = {
+					has_completed_focus = ENG_eliminate_the_upper_class
+				}
 			}
 			traits = {
 				army_regrouping_2
@@ -625,8 +752,8 @@ characters={
 		name = ENG_thomas_moore
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Tom_Moore.dds"
-				small="gfx/interface/ideas/idea_ENG_tom_moore.dds"
+				large=GFX_portrait_ENG_thomas_moore
+				small=GFX_portrait_ENG_thomas_moore_small
 			}
 		}
 		corps_commander = {
@@ -643,8 +770,8 @@ characters={
 		name=ENG_james_fownes_somerville
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_James_Fownes_Somerville.dds"
-				small="gfx/interface/ideas/idea_ENG_james_fownes_somerville.dds"
+				large=GFX_portrait_ENG_james_fownes_somerville
+				small=GFX_portrait_ENG_james_fownes_somerville_small
 			}
 		}
 		navy_leader={
@@ -665,7 +792,7 @@ characters={
 				small="GFX_idea_henry_harwood"
 			}
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Henry_Harwood.dds"
+				large=GFX_portrait_ENG_henry_harwood
 			}
 		}
 		advisor={
@@ -702,7 +829,7 @@ characters={
 				small="GFX_idea_andrew_cunningham"
 			}
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Andrew_Cunningham.dds"
+				large=GFX_portrait_ENG_andrew_cunningham
 			}
 		}
 		advisor={
@@ -735,8 +862,8 @@ characters={
 		name=ENG_bruce_fraser
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Bruce_Fraser.dds"
-				small="gfx/interface/ideas/idea_ENG_bruce_fraser.dds"
+				large=GFX_portrait_ENG_bruce_fraser
+				small=GFX_portrait_ENG_bruce_fraser_small
 			}
 		}
 		navy_leader={
@@ -754,8 +881,8 @@ characters={
 		name=ENG_john_tovey
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_John_Tovey.dds"
-				small="gfx/interface/ideas/idea_ENG_john_tovey.dds"
+				large=GFX_portrait_ENG_john_tovey
+				small=GFX_portrait_ENG_john_tovey_small
 			}
 		}
 		navy_leader={
@@ -773,8 +900,8 @@ characters={
 		name=ENG_bernard_rawlings
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Bernard_Rawlings.dds"
-				small="gfx/interface/ideas/idea_ENG_bernard_rawlings.dds"
+				large=GFX_portrait_ENG_bernard_rawlings
+				small=GFX_portrait_ENG_bernard_rawlings_small
 			}
 		}
 		navy_leader={
@@ -792,8 +919,8 @@ characters={
 		name=ENG_john_cunningham
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_John_Cunningham.dds"
-				small="gfx/interface/ideas/idea_ENG_john_cunningham.dds"
+				large=GFX_portrait_ENG_john_cunningham
+				small=GFX_portrait_ENG_john_cunningham_small
 			}
 		}
 		navy_leader={
@@ -811,8 +938,8 @@ characters={
 		name=ENG_charles_forbes
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Charles_Forbes.dds"
-				small="gfx/interface/ideas/idea_ENG_charles_forbes.dds"
+				large=GFX_portrait_ENG_charles_forbes
+				small=GFX_portrait_ENG_charles_forbes_small
 			}
 		}
 		navy_leader={
@@ -830,8 +957,8 @@ characters={
 		name=ENG_algernon_willis
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Algernon_Willis.dds"
-				small="gfx/interface/ideas/idea_ENG_algernon_willis.dds"
+				large=GFX_portrait_ENG_algernon_willis
+				small=GFX_portrait_ENG_algernon_willis_small
 			}
 		}
 		navy_leader={
@@ -849,8 +976,8 @@ characters={
 		name=ENG_arthur_power
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Arthur_Power.dds"
-				small="gfx/interface/ideas/idea_ENG_arthur_power.dds"
+				large=GFX_portrait_ENG_arthur_power
+				small=GFX_portrait_ENG_arthur_power_small
 			}
 		}
 		navy_leader={
@@ -871,6 +998,33 @@ characters={
 
 	# Alexander up there
 
+	ENG_raymond_briggs={
+		name=ENG_raymond_briggs
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = ENG_raymond_briggs
+			ledger = army
+			visible = {
+				has_completed_focus = ENG_eliminate_the_upper_class
+			}
+			available = {
+				has_completed_focus = ENG_eliminate_the_upper_class
+			}
+			allowed = {
+				original_tag = ENG
+			}
+			traits = {
+				military_theorist
+			}
+		}
+	}
+
 	ENG_james_somerville={
 		name=ENG_james_somerville
 		portraits={
@@ -887,7 +1041,9 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-
+				NOT = {
+					has_completed_focus = ENG_eliminate_the_upper_class
+				}
 			}
 			
 			traits = {
@@ -1014,7 +1170,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 200
 			slot = theorist
 			idea_token = ENG_jfc_fuller
 			ledger = army
@@ -1358,7 +1514,9 @@ characters={
 				original_tag = ENG
 			}
 			available = {
-
+				NOT = {
+					has_completed_focus = ENG_eliminate_the_upper_class
+				}
 			}
 			traits = {
 				navy_amphibious_assault_3
@@ -1406,7 +1564,7 @@ characters={
 			idea_token = ENG_david_stirling
 			ledger = army
 			available = {
-				has_completed_focus = ENG_focus_special_air_service
+				has_completed_focus = ENG_special_air_service
 			}
 			allowed = {
 				original_tag = ENG
@@ -1445,7 +1603,9 @@ characters={
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
-
+					NOT = {
+						has_completed_focus  = ENG_a_change_in_course 
+					}
 				}
 				if  = {
 					limit  = {
@@ -1473,6 +1633,49 @@ characters={
 		}		
 	}
 	
+	ENG_john_beckett={
+		name=ENG_john_beckett
+		portraits={
+			army={
+				small="GFX_idea_john_beckett"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = john_beckett
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+				if  = {
+					limit  = {
+						has_dlc = "Man the Guns"
+					}
+					has_government  = fascism 
+				}
+				if  = {
+					limit  = {
+						has_dlc = "Man the Guns"
+					}
+					NOT = {
+						has_autonomy_state  = autonomy_supervised_state
+					}
+				}
+			}
+			traits  = {
+				fascist_demagogue 
+			}
+			do_effect  = {
+				NOT = {
+					has_government  = fascism 
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+
 	ENG_philip_kerr={
 		name=ENG_philip_kerr
 		portraits={
@@ -1488,7 +1691,10 @@ characters={
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
-
+					NOT = {
+						has_completed_focus  = ENG_no_further_appeasement 
+					}
+					has_government  = democratic 
 				}
 			}
 			allowed  = {
@@ -1585,6 +1791,499 @@ characters={
 			}
 			traits  = {
 				quartermaster_general 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	ENG_mary_sophia_allen={
+		name=ENG_mary_sophia_allen
+		portraits={
+			army={
+				small="GFX_idea_ENG_mary_sophia_allen"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_mary_sophia_allen
+			available  = {
+				has_government  = fascism 
+			}
+			allowed  = {
+				original_tag  = ENG
+				has_dlc = "Man the Guns"
+			}
+			traits  = {
+				princess_of_terror 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	ENG_george_orwell={
+		name=ENG_george_orwell
+		portraits={
+			army={
+				small="GFX_idea_ENG_george_orwell"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_george_orwell
+			available  = {
+				has_government  = communism 
+				if  = {
+					limit  = {
+						has_dlc = "Man the Guns"
+					}
+					NOT = {
+						has_autonomy_state  = autonomy_supervised_state
+					}
+				}
+			}
+			allowed  = {
+				original_tag  = ENG
+				has_dlc = "Man the Guns"
+			}
+			traits  = {
+				socialist_novelist 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	ENG_sylvia_pankhurst={
+		name=ENG_sylvia_pankhurst
+		portraits={
+			army={
+				small="GFX_idea_ENG_sylvia_pankhurst"
+			}
+		}
+		gender = female
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_sylvia_pankhurst
+			available  = {
+				has_government  = communism 
+			}
+			allowed  = {
+				original_tag  = ENG
+				has_dlc = "Man the Guns"
+			}
+			traits  = {
+				red_suffragette 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	ENG_david_lloyd_george={
+		name=ENG_david_lloyd_george
+		portraits={
+			army={
+				small="GFX_idea_ENG_david_lloyd_george"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_david_lloyd_george
+			available  = {
+				has_government  = neutrality 
+				has_completed_focus  = ENG_the_kings_party 
+			}
+			allowed  = {
+				original_tag  = ENG
+				has_dlc = "Man the Guns"
+			}
+			traits  = {
+				old_figurehead 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+# Communist ministers, intentionally without loc so they are 'randomized'
+
+	ENG_random_communist_minister_1={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_1
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_1 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				propaganda_bungler 
+			}
+		}
+	}
+	ENG_random_communist_minister_2={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_2
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_2 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				silent_mule 
+			}
+		}
+	}
+	ENG_random_communist_minister_3={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_3
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_3 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				baron_of_terror 
+			}
+		}
+	}
+	ENG_random_communist_minister_4={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_4
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_4 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				compassionate_commoner 
+			}
+		}
+	}
+	ENG_random_communist_minister_5={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_5
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_5 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				backroom_windbag 
+			}
+		}
+	}
+	ENG_random_communist_minister_6={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_6
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_6 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				smooth_talking_con_man 
+			}
+		}
+	}
+	ENG_random_communist_minister_7={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_7
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_7 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				ideological_groupie 
+			}
+		}
+	}
+
+	ENG_random_communist_minister_8={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_8
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_8 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				fortification_armchair_general 
+			}
+		}
+	}
+	ENG_random_communist_minister_9={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_9
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_9 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				war_profiteer 
+			}
+		}
+	}
+
+	ENG_random_communist_minister_10={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_10
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_10 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				lieutenant_of_industry 
+			}
+		}
+	}
+
+	ENG_random_communist_minister_11={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_11
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_11 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				finance_graduate 
+			}
+		}
+	}
+
+	ENG_random_communist_minister_12={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_12
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_12 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				armaments_aficionado 
+			}
+		}
+	}
+
+	ENG_random_communist_minister_13={
+		portraits={
+			army={
+				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_random_communist_minister_13
+			visible  = {
+				has_country_flag  = ENG_trade_unions_demand_minister_appointment_13 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				quartermaster_trainee 
+			}
+		}
+	}
+
+	ENG_corgis_1={
+		name=ENG_corgis_1
+		portraits={
+			army={
+				small="GFX_idea_ENG_corgis_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_corgis_1
+			available  = {
+				has_government  = neutrality 
+				has_completed_focus  = ENG_the_kings_party 
+				has_country_leader  = {
+					name = "Elizabeth II"
+					ruling_only  = yes 
+				}
+			}
+			visible  = {
+				has_country_leader  = {
+					name = "Elizabeth II"
+					ruling_only  = yes 
+				}
+			}
+			allowed  = {
+				original_tag  = ENG
+				has_dlc = "Man the Guns"
+			}
+			traits  = {
+				face_licker 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	ENG_corgis_2={
+		name=ENG_corgis_2
+		portraits={
+			army={
+				small="GFX_idea_ENG_corgis_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_corgis_2
+			available  = {
+				has_government  = neutrality 
+				has_completed_focus  = ENG_the_kings_party 
+				has_country_leader  = {
+					name = "Elizabeth II"
+					ruling_only  = yes 
+				}
+			}
+			visible  = {
+				has_country_leader  = {
+					name = "Elizabeth II"
+					ruling_only  = yes 
+				}
+			}
+			allowed  = {
+				original_tag  = ENG
+				has_dlc = "Man the Guns"
+			}
+			traits  = {
+				heels_nipper 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	ENG_corgis_3={
+		name=ENG_corgis_3
+		portraits={
+			army={
+				small="GFX_idea_ENG_corgis_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_corgis_3
+			available  = {
+				has_government  = neutrality 
+				has_completed_focus  = ENG_the_kings_party 
+				has_country_leader  = {
+					name = "Elizabeth II"
+					ruling_only  = yes 
+				}
+			}
+			visible  = {
+				has_country_leader  = {
+					name = "Elizabeth II"
+					ruling_only  = yes 
+				}
+			}
+			allowed  = {
+				original_tag  = ENG
+				has_dlc = "Man the Guns"
+			}
+			traits  = {
+				snuggler 
 			}
 			ai_will_do  = {
 				factor  = 1.000

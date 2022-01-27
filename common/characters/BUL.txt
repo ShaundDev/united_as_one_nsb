@@ -11,7 +11,7 @@ characters = {
 			name = BUL_boris_iii
 			portraits = {
 				civilian = {
-					large = "gfx/leaders/BUL/Portrait_Bulgaria_Boris_III.dds"
+					large = GFX_portrait_BUL_boris_iii
 				}
 			}
 			country_leader = {
@@ -28,7 +28,7 @@ characters = {
 			name = BUL_boris_iii
 			portraits = {
 				civilian = {
-					large = "gfx/leaders/BUL/Portrait_Bulgaria_Boris_III.dds"
+					large = GFX_portrait_BUL_boris_iii
 				}
 			}
 			country_leader = {
@@ -82,7 +82,7 @@ characters = {
 			name = BUL_georgi_dimitrov
 			portraits = {
 				civilian = {
-					large = "gfx/leaders/BUL/Portrait_Bulgaria_Georgi_Dimitrov.dds"
+					large = GFX_portrait_BUL_georgi_dimitrov
 				}
 			}
 			country_leader = {
@@ -99,6 +99,13 @@ characters = {
 			civilian = {
 				large = "GFX_portrait_bul_nikola_mushanov"
 			}
+		}
+
+		country_leader={
+			ideology=liberalism
+			traits={ appeaser }
+			expire="1965.1.1"
+			id=-1
 		}
 	}
 	
@@ -168,12 +175,12 @@ characters = {
  #######  ##    ## ####    ##       ######## ######## ##     ## ########  ######## ##     ##  ######  
 
 
- 	BUL_atanas_shalapatov = {
+	BUL_atanas_shalapatov = {
 		name = BUL_atanas_shalapatov
 		portraits = {
 			army = {
 				large = "GFX_portrait_bul_atanas_shalapatov"
-				small = "gfx/interface/ideas/idea_BUL_atanas_shalapatov.dds"
+				small = GFX_portrait_BUL_atanas_shalapatov_small
 			}
 		}
 		navy_leader = {
@@ -192,7 +199,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_bul_nikola_mihov"
-				small = "gfx/interface/ideas/idea_BUL_nikola_mihov.dds"
+				small = GFX_portrait_BUL_nikola_mihov_small
 			}
 		}
 		field_marshal = {
@@ -215,7 +222,7 @@ characters = {
 			portraits = {
 				army = {
 					large = "GFX_portrait_bul_georgi_popov"
-					small = "gfx/interface/ideas/idea_BUL_georgi_popov.dds"
+					small = GFX_portrait_BUL_georgi_popov_small
 				}
 			}
 			corps_commander = {
@@ -235,8 +242,8 @@ characters = {
 			name = BUL_georgi_popov
 			portraits = {
 				army = {
-					large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-					small = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
+					large = GFX_portrait_BUL_georgi_popov
+					small = GFX_portrait_BUL_georgi_popov_small
 				}
 			}
 			field_marshal = {
@@ -256,7 +263,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_bul_ivan_markov"
-				small = "gfx/interface/ideas/idea_BUL_ivan_markov.dds"
+				small = GFX_portrait_BUL_ivan_markov_small
 			}
 		}
 		corps_commander = {
@@ -275,7 +282,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_bul_georgi_markov"
-				small = "gfx/interface/ideas/idea_BUL_georgi_markov.dds"
+				small = GFX_portrait_BUL_georgi_markov_small
 			}
 		}
 		corps_commander = {
@@ -298,7 +305,7 @@ characters = {
 			portraits = {
 				army = {
 					large = "GFX_portrait_bul_asen_nikolov"
-					small = "gfx/interface/ideas/idea_BUL_asen_nikolov.dds"
+					small = GFX_portrait_BUL_asen_nikolov_small
 				}
 			}
 			corps_commander = {
@@ -346,7 +353,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_bul_nikola_stoychev"
-				small = "gfx/interface/ideas/idea_BUL_nikola_stoychev.dds"
+				small = GFX_portrait_BUL_nikola_stoychev_small
 			}
 		}
 		corps_commander = {
@@ -365,7 +372,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_bul_damyan_velchev"
-				small = "gfx/interface/ideas/idea_BUL_damyan_velchev.dds"
+				small = GFX_portrait_BUL_damian_velchev_small
 			}
 		}
 		corps_commander = {
@@ -384,7 +391,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_bul_angel_dotsev"
-				small = "gfx/interface/ideas/idea_BUL_angel_dotsev.dds"
+				small = GFX_portrait_BUL_angel_dotsev_small
 			}
 		}
 		corps_commander = {
@@ -402,8 +409,8 @@ characters = {
 		name = BUL_nikola_nakov
 		portraits = {
 			army = {
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" #Can become unit leader later
-				small = "gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				large = GFX_portrait_BUL_nikola_nakov #Can become unit leader later
+				small = GFX_portrait_BUL_nikola_nakov_small
 			}
 		}
 	}
@@ -820,7 +827,7 @@ characters = {
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_air_europe_3"
-					large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+					large = GFX_portrait_BUL_vasil_boydev
 				}
 			}
 			corps_commander = {
@@ -1517,6 +1524,41 @@ characters = {
 		}
 	}
 
+	BUL_stoycho_mushanov = {
+		advisor = {
+			slot = political_advisor
+			idea_token = BUL_stoycho_mushanov
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+				original_tag = BUL
+			}
+			available = {
+			}
+			traits = {
+				democratic_reformer 
+			}
+			ai_will_do = {
+				base = 1.000
+				modifier = {
+					factor = 2.000
+					OR = {
+						BUL_is_democratic_socialist_ai = yes 
+						BUL_is_democratic_liberal_ai = yes 
+					}
+					NOT = {
+						has_government = democratic 
+					}
+				}
+			}
+		}
+		name = BUL_stoycho_mushanov
+		portraits = {
+			army = {
+				small = "GFX_idea_bul_stoycho_mushanov"
+			}
+		}
+	}
+
 	BUL_nikola_petkov = {
 		instance = {
 			allowed = {
@@ -1528,9 +1570,6 @@ characters = {
 			portraits = {
 				army = {
 					small = "GFX_idea_bul_nikola_petkov"
-				}
-				civilian = {
-					large = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 				}
 			}
 
@@ -1569,12 +1608,6 @@ characters = {
 					}
 				}
 			}
-			
-			country_leader = {
-				ideology = socialism
-				expire = "1965.1.1.1"
-				id = -1
-			}
 		}
 
 		instance = {
@@ -1586,7 +1619,7 @@ characters = {
 
 			portraits = {
 				civilian = {
-					large = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+					large = GFX_portrait_BUL_nikola_petkov
 				}
 			}
 
@@ -1665,7 +1698,7 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-
+				has_completed_focus = BUL_democratic_principles 
 			}
 			traits = {
 				industry_reformer 
@@ -1682,6 +1715,92 @@ characters = {
 		}
 	}
 	
+	BUL_dimitrana_ivanova = {
+		name = BUL_dimitrana_ivanova
+		portraits = {
+			army = {
+				small = "GFX_idea_bul_dimitrana_ivanova"
+			}
+		}
+		gender = female
+		advisor = {
+			slot = political_advisor
+			idea_token = BUL_dimitrana_ivanova
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+				original_tag = BUL
+			}
+			available = {
+				OR = {
+					has_completed_focus = BUL_limited_womens_suffrage 
+					has_completed_focus = BUL_full_voting_rights_for_women 
+				}
+			}
+			traits = {
+				womens_rights_activist 
+			}
+			ai_will_do = {
+				base = 1.000
+				modifier = {
+					factor = 2.000
+					OR = {
+						BUL_is_democratic_socialist_ai = yes 
+						BUL_is_democratic_liberal_ai = yes 
+					}
+				}
+				modifier = {
+					factor = 2
+					OR = {
+						BUL_is_monarchist_ferdinand_ai = yes
+						BUL_is_historical_ai = yes
+					}
+					NOT = { has_completed_focus = BUL_illusions_of_a_non_partisan_system }
+					democratic < 0.2
+				}
+				modifier = {
+					factor = 0.000
+					BUL_is_monarchist_ferdinand_ai = yes 
+					has_completed_focus = BUL_illusions_of_a_non_partisan_system 
+				}
+			}
+		}
+	}
+
+	BUL_vasil_kolarov = {
+		advisor = {
+			slot = political_advisor
+			idea_token = BUL_vasil_kolarov
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+				original_tag = BUL
+			}
+			available = {
+				NOT = {
+					has_completed_focus = BUL_power_to_the_tsar 
+				}
+			}
+			traits = {
+				communist_revolutionary 
+			}
+			ai_will_do = {
+				base = 1.000
+				modifier = {
+					factor = 3.000
+					OR = {
+						BUL_is_communist_stalinist_ai = yes 
+						BUL_is_communist_balkan_ai = yes 
+					}
+				}
+			}
+		}
+		name = BUL_vasil_kolarov
+		portraits = {
+			army = {
+				small = "GFX_idea_bul_vasil_kolarov"
+			}
+		}
+	}
+
 	BUL_valko_chervenkov = {
 		advisor = {
 			slot = political_advisor
@@ -1704,6 +1823,40 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_bul_valko_chervenkov"
+			}
+		}
+	}
+
+	BUL_todor_pavlov = {
+		advisor = {
+			slot = political_advisor
+			idea_token = BUL_todor_pavlov
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+				original_tag = BUL
+			}
+			available = {
+				has_country_flag = BUL_appointed_bs_members_flag 
+				NOT = {
+					has_government = fascism 
+				}
+			}
+			traits = {
+				marxist_philosopher 
+			}
+			ai_will_do = {
+				base = 3.000
+				modifier = {
+					factor = 0
+					BUL_is_historical_ai = yes
+					#NOT = { has_completed_focus = BUL_illusions_of_a_non_partisan_system } #Better not to hire him Boris, he'll definitely make it easier for the Fatherland Front later on, even though you won't be there to see it
+				}
+			}
+		}
+		name = BUL_todor_pavlov
+		portraits = {
+			army = {
+				small = "GFX_idea_bul_todor_pavlov"
 			}
 		}
 	}

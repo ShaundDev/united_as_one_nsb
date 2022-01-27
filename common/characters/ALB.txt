@@ -3,7 +3,7 @@ characters={
 		name="King Zog"
 		portraits={
 			civilian={
-				large="gfx/leaders/ALB/Portrait_Albania_King_Zog.dds"
+				large=GFX_portrait_King_Zog
 			}
 		}
 		country_leader={
@@ -16,7 +16,7 @@ characters={
 		name="Enver Hoxha"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+				large=GFX_portrait_Enver_Hoxha
 			}
 		}
 		country_leader={
@@ -30,7 +30,7 @@ characters={
 		name="Eqrem Belishi"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+				large=GFX_portrait_Eqrem_Belishi
 			}
 		}
 		country_leader={
@@ -43,7 +43,7 @@ characters={
 		name="Gjon Burbank"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+				large=GFX_portrait_Gjon_Burbank
 			}
 		}
 		country_leader={
@@ -57,8 +57,8 @@ characters={
 		name="Xhemal Aranitasi"
 		portraits={
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				large=GFX_portrait_Xhemal_Aranitasi
+				small=GFX_portrait_Xhemal_Aranitasi_small
 			}
 		}
 		field_marshal={

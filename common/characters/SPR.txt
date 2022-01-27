@@ -44,7 +44,7 @@ characters={
 			name=SPR_jose_diaz
 			portraits={
 				civilian={
-					large="gfx/leaders/SPR/portrait_spr_jose_diaz.dds"
+					large=GFX_portrait_SPR_jose_diaz
 				}
 			}
 			country_leader={
@@ -61,7 +61,7 @@ characters={
 			name=SPR_jose_diaz
 			portraits={
 				civilian={
-					large="gfx/leaders/SPR/portrait_spr_jose_diaz.dds"
+					large=GFX_portrait_SPR_jose_diaz
 				}
 			}
 			country_leader={
@@ -76,7 +76,7 @@ characters={
 		name=SPR_alejandro_lerroux
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				large=GFX_portrait_SPR_alejandro_lerroux
 			}
 		}
 		country_leader={
@@ -156,7 +156,7 @@ characters={
 			portraits={
 				army={
 					large="GFX_portrait_SPR_vicente_rojo_lluch"
-					small="gfx/interface/ideas/idea_SPR_vicente_rojo_lluch.dds"
+					small=GFX_portrait_SPR_vicente_rojo_lluch_small
 				}
 			}
 			corps_commander={
@@ -229,7 +229,7 @@ characters={
 			portraits={
 				army={
 					large="GFX_portrait_SPR_jose_miaja"
-					small="gfx/interface/ideas/idea_SPR_jose_miaja.dds"
+					small=GFX_portrait_SPR_jose_miaja_small
 				}
 			}
 			corps_commander={
@@ -324,7 +324,7 @@ characters={
 			portraits={
 				army={
 					large="GFX_portrait_SPR_jose_asensio_torrado"
-					small="gfx/interface/ideas/idea_SPR_jose_asensio_torrado.dds"
+					small=GFX_portrait_SPR_jose_asensio_torrado_small
 				}
 			}
 			corps_commander={
@@ -344,8 +344,8 @@ characters={
 			name=SPR_jose_asensio_torrado
 			portraits={
 				army={
-					large="gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-					small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+					large=GFX_portrait_SPR_jose_asensio_torrado
+					small=GFX_portrait_SPR_jose_asensio_torrado_small
 				}
 			}
 			corps_commander={
@@ -365,7 +365,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_SPR_valentin_gonzalez"
-				small="gfx/interface/ideas/idea_SPR_valentin_gonzalez.dds"
+				small=GFX_portrait_SPR_valentin_gonzalez_small
 			}
 		}
 		corps_commander={
@@ -384,7 +384,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_SPR_enrique_lister"
-				small = "gfx/interface/ideas/idea_SPR_enrique_lister.dds"
+				small = GFX_portrait_SPR_enrique_lister_small
 			}
 		}
 		corps_commander={
@@ -403,7 +403,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_SPR_juan_modesto"
-				small="gfx/interface/ideas/idea_SPR_juan_modesto.dds"
+				small=GFX_portrait_SPR_juan_modesto_small
 			}
 		}
 		corps_commander={
@@ -422,7 +422,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_SPR_antonio_cordon_garcia"
-				small="gfx/interface/ideas/idea_SPR_antonio_cordon_garcia.dds"
+				small=GFX_portrait_SPR_antonio_cordon_garcia_small
 			}
 		}
 		corps_commander={
@@ -441,7 +441,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_SPR_janos_galicz"
-				small="gfx/interface/ideas/idea_spr_janos_galicz.dds"
+				small=GFX_portrait_SPR_janos_galicz_small
 			}
 		}
 		advisor={
@@ -507,7 +507,7 @@ characters={
 			portraits={
 				army={
 					large="GFX_portrait_spain_francisco_franco"
-					small="gfx/interface/ideas/idea_SPA_francisco_franco.dds"
+					small=GFX_portrait_SPA_francisco_franco_small
 				}
 			}
 
@@ -603,7 +603,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_SPA_mohamed_meziane"
-				small="gfx/interface/ideas/idea_SPA_mohamed_meziane.dds"
+				small=GFX_portrait_SPR_mohamed_meziane_small
 			}
 		}
 		corps_commander={
@@ -622,7 +622,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_SPA_gonzalo_queipo_de_llano"
-				small="gfx/interface/ideas/idea_SPA_gonzalo_queipo_de_llano.dds"
+				small=GFX_portrait_SPR_gonzalo_queipo_de_llano_small
 			}
 		}
 		corps_commander={
@@ -645,7 +645,7 @@ characters={
 			portraits={
 				army={
 					large="GFX_portrait_SPA_emilio_mola"
-					small="gfx/interface/ideas/idea_spa_emilio_mola.dds"
+					small=GFX_portrait_SPA_emilio_mola_small
 				}
 			}
 			advisor={	
@@ -745,7 +745,7 @@ characters={
 			portraits={
 				army={
 					large="GFX_portrait_SPA_juan_yague"
-					small="gfx/interface/ideas/idea_spa_juan_yague.dds"
+					small=GFX_portrait_SPA_juan_yague_small
 				}
 			}
 			advisor={
@@ -914,23 +914,6 @@ characters={
 				planning_skill=3
 				logistics_skill=2
 				legacy_id=1113
-				visible = {
-					OR = {
-						NOT = { has_global_flag = spanish_civil_war }
-						AND = {
-							tag = SPA
-							has_global_flag = spanish_civil_war
-							NOT = {
-								has_global_flag = SPR_carlist_uprising_flag
-							}
-						}
-						AND = {
-							tag = SPB
-							has_global_flag = spanish_civil_war
-							has_global_flag = SPR_carlist_uprising_flag
-						}
-					}
-				}
 			}
 		}
 		instance = {
@@ -980,7 +963,7 @@ characters={
 			portraits={
 				army={
 					large="GFX_portrait_SPA_jose_enrique_varela"
-					small="gfx/interface/ideas/idea_spa_jose_enrique_varela.dds"
+					small=GFX_portrait_SPA_jose_enrique_varela_small
 				}
 			}
 			advisor={
@@ -1097,7 +1080,7 @@ characters={
 			portraits={
 				army={
 					large="GFX_portrait_SPA_miguel_cabanellas"
-					small="gfx/interface/ideas/idea_spa_miguel_cabanellas.dds"
+					small=GFX_portrait_SPA_miguel_cabanellas_small
 				}
 			}
 			advisor={
@@ -1197,7 +1180,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_SPA_jose_millan_astray"
-				small="gfx/interface/ideas/idea_SPA_jose_millan_astray.dds"
+				small=GFX_portrait_SPR_jose_millan_astray_small
 			}
 		}
 		corps_commander={
@@ -1220,7 +1203,7 @@ characters={
 			portraits={
 				army={
 					large="GFX_portrait_SPR_miguel_buiza_fernandez_palacios"
-					small="gfx/interface/ideas/idea_SPR_miguel_buiza_fernandez_palacios.dds"
+					small=GFX_portrait_SPR_miguel_buiza_fernandez_palacios_small
 				}
 			}
 			navy_leader={
@@ -1284,7 +1267,7 @@ characters={
 			portraits={
 				army={
 					large="GFX_portrait_SPA_luis_carrero_blanco"
-					small="gfx/interface/ideas/idea_spa_luis_carrero_blanco.dds"
+					small=GFX_portrait_SPA_luis_carrero_blanco_small
 				}
 			}
 			advisor={
@@ -3073,8 +3056,8 @@ characters={
 		name=SPR_jose_rovira
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				small=GFX_portrait_SPR_jose_rovira_small
+				large = GFX_portrait_SPR_jose_rovira
 			}
 		}
 		advisor={
@@ -3510,7 +3493,7 @@ characters={
 			allowed = {
 				NOT = { has_dlc = "La Resistance" }
 			}
-			name=SPR_augusto_barcia_trelles_vanilla
+			name=SPR_augusto_barcia_trelles
 			portraits={
 				army={
 					small="GFX_idea_generic_army_europe_1"
@@ -3518,7 +3501,7 @@ characters={
 			}
 			advisor={
 				slot = political_advisor
-				idea_token = SPR_augusto_barcia_trelles_vanilla
+				idea_token = SPR_augusto_barcia_trelles
 				name = SPR_augusto_barcia_trelles 
 				allowed = {
 					NOT = {
@@ -3592,7 +3575,7 @@ characters={
 			allowed = {
 				NOT = { has_dlc = "La Resistance" }
 			}
-			name=SPR_diego_martinez_barrio_vanilla
+			name=SPR_diego_martinez_barrio
 			portraits={
 				army={
 					small="GFX_idea_generic_navy_europe_1"
@@ -3600,7 +3583,7 @@ characters={
 			}
 			advisor={
 				slot = political_advisor
-				idea_token = SPR_diego_martinez_barrio_vanilla
+				idea_token = SPR_diego_martinez_barrio
 				name = SPR_diego_martinez_barrio 
 				allowed = {
 					NOT = {
@@ -3678,7 +3661,7 @@ characters={
 			allowed = {
 				NOT = { has_dlc = "La Resistance" }
 			}
-			name=SPR_dolores_ibarruri_vanilla
+			name=SPR_dolores_ibarruri
 			portraits={
 				army={
 					small="GFX_idea_dolores_ibarruri"
@@ -3687,7 +3670,7 @@ characters={
 			gender = female
 			advisor={
 				slot = political_advisor
-				idea_token = SPR_dolores_ibarruri_vanilla
+				idea_token = SPR_dolores_ibarruri
 				name = SPR_dolores_ibarruri 
 				allowed = {
 					NOT = {
@@ -3928,7 +3911,7 @@ characters={
 			}
 			advisor={
 				slot = political_advisor
-				idea_token = SPR_francisco_largo_caballero_vanilla
+				idea_token = SPR_francisco_largo_caballero
 				name = SPR_francisco_largo_caballero 
 				allowed = {
 					NOT = {
