@@ -7801,7 +7801,7 @@ focus_tree = {
 		id = SOV_send_military_advisors_to_spain
 		icon = GFX_focus_intervention_spain_republic
 		prerequisite = { focus = SOV_the_comintern }
-		x = -2
+		x = -3
 		y = 1
 		relative_position_id = SOV_the_comintern
 		cost = 5
@@ -7811,13 +7811,15 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				has_civil_war = yes
-			}
+			}	
 		}
-
+		
 		available = {
 			has_civil_war = no
 			OR = {
 				has_completed_focus = SOV_the_centre
+				has_completed_focus = SOV_the_left_opposition
+				has_completed_focus = SOV_the_right_opposition
 			}
 			if = {
 				limit = {
@@ -7865,12 +7867,12 @@ focus_tree = {
 			has_government = communism
 			is_subject = no
 		}
-
+		
 		search_filters = {}
 
 		completion_reward = {
 			add_timed_idea = { idea = SOV_military_advisors_in_spain days = 1095 }
-
+			
 			if = {
 				limit = {
 					has_dlc = "La Resistance"
