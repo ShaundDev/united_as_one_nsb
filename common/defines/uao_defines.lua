@@ -202,3 +202,38 @@ NDefines.NIntel.ARMY_INTEL_COMBAT_BONUS_MAX_BONUS = 0.08; -- max combat bonus th
 NDefines.NIntel.CIVILIAN_INTEL_NEEDED_TO_SHOW_FOCUS_TREE = 0.6; -- min required intel to focus tree with taken focuses
 NDefines.NIntel.CIVILIAN_INTEL_NEEDED_TO_SHOW_CURRENT_FOCUS = 0.7;  -- min required intel to show currently focus
 NDefines.NIntel.CIVILIAN_INTEL_NEEDED_TO_SHOW_CURRENT_FOCUS_PROGRESS = 0.8;  -- min required intel to show current focus progress
+
+-- NDefines.NSupply.
+NDefines.NSupply.CAPITAL_SUPPLY_BASE = 7.0; -- base supply for capital
+NDefines.NSupply.CAPITAL_SUPPLY_CIVILIAN_FACTORIES = 0.6; -- supply from one civilian factory
+NDefines.NSupply.CAPITAL_SUPPLY_MILITARY_FACTORIES = 0.9; -- supply from one military factory
+NDefines.NSupply.CAPITAL_SUPPLY_DOCKYARDS = 0.8; --supply from one naval factory
+
+NDefines.NSupply.CAPITAL_INITIAL_SUPPLY_FLOW = 8.0; -- starting supply from
+
+NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3.5; -- defines that are used for supply reach for dockyards
+NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.8; -- defines that are used for supply reach for dockyards
+NDefines.NSupply.NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.0; -- defines that are used for supply reach for dockyards
+
+NDefines.NSupply.NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.4; -- Node Flow (i.e. province caps) increase by this amount per railway level of the node's bottleneck
+
+NDefines.NSupply.SUPPLY_FLOW_PENALTY_CROSSING_RIVERS = 0.10; -- crossing rivers introduces additional penalty
+
+NDefines.NSupply.RAILWAY_BASE_FLOW = 12.0; 		-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
+NDefines.NSupply.RAILWAY_FLOW_PER_LEVEL = 8.0; 	-- how much additional flow a railway level gives
+NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 3.0; -- penalty to flow per damaged railway
+NDefines.NSupply.RAILWAY_MIN_FLOW = 6.0; 		-- minimum railway flow can be reduced to
+
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 50.0; -- How many trucks does it cost to fully motorize a hub
+
+NDefines.NSupply.INFRA_TO_SUPPLY = 0.4;							-- each level of infra gives this many supply
+NDefines.NSupply.VP_TO_SUPPLY_BASE = 0.4;							-- Bonus to supply from a VP, no matter the level
+NDefines.NSupply.VP_TO_SUPPLY_BONUS_CONVERSION = 0.15;			-- Bonus to supply local supplies from Victory Points, multiplied by this aspect and rounded to closest integer
+
+NDefines.NSupply.DAYS_TO_START_GIVING_SUPPLY_AFTER_MOVING_SUPPLY_CAPITAL = 7;  -- the country will start gaining supply after this many days moving its capital
+NDefines.NSupply.DAYS_TO_START_GIVING_FULL_SUPPLY_AFTER_MOVING_SUPPLY_CAPITAL = 14; -- the country will reach max supply after this many days moving its capital
+
+NDefines.NSupply.LOCAL_SUPPLY_PER_AIR_MISSION = 0.1; -- each assigned plane gives this much supply at full efficiency
+
+NDefines.NSupply.ALERT_VERY_LOW_SUPPLY_LEVEL = 0.3; -- At which point we show up the low and very low supply level alert. Value is in % of supplies supported vs required.
+NDefines.NSupply.ALERT_LOW_SUPPLY_LEVEL = 0.75;
