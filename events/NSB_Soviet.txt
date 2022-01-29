@@ -3742,10 +3742,6 @@ country_event = {
 				factor = 2
 				SOV = { has_idea = SOV_maksim_litvinov }
 			}
-			modifier = { #Is going non-aligned (kill SOV in focus branch)
-				factor = 0
-				has_completed_focus = JAP_support_the_kodoha_faction
-			}
 		}
 
 		add_opinion_modifier = { target = SOV modifier = border_conflict_reconciled }

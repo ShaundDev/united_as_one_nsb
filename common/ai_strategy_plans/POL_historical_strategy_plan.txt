@@ -45,7 +45,6 @@ POL_historical_plan = {
 		POL_dissolve_the_sejm
 		POL_camp_of_national_unity #Sidenote: This one was missing
 		POL_align_with_the_west
-		POL_lithuanian_ultimatum
 		POL_support_right_paramilitaries
 		POL_polish_revanchism
 		#1939

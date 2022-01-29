@@ -778,7 +778,6 @@ on_actions = {
 						}
 					}
 					unlock_national_focus = LAT_latvia_for_latvians
-					unlock_national_focus = LAT_lift_ban_on_perkonkrusts
 					unlock_national_focus = LAT_fanatic_recruitment
 					complete_national_focus = LAT_the_old_ways
 					random_list = {

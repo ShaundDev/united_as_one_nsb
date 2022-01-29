@@ -1114,7 +1114,6 @@ operations = {
 		available = {
 			OR = {
 				has_completed_focus = JAP_purge_the_kodoha_faction
-				has_completed_focus = JAP_support_the_kodoha_faction
 			}
 			NOT = {
 				has_war_with = SOV
@@ -1473,13 +1472,6 @@ operations = {
 				is_historical_focus_on = no 
 			}
 			modifier = {
-				add = 50 
-				AND = {
-					tag = JAP 
-					has_completed_focus = JAP_support_the_kodoha_faction
-				}
-			}
-			modifier = {
 				factor = 0
 				has_war = yes 
 			}
@@ -1568,13 +1560,6 @@ operations = {
 			modifier = {
 				add = 100 
 				is_historical_focus_on = no 
-			}
-			modifier = {
-				add = 50 
-				AND = {
-					tag = JAP 
-					has_completed_focus = JAP_support_the_kodoha_faction
-				}
 			}
 			modifier = {
 				factor = 0
@@ -1704,7 +1689,6 @@ operations = {
 			GER = { has_completed_focus = GER_mol_rib_pact }
 			GER = { NOT = { has_war_with = SOV } }
 			NOT = { has_war_with = SOV }
-			has_completed_focus = JAP_preemptive_war
 		}
 
 		fire_only_once = yes

@@ -863,14 +863,6 @@ country_event = {
 				}
 			}
 
-			modifier = {
-				factor = 0
-				tag = SPC
-				FROM = {
-					original_tag = SOV
-					has_completed_focus = SOV_covert_support_for_spanish_poum
-				}
-			}
 		}
 		FROM = { 
 			country_event = { id = generic.7 hours = 6 }

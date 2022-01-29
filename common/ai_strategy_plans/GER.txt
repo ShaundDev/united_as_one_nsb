@@ -40,14 +40,9 @@ German_historical = {
 				}
 			}
 			any_country_with_original_tag = {
-				original_tag_to_check = HUN
-				has_completed_focus = HUN_invite_the_habsburg_prince
-			}
-			any_country_with_original_tag = {
 				original_tag_to_check = FRA
 				OR = {
 					has_completed_focus = FRA_utilize_the_leagues
-					has_completed_focus = FRA_invite_communist_ministers
 				}
 			}
 			any_country_with_original_tag = {

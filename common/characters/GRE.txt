@@ -1269,32 +1269,6 @@ characters={
 		}
 	}
 
-	GRE_xenophon_giosmas={
-		name=GRE_xenophon_giosmas
-		portraits={
-			army={
-				small="GFX_idea_gre_xenophon_giosmas"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GRE_xenophon_giosmas
-			allowed = {
-				original_tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-			available = {
-				OR = {
-					has_government = fascism 
-					has_completed_focus = GRE_recruit_the_fascists 
-				}
-			}
-			traits = {
-				national_socialist_paramilitarist 
-			}
-		}
-	}
-
 	GRE_georgios_papandreou={
 		instance = {
 			allowed = {
@@ -1510,41 +1484,6 @@ characters={
 			}
 			traits = {
 				marxist_priest 
-			}
-		}
-	}
-
-	GRE_emmanouil_tsouderos={
-		name=GRE_emmanouil_tsouderos
-		portraits={
-			army={
-				small="GFX_idea_gre_emmanouil_tsouderos"
-			}
-			civilian={
-				large="GFX_portrait_gre_emmanouil_tsouderos" #Can become country leader later
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GRE_emmanouil_tsouderos
-			allowed = {
-				original_tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-			available = {
-				has_completed_focus = GRE_fiscal_responsibility 
-				NOT = {
-					OR = {
-						has_government = communism 
-						has_country_leader = {
-							character = GRE_emmanouil_tsouderos
-							ruling_only = yes 
-						}
-					}
-				}
-			}
-			traits = {
-				financial_expert 
 			}
 		}
 	}

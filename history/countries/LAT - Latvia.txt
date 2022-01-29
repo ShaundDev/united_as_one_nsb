@@ -98,7 +98,6 @@ set_convoys = 10
 	complete_national_focus = BALTIC_renew_allied_trade
 	complete_national_focus = LAT_banish_clemens
 	complete_national_focus = LAT_appease_democrats
-	complete_national_focus = LAT_martial_prime_minister
 	complete_national_focus = LAT_improve_military_life
 	complete_national_focus = LAT_establish_chambers_of_professions
 	complete_national_focus = BALTIC_attract_workers_to_capital
