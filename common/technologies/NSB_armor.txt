@@ -13,7 +13,7 @@ technologies = {
 	@1945 = 12
 	@1946 = 20
 
-	armoured_car1 = {
+	nsba_armoured_car1 = {
 
 		enable_subunits = {
 			armored_car
@@ -24,7 +24,7 @@ technologies = {
 		}
 		allow_branch = { has_dlc = "La Resistance" }
 		path = {
-			leads_to_tech = armoured_car2
+			leads_to_tech = nsba_armoured_car2
 			research_cost_coeff = 1
 		}
 
@@ -64,14 +64,14 @@ technologies = {
 		}
 	}
 
-	armoured_car2 = {
+	nsba_armoured_car2 = {
 
 		enable_equipments = {
 			armored_car_equipment_1
 		}
 		
 		path = {
-			leads_to_tech = armoured_car3
+			leads_to_tech = nsba_armoured_car3
 			research_cost_coeff = 1
 		}
 
@@ -111,7 +111,7 @@ technologies = {
 		}
 	}
 
-	armoured_car3 = {
+	nsba_armoured_car3 = {
 
 		enable_equipments = {
 			armored_car_equipment_2
@@ -157,7 +157,7 @@ technologies = {
 		}
 	}
 
-	armored_car_at_upgrade = {
+	nsba_armored_car_at_upgrade = {
 
 		enable_equipments = {
 			armored_car_at_equipment
@@ -196,7 +196,7 @@ technologies = {
 		}
 	}
 
-	motorised_infantry = {
+	nsba_motorised_infantry = {
 
 		enable_subunits = {
 			motorized
@@ -223,7 +223,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = mechanised_infantry
+			leads_to_tech = nsba_mechanised_infantry
 			research_cost_coeff = 1
 		}
 
@@ -234,10 +234,10 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 		
-		folder = {
-			name = support_folder
-			position = { x = 7 y = 9 }
-		}
+		#folder = {
+		#	name = support_folder
+		#	position = { x = 7 y = 9 }
+		#}
 		
 		sub_technologies = {
 			motorized_rocket_unit
@@ -271,7 +271,7 @@ technologies = {
 			}
 		}
 	}
-	motorized_rocket_unit = {
+	nsba_motorized_rocket_unit = {
 
 		enable_subunits = {
 			motorized_rocket_brigade
@@ -297,7 +297,7 @@ technologies = {
 		}
 	}
 	
-	mechanised_infantry = {
+	nsba_mechanised_infantry = {
 
 		enable_equipments = {
 			mechanized_equipment_1
@@ -324,12 +324,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mechanised_infantry2
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry
+			leads_to_tech = nsba_mechanised_infantry2
 			research_cost_coeff = 1
 		}
 
@@ -355,14 +350,14 @@ technologies = {
 		}
 	}
 
-	mechanised_infantry2 = {
+	nsba_mechanised_infantry2 = {
 
 		enable_equipments = {
 			mechanized_equipment_2
 		}
 		
 		path = {
-			leads_to_tech = mechanised_infantry3
+			leads_to_tech = nsba_mechanised_infantry3
 			research_cost_coeff = 1
 		}
 
@@ -384,7 +379,7 @@ technologies = {
 		}
 	}
 	
-	mechanised_infantry3 = {
+	nsba_mechanised_infantry3 = {
 
 		enable_equipments = {
 			mechanized_equipment_3

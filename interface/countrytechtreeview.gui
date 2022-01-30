@@ -507,12 +507,12 @@ guiTypes = {
 				slotsize = { width=70 height= 70 }
 				format = "LEFT"
 			}
-			gridboxtype = {
-				name = "motorised_infantry_tree"
-				position = { x = 100 y = 160 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
+			#gridboxtype = {
+			#	name = "motorised_infantry_tree"
+			#	position = { x = 100 y = 160 }
+			#	slotsize = { width = 70 height = 70 }
+			#	format = "LEFT"
+			#}
 
 			gridboxtype = {
 				name = "basic_train_tree"
@@ -806,7 +806,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "armoured_car1_tree"
-				position = { x = -625 y = 172 }
+				position = { x = -850 y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -814,7 +814,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "motorised_infantry_tree"
-				position = { x = -425 y = 172 }
+				position = { x = -645 y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1124,7 +1124,7 @@ guiTypes = {
 			}	
 
 			gridboxtype = {
-				name = "armoured_car1_tree"
+				name = "nsba_armoured_car1_tree"
 				position = { x = -625 y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
@@ -1132,7 +1132,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "motorised_infantry_tree"
+				name = "nsba_motorised_infantry_tree"
 				position = { x = -425 y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }

@@ -8,7 +8,6 @@ set_war_support = 0.1
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	motorised_infantry = 1
 
 	tech_support = 1
 	tech_engineers = 1
@@ -39,6 +38,8 @@ if = {
 	}
 	set_technology = {
 		gwtank = 1
+		motorised_infantry = 1
+		armoured_car1 = 1
 	}
 }
 if = {
@@ -47,6 +48,8 @@ if = {
 	}
 	set_technology = {
 		gwtank_chassis = 1
+		nsba_motorised_infantry = 1
+		nsba_armoured_car1 = 1
 	}
 }
 

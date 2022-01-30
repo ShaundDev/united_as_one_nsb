@@ -25,6 +25,8 @@ if = {
 	set_technology = { #vanilla keeps the old system, nsb afghanistan will no longer produce some of the most advanced tanks in the world
 		gwtank = 1
 		basic_light_tank = 1
+		motorised_infantry = 1
+		armoured_car1 = 1
 	}
 }
 
@@ -34,7 +36,8 @@ if = {
 	}
 	set_technology = { 
 		gwtank_chassis = 1
-		
+		nsba_motorised_infantry = 1
+		nsba_armoured_car1 = 1		
 	}
 }
 

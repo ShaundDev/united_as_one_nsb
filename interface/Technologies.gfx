@@ -526,6 +526,11 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
+		name = "GFX_nsba_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_tech_recon4_medium"
 		texturefile = "gfx/interface/technologies/recon4.dds"
 	}
@@ -2520,6 +2525,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_nsba_armoured_car1_medium"
+		texturefile = "gfx/interface/technologies/land/generic/gen_armoured_car1.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_gw_armored_car_equipment_medium"
 		texturefile = "gfx/interface/technologies/land/generic/gen_armoured_car1.dds"
 	}
@@ -2530,12 +2540,22 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_nsba_armoured_car2_medium"
+		texturefile = "gfx/interface/technologies/land/generic/gen_armoured_car2.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_armored_car_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/land/generic/gen_armoured_car2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_armoured_car3_medium"
+		texturefile = "gfx/interface/technologies/land/generic/gen_armoured_car3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_nsba_armoured_car3_medium"
 		texturefile = "gfx/interface/technologies/land/generic/gen_armoured_car3.dds"
 	}
 
@@ -2551,6 +2571,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_ENG_nsba_armoured_car1_medium"
+		texturefile = "gfx/interface/technologies/land/eng/eng_armoured_car1.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_ENG_gw_armored_car_equipment_medium"
 		texturefile = "gfx/interface/technologies/land/eng/eng_armoured_car1.dds"
 	}
@@ -2561,12 +2586,22 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_ENG_nsba_armoured_car2_medium"
+		texturefile = "gfx/interface/technologies/land/eng/eng_armoured_car2.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_ENG_armored_car_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/land/eng/eng_armoured_car2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_ENG_armoured_car3_medium"
+		texturefile = "gfx/interface/technologies/land/eng/eng_armoured_car3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_nsba_armoured_car3_medium"
 		texturefile = "gfx/interface/technologies/land/eng/eng_armoured_car3.dds"
 	}
 
@@ -2587,6 +2622,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_GER_nsba_armoured_car1_medium"
+		texturefile = "gfx/interface/technologies/land/ger/ger_armoured_car1.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_GER_gw_armored_car_equipment_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_armoured_car1.dds"
 	}
@@ -2597,12 +2637,22 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_GER_nsba_armoured_car2_medium"
+		texturefile = "gfx/interface/technologies/land/ger/ger_armoured_car2.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_GER_armored_car_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_armoured_car2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_GER_armoured_car3_medium"
+		texturefile = "gfx/interface/technologies/land/ger/ger_armoured_car3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_nsba_armoured_car3_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_armoured_car3.dds"
 	}
 
@@ -2842,6 +2892,11 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
+		name = "GFX_SOV_nsba_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/SOV_motorised_equipment_1.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_SOV_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/SOV_motorised_equipment_1.dds"
 	}
@@ -2914,12 +2969,27 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_ENG_nsba_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared1_mechanized_equipment_3.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_ENG_mechanized_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_2.dds"
 	}	
-	
+
+	SpriteType = {
+		name = "GFX_ENG_nsba_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_2.dds"
+	}		
+
 	SpriteType = {
 		name = "GFX_ENG_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_nsba_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/land/tfv_shared2_mechanized_equipment_1.dds"
 	}	
 
@@ -3159,9 +3229,14 @@ spriteTypes = {
 	}
 
 	### FRA equipment	###
-	
+
 	SpriteType = {
 		name = "GFX_FRA_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/fra_motorized_equipment.dds"
+	}		
+
+	SpriteType = {
+		name = "GFX_FRA_nsba_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/fra_motorized_equipment.dds"
 	}	
 	
@@ -3742,6 +3817,11 @@ spriteTypes = {
 		name = "GFX_ITA_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/ita_motorised_infantry.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_ITA_nsba_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/ita_motorised_infantry.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_ITA_motorized_equipment_1_medium"
@@ -3851,9 +3931,14 @@ spriteTypes = {
 		name = "GFX_JAP_motorized_rocket_unit_medium"
 		texturefile = "gfx/interface/technologies/JAP_motorized_rocket_unit.dds"
 	}	
-	
+
 	SpriteType = {
 		name = "GFX_JAP_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/JAP_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_nsba_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/JAP_motorized_equipment_1.dds"
 	}
 		
@@ -3863,9 +3948,14 @@ spriteTypes = {
 		name = "GFX_USA_motorized_rocket_unit_medium"
 		texturefile = "gfx/interface/technologies/USA_motorized_rocket_unit.dds"
 	}	
-	
+
 	SpriteType = {
 		name = "GFX_USA_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/USA_motorized_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_nsba_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/USA_motorized_equipment_1.dds"
 	}
 
@@ -3962,7 +4052,12 @@ spriteTypes = {
 		name = "GFX_USA_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/usa_motorised_infantry.dds"
 	}
-	
+
+	SpriteType = {
+		name = "GFX_USA_nsba_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/usa_motorised_infantry.dds"
+	}	
+
 	SpriteType = {
 		name = "GFX_USA_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/usa_motorised_infantry.dds"
@@ -4848,7 +4943,12 @@ spriteTypes = {
 		name = "GFX_POL_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/pol_motorised_infantry.dds"
 	}
-	
+
+	SpriteType = {
+		name = "GFX_POL_nsba_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/pol_motorised_infantry.dds"
+	}	
+
 	SpriteType = {
 		name = "GFX_POL_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/pol_motorised_infantry.dds"

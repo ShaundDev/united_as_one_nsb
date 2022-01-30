@@ -19,6 +19,24 @@ set_technology = {
 }
 
 if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		motorised_infantry = 1
+		armoured_car1 = 1
+	}
+	else = {
+		set_technology = {
+			gwtank = 1
+			nsba_motorised_infantry = 1
+			nsba_armoured_car1 = 1
+		}
+	}
+}
+
+if = {
 	limit = { has_dlc = "Waking the Tiger" }
 	set_country_flag = MAN_northern_bandits
 	set_country_flag = MAN_eastern_bandits
