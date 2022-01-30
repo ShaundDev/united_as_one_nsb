@@ -16,7 +16,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3  #New civs
+			#GER=IC
+			#industrial_complex = 3  #New civs
 			arms_factory = 2
 			321 = {
 				naval_base = 6

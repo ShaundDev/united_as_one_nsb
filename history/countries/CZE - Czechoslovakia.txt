@@ -16,14 +16,22 @@ if = {
 }
 
 set_technology = {
+	################## infantry ############
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1
-	tech_recon = 1
 	tech_mountaineers = 1
+	################# support ###############
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_headquarters = 1
+	################ artillery ################	
 	interwar_artillery = 1
 	interwar_heavyartillery = 1
 	interwar_antiair = 1
+	interwar_antitank = 1
+	interwar_pack = 1
+	
 	early_fighter = 1
 	early_bomber = 1
 	CAS1 = 1
@@ -67,6 +75,8 @@ if = {
 		gwtank = 1
 		basic_light_tank = 1
 		improved_light_tank = 1
+		motorised_infantry = 1
+		armoured_car1 = 1
 	}
 }
 if = {
@@ -77,6 +87,8 @@ if = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 		improved_light_tank_chassis = 1
+		nsba_motorised_infantry = 1
+		nsba_armoured_car1 = 1
 	}
 }
 

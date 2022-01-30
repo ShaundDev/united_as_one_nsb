@@ -10,8 +10,9 @@ state={
 		owner = GER
 		buildings = {
 			infrastructure = 4
-			arms_factory = 2 #1
-			industrial_complex = 3 #2
+			#GER=IC
+			arms_factory = 1
+			industrial_complex = 2
 		}
 		victory_points = {
 			6488 20.0 

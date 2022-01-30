@@ -5,14 +5,43 @@ oob = "AUS_1936"
 set_research_slots = 3
 
 set_technology = {
+	################## infantry ############
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_recon = 1
-	tech_engineers = 1
-	tech_support = 1		
 	tech_mountaineers = 1
+	################# support ###############
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_headquarters = 1
+	################ artillery ################	
+	interwar_artillery = 1
+	interwar_heavyartillery = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	interwar_pack = 1
+
 	early_fighter = 1
 	basic_train = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		motorised_infantry = 1
+		armoured_car1 = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		nsba_motorised_infantry = 1
+		nsba_armoured_car1 = 1
+	}
 }
 
 recruit_character = AUS_kurt_schuschnigg

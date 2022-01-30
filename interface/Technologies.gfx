@@ -2458,6 +2458,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_GER_nsba_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_3.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_GER_mechanized_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_3.dds"
 	}
@@ -2468,12 +2473,22 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_GER_nsba_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_2.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_GER_mechanized_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_2.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_GER_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_nsba_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/land/GER_mechanized_equipment_1.dds"
 	}
 
@@ -3249,7 +3264,12 @@ spriteTypes = {
 		name = "GFX_FRA_mechanised_infantry3_medium"
 		texturefile = "gfx/interface/technologies/land/FRA_mechanized_equipment_3.dds"
 	}		
-	
+
+	SpriteType = {
+		name = "GFX_FRA_nsba_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/land/FRA_mechanized_equipment_3.dds"
+	}	
+
 	SpriteType = {
 		name = "GFX_FRA_mechanized_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/land/FRA_mechanized_equipment_3.dds"
@@ -3261,12 +3281,22 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
+		name = "GFX_FRA_nsba_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/land/FRA_mechanized_equipment_2.dds"
+	}	
+
+	SpriteType = {
 		name = "GFX_FRA_mechanized_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/land/FRA_mechanized_equipment_2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_FRA_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/fra_mechanized_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_nsba_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/fra_mechanized_equipment_1.dds"
 	}
 
@@ -3903,6 +3933,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_JAP_nsba_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_3.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_JAP_mechanized_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_3.dds"
 	}
@@ -3913,6 +3948,12 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_JAP_nsba_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_2.dds"
+	}
+
+
+	SpriteType = {
 		name = "GFX_JAP_mechanized_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_2.dds"
 	}
@@ -3920,7 +3961,12 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_JAP_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_1.dds"
-	}		
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_nsba_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/JAP_mechanized_equipment_1.dds"
+	}	
 
 	SpriteType = {
 		name = "GFX_JAP_mechanized_equipment_1_medium"

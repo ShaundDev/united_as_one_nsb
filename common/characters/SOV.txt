@@ -2028,8 +2028,6 @@ characters = {
 					}
 				}
 				available = {
-					NOT = { has_idea = SOV_nikolay_yezhov }
-					NOT = { has_idea = SOV_genrikh_yagoda }
 					NOT = { is_country_leader = yes }
 				}
 
@@ -2079,8 +2077,7 @@ characters = {
 					}
 				}
 				available = {
-					NOT = { has_idea = SOV_nikolay_yezhov }
-					NOT = { has_idea = SOV_genrikh_yagoda }
+
 				}
 
 				traits = {

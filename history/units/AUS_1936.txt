@@ -6,15 +6,21 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   # Pioneer Bn
+		DIV_HQ = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+	 	engineer = { x = 1 y = 0 }	# Pioneer Bn
+		anti_tank =  { x = 1 y = 1 }
 	}
 }
 
@@ -26,9 +32,16 @@ division_template = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
 		mountaineers = { x = 0 y = 2 }
+
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
+
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+
+		pack_artillery_brigade = { x = 3 y = 0 }
+		pack_artillery_brigade = { x = 3 y = 1 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }   # Pioneer Bn
@@ -55,8 +68,6 @@ units = {
 		location = 11666  # Vienna
 		division_template = "Schnelle Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
 	}
 	division= {	# "1. Division"
 		division_name = {
@@ -66,8 +77,6 @@ units = {
 		location = 11666  # Vienna
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
 	}
 	division= {	# "2. Division"			# Used to form 44. Infanterie-division post-Anschluss
 		division_name = {
@@ -77,8 +86,6 @@ units = {
 		location = 11666  # Vienna
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
 	}
 	division= {	# "3. Division"			# Used to form 44. Infanterie--division post-Anschluss
 		division_name = {
@@ -88,8 +95,6 @@ units = {
 		location = 11651 # St Poelten
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
 	}
 
 	# II Korps
@@ -101,8 +106,6 @@ units = {
 		location = 9665 # Linz
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
 	}
 	division= {	# "5. Division"			# Used to form 3. Gebirgs-division post-Anschluss
 		division_name = {
@@ -112,8 +115,6 @@ units = {
 		location = 9648  # Graz
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
 	}
 	division= {	# "6. Division"			# Used to form 2. Gebirgs-division post-Anschluss
 		division_name = {
@@ -123,8 +124,6 @@ units = {
 		location = 673  # Innsbruck
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
 	}
 	division= {	# "7. Division"			# Used to form 3. Gebirgs-division post-Anschluss
 		division_name = {
@@ -134,8 +133,6 @@ units = {
 		location = 688  # Salzburg
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
 	}
 
 	division= {	
@@ -143,8 +140,6 @@ units = {
 		location = 11666  # Vienna
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
 	}
 }
 

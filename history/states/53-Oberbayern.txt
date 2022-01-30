@@ -10,7 +10,8 @@ state={
 		owner = GER
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2  #New civs
+			#GER=IC
+			#industrial_complex = 2  #New civs
 		}
 		add_core_of = GER
 		victory_points = {
