@@ -2610,7 +2610,7 @@ focus_tree = {
 			custom_effect_tooltip = GER_rhineland_ultimatum
 			add_political_power = 120
 			army_experience = 5
-			add_named_threat = { threat = 5 name = GER_rhineland }
+			add_named_threat = { threat = 3 name = GER_rhineland }
 			if = {
 				limit = { FRA = { is_subject = no } }
 				FRA = {
@@ -2870,6 +2870,7 @@ focus_tree = {
 			is_subject = no
 			has_army_manpower = { size > 499999 }
 			NOT = { has_idea = rhineland_challenge_met }
+			date > 1938.1.1
 		}
 		cancel = {
 			OR = {

@@ -3087,17 +3087,17 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_ENG_CAS1_medium"
-		texturefile = "gfx/interface/technologies/ENG_CAS1.dds"
+		texturefile = "gfx/interface/technologies/air/eng/cas1_battle.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_ENG_CAS2_medium"
-		texturefile = "gfx/interface/technologies/ENG_CAS2.dds"
+		texturefile = "gfx/interface/technologies/air/eng/cas2_hurricane_fb.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_ENG_CAS3_medium"
-		texturefile = "gfx/interface/technologies/ENG_CAS3.dds"
+		texturefile = "gfx/interface/technologies/air/eng/cas3_typhoon_fb.dds"
 	}
 	
 	SpriteType = {
@@ -3112,17 +3112,17 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_ENG_fighter1_medium"
-		texturefile = "gfx/interface/technologies/ENG_fighter1.dds"
+		texturefile = "gfx/interface/technologies/air/eng/fighter1_hurricane.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_ENG_fighter2_medium"
-		texturefile = "gfx/interface/technologies/ENG_fighter2.dds"
+		texturefile = "gfx/interface/technologies/air/eng/fighter2_Spitfire.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_ENG_fighter3_medium"
-		texturefile = "gfx/interface/technologies/ENG_fighter3.dds"
+		texturefile = "gfx/interface/technologies/air/eng/fighter3_Tempest.dds"
 	}	
 	
 	SpriteType = {
@@ -3142,7 +3142,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_ENG_naval_bomber1_medium"
-		texturefile = "gfx/interface/technologies/ENG_naval_bomber1.dds"
+		texturefile = "gfx/interface/technologies/air/eng/nav1_swordfish.dds"
 	}	
 		
 	SpriteType = {

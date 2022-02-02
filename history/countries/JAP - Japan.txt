@@ -1,6 +1,9 @@
 ﻿capital = 282
 
-
+create_faction = "Greater East-Asian Co-Prosperity Sphere"
+add_to_faction = JAP 
+add_to_faction = MAN 
+add_to_faction = MEN
 
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.8
