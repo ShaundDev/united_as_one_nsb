@@ -3112,17 +3112,22 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_ENG_fighter1_medium"
-		texturefile = "gfx/interface/technologies/air/eng/fighter1_hurricane.dds"
+		texturefile = "gfx/interface/technologies/ENG_fighter1.dds"		
+		#texturefile = "gfx/interface/technologies/air/eng/fighter1_hurricane_mk1.dds"
+		#texturefile = "gfx/interface/technologies/air/eng/fighter1_hurricane.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_ENG_fighter2_medium"
-		texturefile = "gfx/interface/technologies/air/eng/fighter2_Spitfire.dds"
+		texturefile = "gfx/interface/technologies/ENG_fighter2.dds"
+		#texturefile = "gfx/interface/technologies/air/eng/fighter2_spitfire_mk1.dds"		
+		#texturefile = "gfx/interface/technologies/air/eng/fighter2_Spitfire.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_ENG_fighter3_medium"
-		texturefile = "gfx/interface/technologies/air/eng/fighter3_Tempest.dds"
+		texturefile = "gfx/interface/technologies/ENG_fighter3.dds"
+		#texturefile = "gfx/interface/technologies/air/eng/fighter3_Tempest.dds"
 	}	
 	
 	SpriteType = {
