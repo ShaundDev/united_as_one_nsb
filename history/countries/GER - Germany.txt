@@ -457,7 +457,6 @@ recruit_character = GER_wolfram_von_richthofen
 recruit_character = GER_heinrich_himmler
 recruit_character = GER_walther_funk
 recruit_character = GER_hjalmar_schacht
-recruit_character = GER_julius_leber
 recruit_character = GER_albert_speer
 recruit_character = GER_fritz_todt
 recruit_character = GER_joachim_von_ribbentrop
@@ -473,13 +472,6 @@ recruit_character = GER_august_von_mackensen
 
 recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
 
-
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	recruit_character = GER_carl_friedrich_goerdeler
-}
 
 if = {
 	limit = {

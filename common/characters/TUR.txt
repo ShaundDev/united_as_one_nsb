@@ -166,11 +166,10 @@ characters={
 							}
 						}
 					}
-					has_completed_focus = TUR_fully_integrate_the_is_bank 
+
 				}
 				visible = {
 					NOT = {
-						has_completed_focus = TUR_continue_the_policy_of_etatism 
 						has_country_flag = TUR_menderes_rebellion 
 						has_country_leader = {
 							character = TUR_celal_bayar
@@ -242,12 +241,11 @@ characters={
 							}
 						}
 					}
-					has_completed_focus = TUR_continue_the_policy_of_etatism 
 				}
 				visible = {
 					NOT = {
 						OR = {
-							has_completed_focus = TUR_fully_integrate_the_is_bank 
+
 							has_country_leader = {
 								character = TUR_ismet_inonu
 								ruling_only = yes 
@@ -735,23 +733,13 @@ characters={
 						}
 					}
 					not_already_hired_except_as = political_advisor
-					OR = {
-						has_completed_focus = TUR_continue_the_policy_of_etatism 
-						has_completed_focus = TUR_holding_our_first_multi_party_election 
-					}
 				}
 				visible = {
 					NOT = {
 						OR = {
-							has_completed_focus = TUR_kemalist_socialist_theory 
-							has_completed_focus = TUR_readdress_the_montreux_convention 
-							has_completed_focus = TUR_anti_bolshevik_mediterranean_bloc 
-							and = {
-								has_completed_focus = TUR_democratic_capstone_focus 
-								has_country_leader = {
+							has_country_leader = {
 									character = TUR_celal_bayar
 									ruling_only = yes 
-								}
 							}
 							has_country_leader = {
 								character = TUR_fevzi_cakmak
@@ -910,7 +898,6 @@ characters={
 					has_dlc = "Battle for the Bosporus"
 				}
 				available = {
-					has_completed_focus = TUR_hava_okulu
 					NOT = {
 						has_country_flag = TUR_ottoman_officers_invited_back
 					}
@@ -1777,7 +1764,6 @@ characters={
 				OR = {
 					has_government = fascism 
 					has_government = communism 
-					has_completed_focus = TUR_pivot_to_the_past 
 					has_country_leader = {
 						character = TUR_adnan_menderes
 						ruling_only = yes 
@@ -1805,7 +1791,7 @@ characters={
 				has_dlc = "Battle for the Bosporus"
 			}
 			available = {
-				has_completed_focus = TUR_misak_i_milli 
+
 			}
 			traits = {
 				avid_turanist 
@@ -1846,16 +1832,11 @@ characters={
 						}
 					}
 				}
-				has_completed_focus = TUR_continue_the_policy_of_etatism 
 			}
 			visible = {
 				has_government = neutrality 
 				NOT = {
-					OR = {
-						has_completed_focus = TUR_pivot_to_the_past 
 						has_completed_focus = TUR_rehabilitate_the_kadro_movement 
-						has_completed_focus = TUR_fully_integrate_the_is_bank 
-					}
 				}
 			}
 			traits = {
@@ -1903,13 +1884,10 @@ characters={
 				}
 			}
 			visible = {
-				and = {
-					has_completed_focus = TUR_democratic_capstone_focus 
-					NOT = {
-						has_country_leader = {
-							character = TUR_adnan_menderes
-							ruling_only = yes 
-						}
+				NOT = {
+					has_country_leader = {
+						character = TUR_adnan_menderes
+						ruling_only = yes 
 					}
 				}
 			}
@@ -2056,10 +2034,7 @@ characters={
 				}
 			}
 			visible = {
-				has_completed_focus = TUR_fully_integrate_the_is_bank 
-				NOT = {
-					has_completed_focus = TUR_pivot_to_the_past 
-				}
+
 			}
 			traits = {
 				prime_minister_okyar 
@@ -2162,10 +2137,7 @@ characters={
 				}
 				available = {
 					NOT = {
-						OR = {
-							has_completed_focus = TUR_revive_turkish_revolutionism 
-							has_completed_focus = TUR_pivot_to_the_past 
-						}
+						has_completed_focus = TUR_revive_turkish_revolutionism 
 					}
 				}
 				traits = {
@@ -2221,7 +2193,6 @@ characters={
 				has_dlc = "Battle for the Bosporus"
 			}
 			available = {
-				has_completed_focus = TUR_kemalist_socialist_theory 
 				custom_trigger_tooltip = {
 					tooltip = TUR_can_only_have_one_prime_minister_tt
 					NOT = {
@@ -2321,7 +2292,6 @@ characters={
 				OR = {
 					is_in_faction_with = GER
 					has_government = fascism 
-					has_completed_focus = TUR_pivot_to_the_past 
 					has_country_flag = TUR_sponsored_killigil_armaments_flag 
 				}
 			}
@@ -2366,7 +2336,7 @@ characters={
 				}
 			}
 			visible = {
-				has_completed_focus = TUR_pivot_to_the_past 
+
 			}
 			traits = {
 				grand_vizier_nursi 
@@ -2544,10 +2514,7 @@ characters={
 				has_dlc = "Battle for the Bosporus"
 			}
 			available = {
-				OR = {
-					has_completed_focus = TUR_establish_the_committee_of_pan_turkism 
-					has_completed_focus = TUR_misak_i_milli 
-				}
+
 			}
 			traits = {
 				pan_turkic_doyen 

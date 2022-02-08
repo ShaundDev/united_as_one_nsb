@@ -91,7 +91,7 @@ ideas = {
 			removal_cost = -1
 
 			cancel = {
-				BUL_has_restored_greater_bulgaria = yes
+
 			}
 			
 			modifier = {
@@ -116,7 +116,7 @@ ideas = {
 			removal_cost = -1
 
 			cancel = {
-				BUL_has_restored_greater_bulgaria = yes
+
 			}
 			
 			modifier = {
@@ -331,7 +331,7 @@ ideas = {
 				has_country_leader = {
 					character = BUL_boris_iii
 				}
-				BUL_has_abolished_monarchy = no
+
 			}
 			removal_cost = -1
 			
@@ -492,10 +492,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				OR = {
-					has_completed_focus = BUL_found_the_brannik
-					has_government = neutrality
-				}
 			}
 			removal_cost = -1
 			

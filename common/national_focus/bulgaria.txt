@@ -319,7 +319,7 @@ focus_tree = {
 			#Opinion Modifiers
 			every_country = {
 				limit = {
-					BUL_country_can_influence_bulgaria = yes
+					#BUL_country_can_influence_bulgaria = yes
 					has_opinion_modifier = BUL_industrial_investments_in_bulgaria
 				}
 				remove_opinion_modifier = { target = BUL modifier = BUL_industrial_investments_in_bulgaria }
@@ -329,7 +329,7 @@ focus_tree = {
 
 			every_country = {
 				limit = {
-					BUL_country_can_influence_bulgaria = yes
+					#BUL_country_can_influence_bulgaria = yes
 					has_country_flag = BUL_industrial_investments_in_bulgaria_flag
 					NOT = { has_war_with = ROOT }
 					NOT = { is_subject_of = ROOT }
@@ -1844,10 +1844,7 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			any_controlled_state = {
-				BUL_state_is_in_the_aegean_sea = yes
-				dockyard > 0
-			}
+
 		}
 		
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
@@ -1864,10 +1861,6 @@ focus_tree = {
 
 			custom_effect_tooltip = BUL_an_aegean_sea_fleet_tt
 			every_controlled_state = {
-				limit = {
-					BUL_state_is_in_the_aegean_sea = yes
-					dockyard > 0
-				}
 				add_building_construction = {
 					type = naval_base
 					level = 1

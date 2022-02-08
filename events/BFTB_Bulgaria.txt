@@ -54,10 +54,6 @@ country_event = {
 				factor = 10
 				BUL = { has_idea = BUL_imro_05 }
 			}
-			modifier = {
-				factor = 5
-				BUL_has_some_sort_of_bogdan_filov = yes
-			}
 		}
 
 		BUL = { country_event = { id = bftb_bulgaria_rearmament.2 hours = 16 random_hours = 8 } }
@@ -72,10 +68,6 @@ country_event = {
 			modifier = {
 				factor = 5
 				is_historical_focus_on = yes
-			}
-			modifier = {
-				factor = 2
-				BUL_has_some_sort_of_bogdan_filov = yes
 			}
 		}
 
@@ -306,10 +298,6 @@ country_event = {
 			modifier = { #Your coop with IMRO is just too much
 				factor = 15
 				BUL = { has_idea = BUL_imro_05 }
-			}
-			modifier = {
-				factor = 5
-				BUL_has_some_sort_of_bogdan_filov = yes
 			}
 		}
 
@@ -592,10 +580,6 @@ country_event = {
 					is_in_faction = yes
 					NOT = { is_in_faction_with = ROOT }
 				}
-			}
-			modifier = {
-				factor = 5
-				BUL_has_some_sort_of_bogdan_filov = yes
 			}
 		}
 
