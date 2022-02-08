@@ -586,10 +586,6 @@ characters = {
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_konstantin_lukash
@@ -636,10 +632,6 @@ characters = {
 				cost = 100
 				ai_will_do = {
 					factor = 1.000
-					modifier = {
-						factor = 0.100
-						BUL_save_money_for_decisions = yes
-					}
 				}
 			}
 			name = BUL_nikola_hadzipetkov
@@ -712,10 +704,6 @@ characters = {
 				cost = 100
 				ai_will_do = {
 					factor = 1.000
-					modifier = {
-						factor = 0.100
-						BUL_save_money_for_decisions = yes
-					}
 				}
 			}
 			name = BUL_kiril_dimitrov_yanchulev
@@ -779,10 +767,6 @@ characters = {
 				cost = 100
 				ai_will_do = {
 					factor = 1.000
-					modifier = {
-						factor = 0.100
-						BUL_save_money_for_decisions = yes
-					}
 				}
 			}
 			name = BUL_vasil_boydev
@@ -863,10 +847,6 @@ characters = {
 				cost = 100
 				ai_will_do = {
 					factor = 1.000
-					modifier = {
-						factor = 0.100
-						BUL_save_money_for_decisions = yes
-					}
 				}
 			}
 			name = BUL_kiril_stanchev
@@ -928,10 +908,6 @@ characters = {
 			cost =  50
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_asen_toshev
@@ -964,10 +940,6 @@ characters = {
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_ivan_variklechkov
@@ -1001,10 +973,6 @@ characters = {
 			cost =  50
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_dimitr_ayryanov
@@ -1032,10 +1000,6 @@ characters = {
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_gancho_manchev
@@ -1064,10 +1028,6 @@ characters = {
 			cost = 200
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_zachari_zachariev
@@ -1101,10 +1061,6 @@ characters = {
 				cost = 100
 				ai_will_do = {
 					factor = 1.000
-					modifier = {
-						factor = 0.100
-						BUL_save_money_for_decisions = yes
-					}
 				}
 			}
 			name = BUL_stoyan_stoyanov
@@ -1160,10 +1116,6 @@ characters = {
 			cost =  50
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_stefan_tsanev
@@ -1194,10 +1146,6 @@ characters = {
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_ivan_sapundzhiev
@@ -1238,10 +1186,6 @@ characters = {
 							BUL_is_communist_stalinist_ai = yes
 							BUL_is_communist_balkan_ai = yes
 						}
-					}
-					modifier = {
-						factor = 0.100
-						BUL_save_money_for_decisions = yes
 					}
 				}
 			}
@@ -1303,10 +1247,6 @@ characters = {
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_trifon_trifonov
@@ -1363,10 +1303,6 @@ characters = {
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_stoyan_trendafilov
@@ -1395,10 +1331,6 @@ characters = {
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
-				modifier = {
-					factor = 0.100
-					BUL_save_money_for_decisions = yes
-				}
 			}
 		}
 		name = BUL_vladimir_stoychev
@@ -1432,10 +1364,7 @@ characters = {
 					original_tag = BUL
 				}
 				available = {
-					NOT = {
-						has_government = communism 
-					}
-					BUL_has_abolished_monarchy = no 
+
 				}
 				visible = {
 					NOT = {
@@ -1733,7 +1662,6 @@ characters = {
 			available = {
 				OR = {
 					has_completed_focus = BUL_limited_womens_suffrage 
-					has_completed_focus = BUL_full_voting_rights_for_women 
 				}
 			}
 			traits = {

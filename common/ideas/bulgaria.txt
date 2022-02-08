@@ -1301,31 +1301,6 @@ ideas = {
 			}
 		}
 
-		BUL_balkan_federation_project_propaganda = {
-			picture = por_iberian_workers_united
-
-			allowed = {
-				BUL_is_balkan_nation = yes
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-		
-			removal_cost = -1
-
-			cancel = {
-				OR = {
-					BUL = { has_capitulated = yes }
-					NOT = { country_exists = BUL }
-				}
-			}
-			
-			modifier = {
-				communism_drift = 0.2
-			}
-		}
-
 		BUL_defying_moscow = {
 			picture = trotskyite_plot
 
@@ -1942,7 +1917,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				OR = {
@@ -2013,7 +1987,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				OR = {
@@ -2084,7 +2057,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				OR = {
@@ -2155,7 +2127,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				OR = {
@@ -2286,7 +2257,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = ENG }
@@ -2353,7 +2323,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = SOV }
@@ -2420,7 +2389,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = ITA }
@@ -2613,7 +2581,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = GER }
@@ -2684,7 +2651,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = ENG }
@@ -2755,7 +2721,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = SOV }
@@ -2970,7 +2935,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = GER }
@@ -3037,7 +3001,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = ENG }
@@ -3104,7 +3067,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = SOV }
@@ -3173,7 +3135,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = ITA }
@@ -3476,7 +3437,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = GER }
@@ -3530,7 +3490,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = ENG }
@@ -3584,7 +3543,6 @@ ideas = {
 							value > 49
 						}
 						has_capitulated = no
-						BUL_is_valid_subject = yes
 					}
 				}
 				NOT = { has_war_with = SOV }

@@ -2,78 +2,6 @@
 #### BULGARIA ####
 ################
 
-BUL_internal_factions = {
-	priority = 10
-
-	icon = power_struggle
-
-	picture = GFX_decision_cat_picture_faction_management_bulgaria
-
-	scripted_gui = bul_internal_factions_decision_ui
-
-	visible = {
-		has_country_flag = BUL_factions_unlocked_flag
-	}
-
-	allowed = {
-		original_tag = BUL
-		has_dlc = "Battle for the Bosporus"
-	}
-}
-
-BUL_macedonian_revolutionary_organizations = {
-	priority = 8
-
-	icon = spr_political_assassination
-
-	picture = GFX_decision_cat_picture_macedonian_organizations
-
-	allowed = {
-		original_tag = BUL
-		has_dlc = "Battle for the Bosporus"
-	}
-
-	visible = {
-		NOT = { has_country_flag = BUL_zveno_bulgaria_flag }
-	}
-}
-
-BUL_macedonian_revolutionary_organizations_foreign = {
-
-	icon = spr_political_assassination
-
-	picture = GFX_decision_cat_picture_macedonian_organizations
-
-	allowed = {
-		has_dlc = "Battle for the Bosporus"
-	}
-
-	visible = {
-		has_country_flag = BUL_imro_awakened_in_country_flag
-	}
-}
-
-BUL_the_fatherland_front_dec_cat = {
-	priority = 9
-
-	icon = generic_communism
-
-	picture = GFX_decision_cat_picture_fatherland_front
-
-	allowed = {
-		original_tag = BUL
-		has_dlc = "Battle for the Bosporus"
-	}
-
-	visibility_type = always
-
-	visible = {
-		has_country_flag = BUL_fatherland_front_formed_flag
-		NOT = { has_country_flag = BUL_ff_destroyed_flag }
-		NOT = { has_country_flag = BUL_ff_civil_war_flag }
-	}
-}
-
 BUL_rearmament = {
 	priority = 6
 
@@ -102,26 +30,6 @@ BUL_foreign_agreements = {
 
 		visible = {
 			country_exists = GER
-		}
-	}
-
-	custom_icon = {
-		tag = ENG
-		value = BUL_british_industrial_agreements_category_value
-		desc = BUL_british_industrial_agreements_category_desc
-
-		visible = {
-			country_exists = ENG
-		}
-	}
-
-	custom_icon = {
-		tag = SOV
-		value = BUL_soviet_industrial_agreements_category_value
-		desc = BUL_soviet_industrial_agreements_category_desc
-
-		visible = {
-			country_exists = SOV
 		}
 	}
 }

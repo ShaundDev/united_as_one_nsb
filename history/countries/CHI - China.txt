@@ -50,6 +50,11 @@ recruit_character = CHI_lin_sen
 set_stability = 0.2
 set_war_support = 0.5
 
+add_ideas = {
+	#laws
+	partial_economic_mobilisation
+}
+
 create_intelligence_agency = {
 	name = "NBIS"
 	icon = "GFX_intelligence_agency_logo_chi"
