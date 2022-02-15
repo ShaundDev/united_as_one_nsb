@@ -2683,7 +2683,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_GER_gw_armored_car_equipment_medium"
+		name = "GFX_USA_gw_armored_car_equipment_medium"
 		texturefile = "gfx/interface/technologies/land/usa/usa_armoured_car1.dds"
 	}
 
@@ -2693,7 +2693,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_GER_armored_car_equipment_1_medium"
+		name = "GFX_USA_armored_car_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/land/usa/usa_armoured_car1.dds"
 	}
 
@@ -2703,7 +2703,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_GER_armored_car_equipment_2_medium"
+		name = "GFX_USA_armored_car_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_armoured_car3.dds"
 	}
 
