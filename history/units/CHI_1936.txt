@@ -6,17 +6,16 @@
 		light_infantry = { x = 0 y = 0 }
 		light_infantry = { x = 0 y = 1 }
 		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 0 y = 3 }
 
 		light_infantry = { x = 1 y = 0 }
 		light_infantry = { x = 1 y = 1 }
 		light_infantry = { x = 1 y = 2 }
-
-		light_infantry = { x = 2 y = 0 }
-		light_infantry = { x = 2 y = 1 }
-		light_infantry = { x = 2 y = 2 }
+		light_infantry = { x = 0 y = 3 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
+		DIV_HQ = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
 	}
 	priority = 0 # garrison
 }
@@ -35,21 +34,23 @@ division_template = {
 		
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
-				
+		infantry = { x = 2 y = 2 }			
 	}
 	support = {
 		DIV_HQ = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
+		engineer = { x = 1 y = 0 }
+		pack_artillery = { x = 1 y = 1 }
 	}
+
+	priority = 1 
 }
 
 division_template = {
 	name = "German Reorganized Division"	# Represents: German-trained reorganized divisions (best equipment and training),
 	division_names_group = CHI_INF_01
 									# 	
-	regiments = {					#	China gets only 3
+	regiments = {
 		infantry = { x = 0 y = 0 }	# Was IRL around 14000 strong, recieved the best training and equipment China had to offer. Made into a 30 width to be actually good ingame.
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
@@ -65,15 +66,16 @@ division_template = {
 		infantry = { x = 2 y = 2 }
 		infantry = { x = 2 y = 3 }
 
-		pack_artillery_brigade = { x = 3 y = 0 }
-		pack_artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
 	}
 	support = {
 		div_hq = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
 		anti_tank = { x = 0 y = 2 }
 		field_hospital = { x = 1 y = 0 }
-		pack_artillery = { x = 1 y = 1 }
+		anti_air = { x = 1 y = 1 }
 		engineer = { x = 1 y = 2 }
 	}
 
@@ -88,14 +90,13 @@ division_template = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
 		
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 		cavalry = { x = 1 y = 2 }
-
-		cavalry = { x = 2 y = 0 }
-		cavalry = { x = 2 y = 1 }
-		cavalry = { x = 2 y = 2 }		
+		cavalry = { x = 1 y = 3 }
+	
 	}
 	support = {
 	    div_hq = { x = 0 y = 0 }
@@ -103,9 +104,48 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Cavalry Panzer"				
+	division_names_group = CHI_INF_01
+										
+	regiments = {						
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+				
+	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 1 y = 0 }
+	}
+
+	priority = 1
+}
+
+
+
 ### OOB ###
 units = {
 	###### Kuomintang Army (CO: Chang Kai-shek) ######
+	### Chinese Tank Corp with German purchased tanks ###
+	division = { # "1st Chinese panzer"
+		name = "1st Chinese panzer"
+		location = 11913
+		division_template = "Cavalry Panzer"		# Cavalry Division with German Panzer 1s
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+		force_equipment_variants = { artillery_equipment_1 = {owner = GER} light_tank_chassis_1 = { owner = "CHI" creator = GER version_name = "Panzer I Ausf. A" } }
+	}
+
 	### German Reorganised Divisions (60 Division Plan) ###
 	division = { # "3rd Divsion"
 		name = "3rd Divsion"
@@ -113,7 +153,7 @@ units = {
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
-		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "6th Divsion"
 		name = "6th Divsion"
@@ -121,7 +161,7 @@ units = {
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
-		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "9th Divsion"
 		name = "9th Divsion"
@@ -129,7 +169,7 @@ units = {
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
-		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "14th Divsion"
 		name = "14th Divsion"
@@ -137,7 +177,7 @@ units = {
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
-		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "36th Divsion"
 		name = "36th Divsion"
@@ -145,7 +185,7 @@ units = {
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
-		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "87th Divsion"
 		name = "87th Divsion"
@@ -153,7 +193,7 @@ units = {
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
-		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
 	division = { # "88th Divsion"
 		name = "88th Divsion"
@@ -161,8 +201,9 @@ units = {
 		division_template = "German Reorganized Division"		# Actual German trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
-		force_equipment_variants = { infantry_equipment_1 = {owner = GER} pack_artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
+		force_equipment_variants = { infantry_equipment_1 = {owner = GER} artillery_equipment_1 = {owner = GER} anti_tank_equipment_1 = {owner = GER} }
 	}
+
 	##### Beiping-Tianjin Area (CO: ) #####
 	### 29 Juntuan (highly-reinforced corps) ###
 	division = {
@@ -210,7 +251,7 @@ units = {
 		location = 12408
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 
 	}
 	division = { # "2 Bubing Shi"
@@ -745,9 +786,45 @@ instant_effect = {
 			type = infantry_equipment_0
 			creator = "CHI"
 		}
-		requested_factories = 2
+		requested_factories = 5
 		progress = 0.55
 		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CHI"
+		}
+		requested_factories = 2
+		progress = 0.55
+		efficiency = 15
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "CHI"
+		}
+		requested_factories = 1
+		progress = 0.55
+		efficiency = 15
+	}
+	add_equipment_production = {
+		equipment = {
+			type = pack_artillery_equipment_1
+			creator = "CHI"
+		}
+		requested_factories = 1
+		progress = 0.55
+		efficiency = 15
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "CHI"
+		}
+		requested_factories = 1
+		progress = 0.55
+		efficiency = 15
 	}
 	add_equipment_production = {
 		equipment = {
@@ -760,35 +837,6 @@ instant_effect = {
 	}
 	#### equipment stockpile ####
 	### Weapons purchased from Germany
-	add_equipment_to_stockpile = {
-		type = infantry_equipment_1
-			amount = 20000
-			producer = GER
-	}
-	add_equipment_to_stockpile = {
-			type = pack_artillery_equipment_1
-				amount = 1500
-				producer = GER
-	}
-	add_equipment_to_stockpile = {
-			type = anti_tank_equipment_1
-				amount = 250
-				producer = GER
-	}
-	add_equipment_to_stockpile = {
-			type = motorized_equipment_1
-				amount = 500
-				producer = USA
-	}
-	add_equipment_to_stockpile = {
-			type = radio_equipment_1
-				amount = 500
-				producer = USA
-	}
-	add_equipment_to_stockpile = {
-			type = support_equipment_1
-				amount = 1200
-				producer = USA
-	}
+
 
 }
