@@ -389,6 +389,73 @@ ideas = {
 		##### From focus ####
 		#####################
 
+		trade_agreement_chi = {
+			
+			available = { 
+				NOT = { has_war_with = GER }
+				has_idea = german_advisors 
+				country_exists = GER
+				GER = { is_puppet = no }
+				CHI = { is_puppet = no }
+				NOT = { GER = { has_war_with = USA } }
+			}
+			
+			allowed = {
+				original_tag = CHI
+			}
+
+			picture = can_wartime_prices_and_trade_board
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+			
+			targeted_modifier = { 
+				tag = GER
+				trade_opinion_factor = 0.5
+				trade_cost_for_target_factor = -0.5
+			}
+		}
+		
+		trade_agreement_ger = {
+			
+			available = { 
+				NOT = { has_war_with = CHI } 
+				CHI = { has_idea = german_advisors }
+				country_exists = CHI
+				CHI = { is_puppet = no }
+				GER = { is_puppet = no }
+				NOT = { has_war_with = USA }
+			}
+			
+			allowed = {
+				original_tag = GER
+			}
+
+			picture = can_wartime_prices_and_trade_board
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = { 
+				tag = CHI
+				trade_opinion_factor = 0.5
+				trade_cost_for_target_factor = -0.05
+			}
+		}
+
+
 		CHI_executive_yuan = {
 
 			picture = generic_constitutional_guarantees
