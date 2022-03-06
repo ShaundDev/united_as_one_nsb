@@ -2372,46 +2372,6 @@ characters = {
 		}		
 	}
 
-	SOV_aleksandr_kazembek = {
-		name = SOV_aleksandr_kazembek
-		portraits = {
-			army = {
-				small = "GFX_idea_SOV_aleksandr_kazembek"
-			}
-		}
-		allowed_civil_war = {
-			OR = {
-				has_government = neutrality 
-				has_government = fascism
-			}
-		}
-
-		advisor = {
-			slot = political_advisor
-			idea_token = SOV_aleksandr_kazembek
-			allowed = {
-				original_tag = SOV
-			}
-			visible = {
-				NOT = {
-					has_character_flag = SOV_character_purged_flag 
-				}
-			}
-			available = {
-				has_completed_focus = SOV_reconvene_the_zemsky_sobor
-				if = {
-					limit = {
-						has_character_flag = SOV_exiled_flag
-					}
-					NOT = { has_character_flag = SOV_exiled_flag }
-				}
-			}
-			traits = {
-				mladorossi_theorist
-			}
-		}
-	}
-
   ####    ####   #    #  #    #  #####  #####   #   #      #       ######    ##    #####   ######  #####    ####  
  #    #  #    #  #    #  ##   #    #    #    #   # #       #       #        #  #   #    #  #       #    #  #      
  #       #    #  #    #  # #  #    #    #    #    #        #       #####   #    #  #    #  #####   #    #   ####  

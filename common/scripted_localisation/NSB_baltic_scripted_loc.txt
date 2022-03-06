@@ -214,33 +214,6 @@ defined_text = { # Country
 	}
 }
 
-defined_text = { #Alternate adjective for Ideas and Focuses in LIT where they change the President for a King
-	name = GetLithuanianPowerIdeaAdj
-	text = {
-		trigger = {
-			has_completed_focus = LIT_abolish_the_presidency
-		}
-		localization_key = LIT_Nation_Powers_Royal
-	}
-	text = {
-		localization_key = LIT_Nation_Powers_Presidential
-
-	}
-}
-
-defined_text = { #Alternate Title for Ideas and Focuses in LIT where they change the President for a King
-	name = GetLithuanianLeaderTitle
-	text = {
-		trigger = {
-			has_completed_focus = LIT_abolish_the_presidency
-		}
-		localization_key = king 
-	}
-	text = {
-		localization_key = president 
-	}
-}
-
 defined_text = { #Chooses description for BALTIC_renew_allied_trade 
 	name = GetBalticRenewAlliedTradeDesc
 	text = {
