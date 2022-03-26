@@ -1070,7 +1070,7 @@ MAN_war_preparations = {
 				if = {
 					limit = {
 						JAP = {
-							has_tech = fighter1
+							has_tech = fighter_1936
 						}
 					}
 					add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 25 producer = JAP }
